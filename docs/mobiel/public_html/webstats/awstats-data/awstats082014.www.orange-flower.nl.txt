@@ -1,0 +1,316 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201408 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.www.orange-flower.nl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2000                
+POS_TIME 2669                
+POS_VISITOR 6682                
+POS_DAY 7447                
+POS_DOMAIN 3327                
+POS_LOGIN 3589                
+POS_ROBOT 3744                
+POS_WORMS 4159                
+POS_EMAILSENDER 4290                
+POS_EMAILRECEIVER 4433                
+POS_SESSION 7553                
+POS_SIDER 7738                
+POS_FILETYPES 4568                
+POS_DOWNLOADS 4774                
+POS_OS 4843                
+POS_BROWSER 4946                
+POS_SCREENSIZE 5178                
+POS_UNKNOWNREFERER 5252                
+POS_UNKNOWNREFERERBROWSER 5439                
+POS_ORIGIN 5521                
+POS_SEREFERRALS 5655                
+POS_PAGEREFS 5810                
+POS_SEARCHWORDS 6064                
+POS_KEYWORDS 6216                
+POS_MISC 2333                
+POS_ERRORS 6275                
+POS_CLUSTER 3445                
+POS_SIDER_404 6373                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140802055627 542 122042 4657116012363
+FirstTime 0
+LastTime 20140802033423
+LastUpdate 20140802064331 542 0 542 0 0
+TotalVisits 18                  
+TotalUnique 16                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 18                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 4 6 21555
+1 0 0 0 3 6 70099
+2 1 39 120465 5 5 22130
+3 1 39 120465 5 6 24083
+4 0 1 39291 3 6 19071
+5 0 0 0 16 19 73256
+6 0 0 0 6 7 17980
+7 0 0 0 2 2 8731
+8 1 1 2664 3 3 12695
+9 0 0 0 3 3 12592
+10 0 1 127375 3 4 19332
+11 0 0 0 2 2 11068
+12 7 50 286242 2 3 10909
+13 22 65 288119 3 5 71427
+14 1 42 222235 2 2 10424
+15 6 48 234900 2 2 8710
+16 1 40 121871 2 2 10420
+17 1 1 2664 2 3 8763
+18 2 2 10806 3 4 19535
+19 1 39 120465 2 2 8710
+20 1 1 1913 1 1 8404
+21 1 1 2664 13 16 41724
+22 7 7 16163 2 23 77087
+23 16 57 179871 1 7 18169
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+nl 53 216 958874
+unknown 14 216 935309
+fr 2 2 3990
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+checker 30 252120 20140802055203 0
+no_user_agent 28 94955 20140801230835 0
+googlebot 26 97753 20140802013259 2
+bot[\s_+:,\.\;\/\\-] 24 81798 20140802055146 4
+crawl 4 16972 20140801214254 2
+spider 2 2727 20140802055627 1
+unknown 2 126 20140801121801 2
+yandex 2 49264 20140802010707 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 10 18630 0 0
+png 3 66868 0 0
+ico 5 7030 0 0
+swf 6 250371 0 0
+html 17 45288 0 0
+jpg 331 1308014 0 0
+Unknown 52 188868 0 0
+gif 10 13104 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 12 0 726
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 86
+linuxandroid 49
+winxp 2
+winlong 48
+Unknown 3
+win7 246
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 11
+safari7.0 43
+safari7.0.3 40
+safari6.0.5 2
+mozilla 2
+netscape5.0 1
+chrome35.0.1916.153 117
+android 49
+chrome34.0.1847.131 2
+safari5.1 1
+chrome36.0.1985.125 176
+chrome30.0.1599.101 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(Butterfly) 20140801040144
+Mozilla/5.0_(compatible;_ExaleadCloudView/5;) 20140801200950
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 9 13
+From1 0 0
+From2 7 8
+From3 5 5
+From4 48 408
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 7 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://semalt.semalt.com/crawler.php 3 3
+http://vvs.spb.ru 1 1
+http://occupations.org.ru/group_2.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+405 8 7712
+301 13 3447
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 18
+89.99.164.68 43 86 334112 20140801235317
+85.113.247.185 6 48 234900 20140801153646
+77.251.106.79 6 49 284165 20140801125308
+194.150.14.140 2 2 3990 20140801200950
+89.223.53.7 1 1 2664 20140801173459
+177.59.49.14 1 39 120465 20140801191159
+86.85.239.101 1 40 121871 20140801165946
+179.125.151.245 1 39 120465 20140802033423
+37.0.92.209 1 42 222235 20140801144642
+62.69.190.60 1 1 2664 20140801082526
+84.25.173.127 0 1 127375 
+188.207.200.116 0 1 39291 
+77.249.247.163 1 4 14753 20140801233142
+92.36.136.150 1 39 120465 20140802024652
+141.136.120.166 1 1 8142 20140801181720
+87.208.182.146 1 39 135288 20140801234013
+62.69.162.109 1 1 2664 20140801183910
+109.120.182.26 1 1 2664 20140801211432
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20140801 67 356 1657243 16
+20140802 2 78 240930 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 1
+2mn-5mn 1
+30s-2mn 1
+15mn-30mn 1
+0s-30s 14
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/ 17 45288 11 10
+/producten 7 17409 1 1
+/massage 5 11415 0 0
+/ayurveda 3 7254 0 0
+/klassieke-massage 3 5979 0 0
+/schoonheidsbehandeling 3 7674 1 0
+/basiselementen 3 7326 0 0
+/uw-huidtype 3 6528 0 0
+/combinatiebehandelingen-schoonheid 2 4154 1 2
+/losse-behandelingen 2 4188 1 2
+/navarakizhi 1 1952 0 0
+/abhyanga-massage 1 1981 0 0
+/orange-flower-royal 1 2213 0 0
+/udvartana 1 2016 0 0
+/contact 1 2433 0 0
+/orange-flower-divine 1 2303 0 0
+/handverzorging 1 1913 1 1
+/pdf/schoonheidsbehandelingen 2 70500 0 0
+/schoonheidsspecialist 1 2477 0 0
+/chandan-rugscrub-massage 1 1892 0 0
+/combinatiebehandelingen-lichaam 1 2096 0 0
+/links 1 8142 1 1
+/route 1 2020 0 1
+/lakshmi-ojas 1 2028 0 0
+/chandan-lichaamsscrub-massage 2 4092 0 0
+/ghee-abhyanga 1 1943 0 0
+/vata 1 2423 0 0
+/pitta 1 2508 1 0
+/orange-flower-basic 1 2009 0 0
+END_SIDER

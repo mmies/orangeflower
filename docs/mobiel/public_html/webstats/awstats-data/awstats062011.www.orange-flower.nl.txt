@@ -1,0 +1,325 @@
+AWSTATS DATA FILE 6.6 (build 1.871)
+# If you remove this file, all statistics for date 201106 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2543                
+POS_VISITOR 8419                
+POS_DAY 9220                
+POS_DOMAIN 3102                
+POS_LOGIN 3365                
+POS_ROBOT 3520                
+POS_WORMS 3689                
+POS_EMAILSENDER 3820                
+POS_EMAILRECEIVER 3963                
+POS_SESSION 9386                
+POS_SIDER 9551                
+POS_FILETYPES 4098                
+POS_OS 4236                
+POS_BROWSER 4347                
+POS_SCREENSIZE 4506                
+POS_UNKNOWNREFERER 4580                
+POS_UNKNOWNREFERERBROWSER 4761                
+POS_ORIGIN 4937                
+POS_SEREFERRALS 5072                
+POS_PAGEREFS 5216                
+POS_SEARCHWORDS 5483                
+POS_KEYWORDS 5635                
+POS_MISC 2207                
+POS_ERRORS 5694                
+POS_CLUSTER 3221                
+POS_SIDER_404 5779                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110701004748 1273 272961 44958816713
+FirstTime 20110625201555
+LastTime 20110629214120
+LastUpdate 20110701004828 26 0 25 0 0
+TotalVisits 14                  
+TotalUnique 10                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 24                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 9 9 4661
+1 2 2 9322 7 9 155875
+2 0 0 0 7 9 155875
+3 0 0 0 0 0 0
+4 0 0 0 1 1 0
+5 0 0 0 3 3 0
+6 0 0 0 2 2 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 20 20 0
+10 17 413 1088692 3 3 0
+11 12 380 365784 0 0 0
+12 1 1 4661 3 3 0
+13 2 66 720824 3 3 0
+14 0 0 0 4 4 0
+15 0 0 0 5 7 160536
+16 0 0 0 5 8 191921
+17 0 0 0 14 14 0
+18 5 149 1178653 14 14 0
+19 2 64 720824 4 4 0
+20 1 1 524 4 11 15338
+21 1 31 0 3 3 0
+22 0 0 0 4 4 0
+23 0 0 0 12 12 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+unknown 36 926 2905970
+nl 6 180 1178653
+us 1 1 4661
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+googlebot 20 684206 20110630184206 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 35 88920 0 0
+html 43 84689 0 0
+jpg 936 2193940 0 0
+gif 13 7110 0 0
+swf 80 1714625 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+winlong 1
+win95 2
+win2000 1
+winnt 986
+Unknown 23
+linux 93
+linuxfedora 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 9
+msie6.0 1
+msie8.0 32
+firefox5.0 890
+msie7.0 1
+msie2.0 2
+firefox3.5.3 1
+Unknown 23
+safari 93
+firefox3.6.13 64
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+BlackBerry8520/5.0.0.1036_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/150 20110626182426
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+BlackBerry8520/5.0.0.1036_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/150 20110626182426
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 39 39
+From1 0 0
+From2 0 0
+From3 4 94
+From4 0 974
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://forum.orangeflower.eu 3 3
+http://www.orangeflower.eu 1 28
+http://www.orangeflower.eu/css/orange-flower.css 0 63
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 123 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 50
+/index.php/blog/archive 3 -
+/index.php/blog/current/70-iti-2011 2 -
+/index.php/home/about-us/39-highway-53-crossing 1 -
+/index.php/race-inforegistration/course-description 2 -
+/index.php/results/2010-results 2 -
+/robots.txt 9 -
+/index.php/component/banners/click/15 1 -
+/index.php/results/2005-results 2 -
+/index.php/race-inforegistration/2011-roster 1 -
+/index.php/blog/current/68-wee-doggies-2011-in-the-books 2 -
+/index.php/results/2008-results 2 -
+/index.php/galleries/2009-galleries 2 -
+/index.php/race-inforegistration/race-registration 2 -
+/index.php/blog/current/62-trail-pics-up-on-arrowhead-135-facebook 2 -
+/index.php/news/general/18-new-article-from-dave 2 -
+/index.php/results/2006-results 2 -
+/index.php/blog/current/57-oatley-wins-alaskas-sheep-mountain 2 -
+/index.php/home/about-us/38-highway-332-crossing 1 -
+/index.php/results/2005-results/37-2005-pioneer-press-article 2 -
+/index.php/race-inforegistration/awards 2 -
+/index.php/blog/current/59-new-info-and-empire-icemitt-photos 2 -
+/index.php/component/banners/click/10 2 -
+/index.php/blog/current/54-empire-canvas-works-up-for-2011 2 -
+/index.php/blog/current 6 -
+/index.php/blog/current/52-surly-and-chain-reaction-cycles-back-for-2011 2 -
+/index.php/galleries/2007-galleries 2 -
+/index.php/blog/current/66-can-you-say-schwag 2 -
+/index.php/home/login 2 -
+/index.php/home/contact-us 2 -
+/index.php/results/2007-results 1 -
+/index.php/results/2009-results 2 -
+/.well-known/autoconfig/mail/config-v1.1.xml 9 -
+/index.php/blog/current/45-spec-ops-warrior-foundation-charity-info 2 -
+/index.php/component/banners/click/6 2 -
+/index.php/home/about-us 2 -
+/mail/config-v1.1.xml 10 -
+/index.php/news/general 2 -
+/index.php/blog/current/58-christmas-news 2 -
+/index.php/blog/current/50-skipulkcom-on-board 2 -
+/templates/rt_panacea_j15/images/showcase-bgs/ 1 -
+/images/stories/2011documents/2011arrowheadraceapplication.pdf 1 -
+/index.php/blog/current/67-numbers-up-and-stuff 2 -
+/index.php/galleries/2010-galleries 2 -
+/index.php 4 http://www.orangeflower.eu/index.php
+/index-6.html 4 http://www.orange-flower.nl/
+/index.php/news/general/69-a-young-at-heart-canadians-storylindsay-gauld 1 -
+/index.php/component/banners/click/4 2 -
+/index.php/race-inforegistration/race-rules 2 -
+/index.php/galleries/2008-galleries 2 -
+/index.php/race-inforegistration/lodging 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 24
+178.84.15.133 32 922 2887326 20110628190743
+173.242.116.48 2 2 9322 20110627102726
+83.119.164.230 2 64 360412 20110626182812
+145.7.224.11 1 10 164911 20110629214120
+46.109.196.27 1 1 4661 20110627015550
+46.109.200.23 1 1 4661 20110627012540
+145.7.224.32 1 11 22884 20110626182529
+145.7.224.18 1 9 32392 20110626182325
+145.7.224.12 1 6 94769 20110626182229
+69.58.178.58 1 1 4661 20110627122027
+145.7.224.24 0 12 216434 
+145.7.224.10 0 4 15555 
+145.7.224.31 0 5 14754 
+145.7.224.14 0 2 2402 
+145.7.224.13 0 8 48370 
+145.7.224.20 0 5 17238 
+145.7.224.19 0 7 13148 
+145.7.224.33 0 3 2306 
+145.7.224.16 0 8 16319 
+145.7.224.22 0 4 8799 
+145.7.224.23 0 5 35285 
+145.7.224.17 0 8 89379 
+145.7.224.21 0 4 12737 
+145.7.224.15 0 5 10559 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20110625 1 1 524 1
+20110626 34 1006 3344631 6
+20110627 6 37 383717 5
+20110628 1 32 360412 1
+20110629 1 31 0 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+1h+ 1
+0s-30s 12
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 43 84689 14 14
+END_SIDER

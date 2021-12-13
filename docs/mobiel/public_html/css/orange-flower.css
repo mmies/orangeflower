@@ -1,0 +1,112 @@
+*{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+body, html{background:#f2eee4;font:normal 11px Tahoma;color:#868080;height:100%;}
+input, textarea, select{font:normal 11px Tahoma;vertical-align:middle;color:#A09B96;border:1px solid #A09B96;background:#FFF;}
+input.link_5{font:bold 11px Tahoma;color:#008AAE;background:#f2eee4;padding:0px 0px 0px 0px;border:none;text-decoration:underline;}
+input.link_5:hover{text-decoration:none;}
+table{color:#6C5655;margin-left:8px;}
+ul{list-style:none;}
+img{border:0px;}
+p.content-top{margin-right:15px;}
+p.content-bottom{margin-left:8px;margin-right:15px;color:#6C5655;}
+p.indent{margin-left:8px;}
+p.topleft{margin-top:0px;}
+p.topleft-contact{margin-top:38px;}
+p.topleft-producten{margin-top:34px;}
+p.topleft-lichaamsbehandelingen{margin-top:18px;}
+p.topleft-error{margin-top:29px;}
+p.topleft-home{margin-top:14px;}
+p.topleft-voorstellen{margin-left:15px;margin-top:122px;}
+p.brown{color:#6C5655;}
+.pitta{color:#0099CC;}
+.vata{color:#006600;}
+.kapha{color:#FF0033;}
+h1{font:bold 13px Tahoma;color:#535353;}
+h2{font:bold 11px Tahoma;}
+.col1{width:279px;}
+.col1 .space{padding:0px 0px 0px 21px;}
+.col1 li{margin:12px 0px 0px 0px;}
+.col1 li a{background:url(../images/bullet1.gif) 0 0 no-repeat;font:bold 13px Tahoma;color:#494949;padding:0px 0px 0px 18px;}
+.sh1{background:url(../images/sh1.jpg) 0 0 repeat-y #FFF}
+.sh2{background:url(../images/sh2.jpg) bottom left no-repeat;height:36px}
+.title_bg{background:url(../images/title_bg.jpg) 0 0 no-repeat;height:55px}
+.w{color:#535353;}
+.c{background:url(../images/c.jpg) bottom right no-repeat;padding:0px 0px 14px 0px;}
+.vl{background:url(../images/l.jpg) top right repeat-y}
+.date{background:#2B2B2B;padding:2px 5px 3px 5px;line-height:18px;color:#FFF;font:bold 11px Tahoma}
+a{font:normal 11px Tahoma;color:#607880;}
+a:hover{text-decoration:none;}
+span{color:#6A6A6A}
+b{font:bold 11px Tahoma;color:#545454;}
+.nn a{text-decoration:none;}
+.nn a:hover{text-decoration:underline;}
+.input input{width:179px;height:21px;padding:2px 0px 0px 0px;margin:0px 0px 0px 0px;}
+.ta{height:105px;width:229px;overflow:auto;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;}
+.eq_height{height:42px}
+.link_1{font:bold 11px Tahoma;color:#008AAE;background:url(../images/bullet2.gif) 0 0 no-repeat;padding:0px 0px 0px 7px;}
+.link_2{font:normal 12px Tahoma;color:#545454}
+.link_3 a{background:url(../images/bullet3.jpg) 0 0 no-repeat #DAD7CE;line-height:18px;padding:2px 11px 3px 15px;color:#494949;font:bold 11px Tahoma;height:18px}
+.link_4{color:#008AAE;font:normal 11px Tahoma}
+li{list-style:none;line-height:12px;margin:0px 0px 5px 0px;}
+li a{background:url(../images/bullet1.gif) 0 0 no-repeat;font:bold 11px Tahoma;color:#607880;padding:0px 0px 0px 10px;}
+.mleft{margin:10px 0 0 0;}
+.list_1 li{margin:0px 0px 3px 0px;}
+.list_1 li a{background:url(../images/bullet3.gif) 0 0 no-repeat;font:normal 11px Tahoma;color:#008AAE;padding:0px 0px 0px 11px;}
+#content{text-align:left;width:766px;height:867px;margin:0 auto;position:relative;clear:left;}
+#distance{width:1px;height:50%;margin-bottom:-433px;float:left;}
+#footer{position:absolute;left:0px;top:799px;width:766px;height:55px;color:#5E5E5E;background-color:#201c12;}
+#footer a{font:normal 11px Tahoma;color:#C6CCC6}
+.left-contact7{margin-left:7px;}
+.left-contact10{margin-left:10px;}
+.left{float:left;}
+.right{float:right;}
+.cadeaubontabel{width:200px;border:0;}
+.home{position:absolute;left:0px;top:0px;width:93px;height:60px;background:url('../images/btn_home_active.jpg') no-repeat;}
+.producten{position:absolute;left:93px;top:0px;width:124px;height:60px;background:url('../images/btn_producten_active.jpg') no-repeat;}
+.schoonheidsbehandelingen{position:absolute;left:217px;top:0px;width:235px;height:60px;background:url('../images/btn_schoonheidsbehandelingen_active.jpg') no-repeat;}
+.massages{position:absolute;left:452px;top:0px;width:116px;height:60px;background:url('../images/btn_massages_active.jpg') no-repeat;}
+.workshop{position:absolute;left:568px;top:0px;width:99px;height:60px;background:url('../images/btn_workshop_active.jpg') no-repeat;}
+.contact{position:absolute;left:667px;top:0px;width:99px;height:60px;background:url('../images/btn_contact_active.jpg') no-repeat;}
+.home a:link, .home a:visited{display:block;}
+.home a:hover img{visibility:hidden;}
+.producten a:link, .producten a:visited{display:block;}
+.producten a:hover img{visibility:hidden;}
+.schoonheidsbehandelingen a:link, .schoonheidsbehandelingen a:visited{display:block;}
+.schoonheidsbehandelingen a:hover img{visibility:hidden;}
+.massages a:link, .massages a:visited{display:block;}
+.massages:hover img{visibility:hidden;}
+.workshop a:link, .workshop a:visited{display:block;}
+.workshop:hover img{visibility:hidden;}
+.contact a:link, .contact a:visited{display:block;}
+.contact a:hover img{visibility:hidden;}
+.contactformlabel {width:158px;}
+.contactformfield {width:294px;}
+.topleft{height:159px;}
+#index-01_{position:absolute;left:0px;top:0px;width:766px;height:60px;background:url('../images/index_01.jpg') no-repeat;}
+#index-02_{position:absolute;left:0px;top:60px;width:1px;height:713px;background:url('../images/index_02.jpg') no-repeat;}
+#logo{position:absolute;left:1px;top:60px;width:270px;height:175px;}
+#index-04_{position:absolute;left:271px;top:60px;width:48px;height:240px;background:url('../images/index_04.jpg') no-repeat;}
+#model{position:absolute;left:319px;top:60px;width:446px;height:254px;}
+#index-06_{position:absolute;left:765px;top:60px;width:1px;height:740px;background:url('../images/index_06.jpg') no-repeat;}
+#index-07_{position:absolute;left:1px;top:235px;width:20px;height:538px;background:url('../images/index_07.jpg') no-repeat;}
+#index-08_{position:absolute;left:21px;top:235px;width:249px;height:54px;background:url('../images/index_08.jpg') no-repeat;}
+#index-09_{position:absolute;left:270px;top:235px;width:1px;height:65px;background:url('../images/index_09.jpg') no-repeat;}
+#content-left-top{position:absolute;left:21px;top:289px;width:249px;height:123px;background-color:#ffffff;}
+#index-11_{position:absolute;left:270px;top:300px;width:23px;height:143px;background:url('../images/index_11.jpg') no-repeat;}
+#index-12_{position:absolute;left:293px;top:300px;width:26px;height:28px;background:url('../images/index_12.jpg') no-repeat;}
+#index-13_{position:absolute;left:319px;top:314px;width:446px;height:14px;background:url('../images/index_13.jpg') no-repeat;}
+#index-14_{position:absolute;left:293px;top:328px;width:11px;height:116px;background:url('../images/index_14.jpg') no-repeat;}
+#content-right-top{position:absolute;left:304px;top:328px;width:452px;height:93px;background-color:#ffffff;}
+#index-16_{position:absolute;left:756px;top:328px;width:9px;height:93px;background:url('../images/index_16.jpg') no-repeat;}
+#index-17_{position:absolute;left:21px;top:412px;width:249px;height:31px;background:url('../images/index_17.jpg') no-repeat;}
+#index-18_{position:absolute;left:304px;top:421px;width:15px;height:23px;background:url('../images/index_18.jpg') no-repeat;}
+#index-19_{position:absolute;left:319px;top:421px;width:446px;height:23px;background:url('../images/index_19.jpg') no-repeat;}
+#index-20_{position:absolute;left:21px;top:443px;width:272px;height:1px;background:url('../images/index_20.jpg') no-repeat;}
+#content-left-bottom{position:absolute;left:21px;top:444px;width:258px;height:329px;background-color:#f2eee4;}
+#index-22_{position:absolute;left:279px;top:444px;width:14px;height:35px;background:url('../images/index_22.jpg') no-repeat;}
+#content-right-bottom{position:absolute;left:293px;top:444px;width:472px;height:329px;background-color:#f2eee4;overflow:auto;}
+#index-24_{position:absolute;left:279px;top:479px;width:1px;height:294px;background:url('../images/index_24.jpg') no-repeat;}
+#index-25_{position:absolute;left:280px;top:479px;width:1px;height:279px;background:url('../images/index_25.jpg') no-repeat;}
+#index-26_{position:absolute;left:281px;top:479px;width:12px;height:294px;background:url('../images/index_26.jpg') no-repeat;}
+#index-27_{position:absolute;left:280px;top:758px;width:1px;height:15px;background:url('../images/index_27.jpg') no-repeat;}
+#index-28_{position:absolute;left:0px;top:773px;width:765px;height:27px;background:url('../images/index_28.jpg') no-repeat;}
+#index-29_{position:absolute;left:0px;top:800px;width:766px;height:67px;background:url('../images/index_29.jpg') no-repeat;}
