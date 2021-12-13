@@ -1,0 +1,1885 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201810 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.www.orange-flower.nl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2003                
+POS_TIME 2685                
+POS_VISITOR 55523               
+POS_DAY 70627               
+POS_DOMAIN 3604                
+POS_LOGIN 4115                
+POS_ROBOT 4270                
+POS_WORMS 6381                
+POS_EMAILSENDER 6512                
+POS_EMAILRECEIVER 6655                
+POS_SESSION 71518               
+POS_SIDER 71721               
+POS_FILETYPES 6790                
+POS_DOWNLOADS 7063                
+POS_OS 7168                
+POS_BROWSER 7590                
+POS_SCREENSIZE 10672               
+POS_UNKNOWNREFERER 10746               
+POS_UNKNOWNREFERERBROWSER 11278               
+POS_ORIGIN 11623               
+POS_SEREFERRALS 11772               
+POS_PAGEREFS 12018               
+POS_SEARCHWORDS 51581               
+POS_KEYWORDS 51755               
+POS_MISC 2349                
+POS_ERRORS 51839               
+POS_CLUSTER 3971                
+POS_SIDER_404 51974               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181101000633 289 58666 18224537200923
+FirstTime 20181001013057
+LastTime 20181031214819
+LastUpdate 20181101020716 289 0 288 0 0
+TotalVisits 1387                
+TotalUnique 359                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 393                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 30 71 3286589 113 192 1360631
+1 23 24 341019 121 212 958351
+2 95 988 11896925 96 175 826238
+3 41 41 75768 78 140 1030190
+4 100 101 226931 69 112 982488
+5 60 80 432094 138 193 919391
+6 59 120 3824480 98 230 1969569
+7 106 201 3160027 104 219 1791388
+8 110 174 2781719 101 180 2996761
+9 206 336 3491171 114 221 2549059
+10 57 136 5656655 72 127 1461068
+11 120 245 3730154 139 210 1399192
+12 45 352 12057917 92 149 1444897
+13 56 295 5210111 118 188 1031051
+14 64 151 5963748 105 168 2348306
+15 83 326 6689344 101 200 2038319
+16 66 330 10715582 109 210 1372948
+17 67 145 4487159 160 228 1101242
+18 162 223 3124334 135 180 1351775
+19 77 137 3933577 67 99 511892
+20 117 247 9462204 106 178 1367652
+21 131 316 10135649 70 116 420809
+22 95 194 5266885 93 163 1293364
+23 58 133 4622076 89 217 1270860
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+unknown 883 1536 33252424
+us 534 1720 30579830
+nl 173 1540 52599147
+kz 155 155 44640
+ru 106 106 30528
+ua 58 58 20053
+ca 33 74 850490
+it 23 24 119013
+gb 15 46 503225
+fr 14 15 166624
+be 6 6 16918
+jp 2 2 18957
+pl 2 2 6904
+cn 7 7 6671
+sk 1 1 3637
+au 1 1 3693
+ro 1 1 9478
+pt 3 21 293043
+de 11 51 2046485
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 51
+bingbot/ 892 9887986 20181031222852 114
+bingpreview 568 9711094 20181030173158 0
+Googlebot/ 449 1820341 20181031200143 96
+dataprovider\.com 69 1338468 20181020075750 3
+AhrefsBot/ 67 388456 20181031231348 29
+Exabot/ 66 221221 20181030093341 13
+SemrushBot/ 65 143984 20181031062544 30
+YandexBot/ 57 108306 20181031154804 30
+nutch 54 142684 20181022135956 9
+unknown 45 15173 20181031181108 45
+seokicks\.de 27 76965 20181024010915 3
+crawl 10 75887 20181031025118 1
+infobot 31 81115 20181030125525 4
+vagabondo 28 217930 20181026052333 1
+favicon 4 10883 20181022113142 0
+Python\-urllib/ 6 56652 20181012053358 0
+CCBot/ 21 97649 20181021085159 3
+Google[\x20]Web[\x20]Preview 20 288174 20181013222917 0
+MegaIndex\.ru/ 28 79657 20181026171321 1
+DuckDuckGo\-Favicons\-Bot/ 8 21764 20181025163450 0
+scanner 25 1104729 20181026024126 12
+ltx71 6 8572 20181031041317 4
+archive\.org_bot 2 7019 20181016091524 1
+^mozilla\/5\.0$ 4 40571 20181029182035 0
+^Mozilla$ 25 74290 20181026181228 0
+linkchecker 18 36072 20181027215017 9
+MojeekBot/ 4 7866 20181025225837 2
+bot[\s_+:,\.\;\/\\-] 19 161433 20181029180600 3
+python 2 4047 20181023135854 0
+Googlebot\-Image/ 17 527293 20181030175457 0
+MJ12bot/ 12 4224 20181029225431 12
+istellabot/ 2 315 20181030235839 1
+Applebot/ 12 19639 20181029230358 6
+smtbot 32 126254 20181028161740 1
+MSIE[\x20]6 1 288 20181016152002 0
+curl 5 1345 20181028022534 0
+YisouSpider 6 17677 20181025150207 1
+qwantify 17 37375 20181031154715 4
+Mail\.RU_Bot/ 27 26419 20181031105620 20
+Wget/ 1 9478 20181007192937 0
+facebookexternalhit/ 33 931051 20181027204830 0
+360Spider 19 56803 20181031170947 4
+Gluten[\x20]Free[\x20]Crawler/ 1 3693 20181016094150 0
+no_user_agent 23 777689 20181027093619 4
+(firefox/)([0-9]\.|[0-1][0]\.) 11 94323 20181030235543 0
+DomainStatsBot/ 14 111881 20181030170651 1
+Apache\-HttpClient/ 1 3693 20181008113443 0
+BLEXBot/ 26 59135 20181031201548 6
+Uptimebot/ 15 4332 20181031103910 11
+DotBot/ 7 65986 20181005102045 4
+java 21 306796 20181012063638 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 407 2715987 0 0
+gif 99 36974 0 0
+php 2 484 0 0
+xml 5 10025 0 0
+ico 49 85612 0 0
+pdf 3 153865 0 0
+Unknown 682 2997138 0 0
+js 435 6909789 0 0
+html 1339 2080028 0 0
+jpg 2061 99210821 0 0
+png 284 6370679 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/privacy%20statement.pdf 12 0 615758
+/robots.txt 0 1 358
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 25
+win10 1595 337
+winnt 11 2
+winlong 139 136
+macosx11 69 41
+win8 62 61
+ios_iphone 347 24
+linux 362 135
+macosx7 1 1
+macosx10 83 22
+win2003 135 132
+macosx12 97 77
+Unknown 31 30
+ios_ipad 247 28
+macosx5 3 3
+macosx6 2 2
+win2008 121 121
+winxp 22 12
+macosx8 1 1
+linuxandroid 685 69
+win7 324 148
+macosx 401 43
+linuxubuntu 5 5
+winunknown 564 564
+win8.1 55 32
+unix 5 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 149
+firefox27.3 5 5
+chrome57.0.2987.133 2 2
+opera54.0.2952.71 3 3
+opera54.0.2952.54 3 3
+firefox50.0 1 1
+chrome10.0.601.0 1 1
+edge17 103 12
+chrome67.0.3396.99 12 12
+chrome24.0.1312.70 2 2
+firefox45.72.25 4 4
+chrome4.0.222.5 1 1
+safari10.0.3 1 1
+chrome4.0.213.0 1 1
+chrome19.0.1062.0 1 1
+chrome66.0.3359.181 105 105
+safari9.0.2 3 3
+chrome66.0.3359.117 7 7
+chrome58.0.3029.110 49 49
+chrome35.0.1916.153 2 2
+chrome68.0.3440.75 2 2
+chrome30.0.1599.101 30 30
+chrome31.0.1623.0 1 1
+firefox59.0 4 4
+opera46.0.2597.32 1 1
+chrome70.0.3538.54 2 2
+chrome70.0.3538.77 41 2
+chrome16.0.912.63 1 1
+chrome8.0.552.339 1 1
+chrome12.0.742.112 1 1
+safari9.0 31 7
+chrome28.0.1468.0 1 1
+chrome41.0.2227.0 1 1
+firefox36.0 1 1
+firefox53.0 11 11
+chrome67.0.3396.79 2 2
+edge16 4 3
+chrome37.0.2062.120 6 6
+firefox47.0 1 1
+firefox23.0 1 1
+chrome59.0.3071.104 1 1
+iphone 23 1
+firefox60.0 16 6
+firefox32.0 6 6
+chrome34.0.1847.116 14 14
+safari11.0.1 67 6
+edge15 3 3
+chrome3.0.198 1 1
+firefox44.0 8 8
+chrome48.0.2564.116 8 8
+safari11.0.3 27 2
+chrome17.0.963.65 1 1
+firefox33.0 1 1
+opera10.50 1 1
+chrome63.0.3239.132 1 1
+edge13 1 1
+opera44.4.0843.5115 4 4
+chrome14.0.834.0 1 1
+opera53.0.2907.99 4 4
+chrome44.0.2403.89 1 1
+safari6.0.2 1 1
+chrome28.0.1467.0 1 1
+msie9.0 29 8
+opera54.0.2952.64 5 5
+chrome24.0.1295.0 1 1
+firefox38.0 1 1
+chrome40.0.2214.85 3 3
+chrome52.0.2743.116 883 53
+msie7.00 138 138
+safari11.1.2 68 4
+netscape5.0... 4 4
+safari5.1 1 1
+chrome68.0.3440.84 3 3
+chrome33.0.1750.517 2 2
+msie7.0 26 19
+chrome4.0.222.6 1 1
+chrome49.0.2623.112 2 2
+chrome3.0.195.3 1 1
+firefox52.0 36 28
+chrome59.0.3071.125 79 4
+chrome64.0.3282.137 19 1
+chrome4.1.249.1036 2 2
+safari 132 11
+chrome47.0.2526.106 13 13
+safari10.1.2 68 10
+Unknown 13 11
+firefox40.1 1 1
+opera45.0.2552.898 1 1
+chrome3.0.196.2 1 1
+chrome41.0.2228.0 23 3
+chrome49.0.2623.75 32 7
+chrome5.0.342.1 1 1
+firefox45.0 2 2
+chrome48.0.2564.109 5 4
+safari10.0 49 6
+opera53.0.2907.106 2 2
+firefox49.0 1 1
+firefox54.0 5 5
+safari9.0.3 1 1
+opera45.0.2552.888 2 2
+chrome69.0.3497.95 4 1
+chrome60.0.3112.90 4 4
+msie6.00 154 154
+chrome51.0.2704.106 11 11
+msie3.00 167 167
+chrome59.0.3071.115 35 34
+firefox31.0 54 54
+chrome10.0.612.3 2 2
+opera54.0.2952.51 3 3
+msie4.00 148 148
+chrome50.0.2661.102 1 1
+firefox11.0 10 0
+firefox57.0 1 1
+chrome41.0.2224.3 1 1
+chrome66.0.3359.139 1 1
+safari12.0 276 22
+msie11.0 49 19
+msie5.00 142 142
+safari11.0 195 15
+firefox63.0 27 2
+chrome64.0.3282.140 20 1
+msie2.00 165 165
+chrome59.0.3071.109 4 4
+chrome62.0.3202.94 12 12
+opera36.0.2130.32 1 1
+chrome13.0.766.0 1 1
+chrome67.0.3396.87 5 5
+firefox62.0 203 21
+chrome61.0.3163.100 29 29
+opera55.0.2994.44 3 3
+msie10.0 4 3
+chrome70.0.3538.67 3 1
+chrome68.0.3440.91 19 1
+firefox25.0 2 2
+chrome64.0.3251.0 6 6
+safari10.1.1 1 1
+chrome69.0.3497.100 923 109
+chrome60.0.3112.101 6 6
+chrome40.0.2214.93 1 1
+chrome59.0.3071.86 2 2
+chrome4.0.202.0 1 1
+chrome70.0.3538.64 38 2
+safari9.1.2 2 2
+mozilla 26 16
+chrome68.0.3440.106 77 14
+chrome45.0.2454.93 6 6
+chrome11.0.696.34 1 1
+chrome65.0.3325.181 218 93
+opera53.0.2907.68 5 5
+chrome56.0.2924.87 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Default_User_Agent 20181017235709
+Ruby 20181006095833
+Mozilla/5.0_(compatible;_Googlebot/2.1;__http://www.google.com/bot.html) 20181027102639
+Scrapy/1.5.0_(_https://scrapy.org) 20181028050622
+Mozilla/5.0_(compatible;_ExaleadCloudView/5;) 20181030183432
+}__test|O:21:\ 20181012053357
+WhatsApp/2.18.327_A 20181029182506
+Mozilla/5.0... 20181019095117
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20181022111156
+SEMrushBot 20181011081831
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+com.google.GoogleMobile/42.0.0_iPad/9.3.5_hw/iPad2_1 20181013222855
+Scrapy/1.5.0_(_https://scrapy.org) 20181028050622
+Ruby 20181006095833
+Default_User_Agent 20181017235709
+WhatsApp/2.18.327_A 20181029182506
+}__test|O:21:\ 20181012053357
+SEMrushBot 20181011081831
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 558 761
+From1 9 9
+From2 121 132
+From3 1009 2191
+From4 331 2274
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+t_online_catchall 4 4
+www_google_com 68 71
+www_google_be 0 1
+youtube 7 7
+bing 1 3
+www_google_nl 41 46
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 803
+http://orangeflower.eu 13 45
+http://forum.orange-flower.nl 11 11
+http://orangeflower.eu/index 9 28
+http://orangeflower.eu/contact 9 30
+https://clothing-deal.club/collections/women-s-clothing-1 7 7
+http://oknabalkony.ru/osteklenie-balkonov.php 7 7
+http://seolift.ru 6 6
+https://termoshop.com.ua 6 6
+https://apple-tree.com.ua/ru/anglijskij-yazyk.html 5 5
+https://domelek.ru/catalog/546/ 5 5
+http://igrodetka.ru 1 1
+https://geocenter-rf.ru/service/obiedenenie-uchastkov/ 1 1
+http://top-shina.od.ua/shini/tristar/ 1 1
+https://vipkosmetica.ru/43-dlya-muzhchin 2 2
+http://orangeflower.eu/contraindicaties 0 20
+https://kredit-kartu.org.ua/nalichnie-dengi.html 2 2
+https://imx.kz/remont-stiralnoj-mashiny-indesit/ 1 1
+http://www.xn--90acjmaltae3acm.xn--p1acf/site/list 1 1
+http://market-812.ru/info/articles/ 1 1
+https://www.forexof.com/2017/07/choose-forex-broker.html 1 1
+https://gorgaz.info/gazifikaciya-neobhodimye-dokumenty/ 1 1
+http://myogorod.ru/kartofel 1 1
+http://entecavir.su 1 1
+http://user-gto.ru 1 1
+https://imx.kz/remont-manzhety-lyuka-stiralnoy-mashiny/ 1 1
+https://nalog-ru.com 1 1
+http://stroybud.com/category/vanni/ 1 1
+http://kabinet-lk-megafon.ru 1 1
+http://online-vostbank.ru 1 1
+http://izyskannyy-vkus.ru/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D1%8F/%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0/ 2 2
+https://oracle-patches.ru/en/blogs/93-common/3252-the-evolution-of-digital-media-storage-and-management 1 1
+http://financeblog.co.ua/category/raznoe 2 2
+https://xn--80aejhvi0at.xn--90ais/kakie-raboti/ 1 1
+https://sv777mini.ru/malenkaya-gostinaya 1 1
+https://tdmarket.by/katalog/stroitelstvo-i-remont/kompressory/ 1 1
+http://vacancies.orange-flower.nl/praktijk 1 1
+https://imx.kz/remont-barabana-v-stiralnoj-mashine/ 1 1
+https://www.fermerstvo.org.ua/xvorobu-malunu.html 1 1
+https://rodnye.moscow/events 3 3
+https://kabinet-sbis.ru 1 1
+http://glavspec.ru/otdelochniku/nedvijim 2 2
+https://nastol.net/tekstury/ 1 1
+http://orenklev.ru/category/turizm 1 1
+https://piros.com.ua/nashi-posluhy/kholodnyi-dym 1 1
+http://kinopooh.net/stuff/prikljuchenija/15 1 1
+http://deluxewatch.su 1 1
+http://vacancies.orange-flower.nl/arrangement 1 1
+http://auto-zapchasti.com.ua/category/poleznoe/ 1 1
+https://alljus.ru/zhilishhnoe-pravo 1 1
+http://donntu.edu.ua/publicinfo 1 1
+http://euro-apteka1.ru/product-category/preparaty-ot-gepatita-s/sofosbuvir-i-velpatasvir/ 2 2
+http://apteka-doc.ru/tramal.html 1 1
+https://24h.doctor/catalog/urolog 1 1
+https://yutnoff.ru/elektrokaminy/multimedia-kaminokomplekty 1 1
+http://top-shina.od.ua/shini/winda/ 1 1
+https://indizz.ru 1 1
+https://www.prjadko.kiev.ua 3 3
+http://orangeflower.eu/links 0 21
+https://tuningdom.ru 1 1
+http://rupolitshow.ru/rossiya-24-smotret-onlajn.html 1 1
+http://apply.orange-flower.nl/producten 1 1
+http://postroyka.org/category/rem/domstr/ 1 1
+https://www.crops.ru 1 1
+https://shinypiter.ru 1 1
+http://uchinfo.com.ua/exclusive/excel/excel2.htm 1 1
+http://dontimes.news/razvedka-dnr-komandir-128-y-brigadyi-vsu-zastrelen-sosluzhivtsami/ 1 1
+http://apply.orange-flower.nl/specials 1 1
+http://bgblog.ru/category/news 1 1
+http://ovle.ru/pochki/ 1 1
+http://myogorod.ru/novosti 1 1
+https://imx.kz/remont-stiralnoj-mashiny-bosch/ 1 1
+https://www.loftshop.com.ua/termoposuda/termosy.html 1 1
+https://xn----7sbabm1ahc4b2aqff.su/%D0%BF%D0%B8%D0%BB%D0%BE%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/%D0%B1%D0%BB%D0%BE%D0%BA-%D1%85%D0%B0%D1%83%D1%81/ 4 4
+http://auto-zapchasti.com.ua/category/aerografiya-avtomobilya/ 1 1
+https://shina-moskva24.ru/catalog/tires/tigar/ 1 1
+http://remkompov.ru/remont-noutbukov-odincovo.htm 1 1
+http://orangeflower.eu/massage 0 20
+http://baby.dn.ua 1 1
+http://l.facebook.com/l.php 1 1
+https://frauplus.ru/jeanss/index.html 1 1
+https://dm-studiya.com.ua 4 4
+http://znamenitosti.info/serial-polceiski-s-rublevki/ 1 1
+http://orangeflower.eu/behandeling 0 20
+http://yakauto.ru 1 1
+https://www.beresh.ru/product-category/krupy-bakaleya/chipsy-sneki-popkorn/ 1 1
+https://mostcool.top 2 2
+http://9060406.ru/%D1%8D%D0%B2%D0%B0%D0%BA%D1%83%D0%B0%D1%82%D0%BE%D1%80-%D0%B2%D1%8B%D1%80%D0%B0/ 1 1
+http://ladies-paradise.ru/category/kul-tura/ 1 1
+https://baikalinvestbank-24.ru/poleznye-stati/proverte-svoju-platezhesposobnost-pered-tem-kak-brat-kredit.html 1 1
+http://kenmore.australia-opening-times.com 1 1
+http://yakauto.ru/category/ustrojstvo-tormoznoj-sistemy/ 1 1
+http://stroybud.com/category/remont/interer/ 2 2
+https://yutnoff.ru/otoplenie/elektricheskie-kotly 1 1
+http://www.stroim-2014.ru/category/remont/napolnye-pokrytiya/ 1 1
+http://oblmed-pskov.ru/category/lechebnye-otdeleniya/anesteziologia/ 1 1
+http://thaimassage-slon.ru/protsedury/tajskij-maslyanyj-massazh-aroma-oil.html 1 1
+https://hotparts.by/katalog/skoda/ 1 1
+https://zaim-na-qiwi.online/vzyat-kredit-na-kivi-koshelek-pryamo-seychas.html 1 1
+http://www.propr.me/category/advmarket/ 1 1
+http://classical-news.ru/category/raznoe/ 1 1
+http://auto-zapchasti.com.ua 1 1
+https://maxigift.ru/catalog/man/decanter-skull 1 1
+http://prorecepty.com/salaty 1 1
+https://neomark.ru/catalog/promyshlennaya-markirovka-brady/ 1 1
+http://ovle.ru/selezenka/ 1 1
+http://kiev.sq.com.ua/rus/news/teksty/ 1 1
+https://www.xn----7sbkgnercp0argnfc6jpa.kiev.ua/stati/62-organizatsiya-pokhoron-v-kieve.html 1 1
+http://posanat.ru 1 1
+http://bdenza.su 1 1
+https://cool-answers.ru/17-assortiment-aliekspress-horoshie-smartfony-s-nizkimi-cenami.html 1 1
+http://visitin.ru/analitika 2 2
+https://gruzchiki24.ru 1 1
+https://sushi-dragon.ru/menu/wok/ 1 1
+https://geocenter-rf.ru/service/pereraspredelenie-uchastkov/ 1 1
+https://www.crops.ru/catalog/710_60_R30/ 1 1
+https://yutnoff.ru/elektrokaminy/ochagi-klassika 1 1
+https://egodoctor.ru 2 2
+http://tlt.vkonline.ru/government/all 1 1
+http://bgblog.ru/category/worldtour 1 1
+http://poltava.sq.com.ua 2 2
+https://turiststory.com 1 1
+http://jobs.orange-flower.nl/contact 1 1
+https://mirfairytale.ru/oriental_tales/ 1 1
+https://kupisw.ru 1 1
+https://xn--80aejhvi0at.xn--90ais/steklyannie-shtorki-v-vannoy/ 1 1
+https://new-image.su/plastic-cards/ 1 1
+http://financeblog.co.ua/category/financial-news 2 2
+http://shoprybalka.ru/44-blesny 1 1
+https://www.svoimi-rukamy.com/kak-izgotavlivat-tsvety-iz-bumagi-legkie.html 1 1
+http://orangeflower.eu/arrangement 0 20
+https://xn--80aejhvi0at.xn--90ais/soveti-po-remontu/ 1 1
+http://tutknow.ru.com/cookery/preserving/ 1 1
+http://jobs.orange-flower.nl/schoonheidsspecialist 1 1
+http://orbistalcom.kz 1 1
+http://zvezda-fc.ru/19959-zarema-dzagoeva-broshennaya-zhena.html 1 1
+http://orangeflower.eu/effectenmassage 0 20
+http://archivis.ru/category/post/articles/remont 1 1
+http://netmeds.ru 1 1
+http://bur-rk.ru/skvazhiny-po-dobyche-pitevoj-vody 1 1
+http://openings.orange-flower.nl 1 1
+http://nauka.tsatu.edu.ua 1 1
+http://archivis.ru/category/post/articles/materialy 1 1
+http://znamenitosti.info/premia-saturn/ 1 1
+http://podemnikrent.ru 2 2
+http://znamenitosti.info/zvezdnie-razvodi/ 1 1
+http://evemakeup.ru/dresses-shoes-accessories 1 1
+https://prof-idc.ru/prays-list 1 1
+https://frauplus.ru/pullover/index.html 1 1
+https://razmeri-dvornikov.ru/chevrolet/sprint/ 1 1
+https://lasercomponents.ru/catalog/lasers/ 3 3
+http://www.trucksdiag.com/product-category/dealers-tools-heavy/volvo/ 1 1
+http://yakauto.ru/category/ustrojstvo-rulevogo-upravleniya/ 1 1
+https://www.loftshop.com.ua/butylki-dlya-vody-i-flyagi/butylki-dlya-vody.html 3 3
+https://clothing-deal.club/collections/health-care/breast-enhancement-cream 1 1
+http://uber24.ru/registraciya-uber 1 1
+https://sv777mini.ru/malenkaya-spalnya 2 2
+https://xn--80aejhvi0at.xn--90ais/poleznie-statii/page/3/ 1 1
+http://specstroy36.ru/uslugi/ustrojstvo-monolitnykh-fundamentov 1 1
+http://orangeflower.eu/orange-flower-royal 0 20
+https://sushi-dragon.ru/menu/supy/ 1 1
+http://mrokna.ru/stroit/dacha 1 1
+http://apply.orange-flower.nl/behandeling 1 1
+http://reytingelektroniki.ru/category/planshetyi-samsung/ 1 1
+https://www.xn----7sbkgnercp0argnfc6jpa.kiev.ua/pominalnye-obedy.html 1 1
+https://www.xn----7sbkgnercp0argnfc6jpa.kiev.ua/stati/63-provedenie-pokhoron-v-kieve.html 2 2
+https://xn--80aejhvi0at.xn--90ais/s-chego-nachat/ 1 1
+https://www.mebel-master.com.ua/product-details/belyy-stul-s-zolotoy-patinoy-8069-daming 1 1
+http://stroykadekor.ru/category/remont/ 1 1
+https://www.detelefoongids.nl/schoonheidssalon/4-1/ 1 1
+http://glenza.su 1 1
+http://career.orange-flower.nl/arrangement 1 1
+http://www.example.org/yay.htm 1 1
+http://mifepriston.net/clauses/abort-vidy-i-osobennosti/ 1 1
+http://xn--e1aahcgdjkg4aeje6j.kz/remont.php 2 2
+https://shinypiter.ru/catalog/tires/triangle/ 1 1
+http://menudlyavas.ru/category/desertyi 1 1
+http://hepcinat-natdac.ru 1 1
+http://mrokna.ru/plastik/1 1 1
+http://bgblog.ru/category/otdyx-v-bolgarii/kurort/slanchevbryag 1 1
+http://tlt.vkonline.ru 3 3
+http://orenklev.ru/category/snasti 1 1
+https://nalog-ru.com/downloads/ 1 1
+https://cooltrick.com.ua/shtoru-niti-lureks 1 1
+http://ru-online-vtb.ru 1 1
+https://www.fermeru.pro/kak-podkarmlivat-komnatnye-rasteniya-zimoy.html 1 1
+https://newsru.icu 2 2
+http://kiev.sq.com.ua/rus/news/novosti/ 4 4
+http://sovihepv.ru 1 1
+https://mostorgnerud.ru/granitnyj-shheben/ 1 1
+http://ladies-paradise.ru/category/igry-dlya-detej/ 1 1
+https://www.svoimi-rukamy.com/tilda_obeziana_vukroika.html 1 1
+http://www.senao.org/category/soveti/ 1 1
+http://securos.org.ua/category/world/itsec_news/ 1 1
+http://mister-sushi.ru 1 1
+http://market-812.ru/catalog/shiny_v_spb_avto_magazin/ 1 1
+http://vegetableshome.ru/category/trees/%d0%bb%d0%b0%d0%b2%d1%80/ 1 1
+https://geocenter-rf.ru/service/soglosovanie-granic-uchastka/ 1 1
+https://ipufik.ru/kuhnja-stolovaja/kuhni/modulnie-kuhni/ 1 1
+https://shina-moskva24.ru/catalog/tires/michelin/ 1 1
+http://poltava.sq.com.ua/rus/news/lichnost/ 1 1
+http://womenis.ru/category/znamenitosti/ 1 1
+http://kupidonchik.org/category/rabota/ 1 1
+http://orenklev.ru/category/%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8 1 1
+http://lviv.sq.com.ua 1 1
+http://elast.kz 1 1
+http://menudlyavas.ru/category/souses 1 1
+http://www.tell-all.ru/category/zelenyj-dom/ 1 1
+http://mrokna.ru/podokonniki 1 1
+https://kupisw.ru/catalog/zhenshchinam/obuv_3/ 1 1
+http://apply.orange-flower.nl 1 1
+http://auto-zapchasti.com.ua/category/tonirovka-stekol/ 2 2
+https://alljus.ru/obshhie-voprosy 1 1
+http://mirnalog.ru/evgenij-sivkov-biograficheskij-ekskurs/ 4 4
+https://vilkapro.ru/news/basketball-news/ 1 1
+http://yakauto.ru/category/remont-toplivnoj-sistemy/ 1 1
+http://zaims18let.ru 1 1
+http://securos.org.ua/category/security/proksi-brandmauery/ 1 1
+http://euroelectrica.ru/category/instrument/ 2 2
+http://securos.org.ua/category/world/vse-obo-vsem/ 1 1
+http://market-812.ru/catalog/pokryshki_dlya_avto_v_spb/ 1 1
+http://jobs.orange-flower.nl/behandeling 1 1
+http://bgblog.ru/category/otdyx-v-bolgarii/gornolyzhnye-kurorty/chepelare 1 1
+http://newsevents.ru/ctg/0/11 1 1
+http://baby.dn.ua/forum/index.php 4 4
+https://tuningdom.ru/dvigatel/oborudovanie-chip-tjuninga/ 1 1
+http://jobs.orange-flower.nl/cadeaubon 1 1
+http://urokremonta.ru/stroisov 1 1
+https://top-instagram.info/viktoriya-lopyireva-ocharovatelnaya-miss-rossiya/2002/ 1 1
+http://career.orange-flower.nl/contact 1 1
+https://lm.facebook.com 1 1
+http://jobs.orange-flower.nl/praktijk 1 1
+http://www.salatiki.com/salati-s-gribami-dlya-pochudeniya 2 2
+https://sputnik-strogino.ongrad.ru/stages/ 1 1
+https://xn--80aejhvi0at.xn--90ais/pereplanirovka-vannoy/ 1 1
+https://effect-radio.top/portfolio/ 2 2
+https://nastol.net/interer/ 1 1
+http://exemptia.ru 2 2
+http://uchinfo.com.ua/inform/excel/bioritm.htm 1 1
+http://webcache.googleusercontent.com/search 0 6
+http://zot.moscow/583-proba.php 1 1
+http://domohag.ru/_/sobakiporodyisobak 1 1
+https://metoo-toys.pro 1 1
+http://znamenitosti.info/stati/ 1 1
+http://otzovikotdbix.ru/oteli-gretsii-4-zvezdyi-vse-vklyucheno-pervaya-liniya/ 1 1
+http://spb-koles.ru/catalog/tires/dunlop/ 1 1
+http://vacancies.orange-flower.nl/schoonheidsspecialist 1 1
+http://www.puzdrik.ru/pregnancy.html 2 2
+https://magdek.com.ua/matrasi/matrasy-sredney-zhestkosti/ 1 1
+http://kabinet-mos.ru 1 1
+http://sovihepv.su 1 1
+http://domohag.ru/blog 1 1
+http://interyerdizayn.ru 2 2
+http://archivis.ru/category/post/articles/house 1 1
+http://black-rank.ru/oficialnye-dilery-v-moskve/respublika-avto/ 1 1
+http://stroybud.com/category/zapchasti/ 1 1
+http://www.trucksdiag.com/product-category/dealers-tools-heavy/zf/ 1 1
+http://lviv.sq.com.ua/ukr/news/teksti/ 3 3
+http://aidarmebel.kz/catalog/spalnye_sistemy/ 1 1
+https://dekka-msk.ru/28-platya 1 1
+http://vezem-drova.ru/drova-v-domodedovo 1 1
+http://znamenitosti.info/bordjia-akteri-i-roli/ 1 1
+https://klopservis.ru 2 2
+http://tricolortv-online.com 1 1
+https://spalnya-massiv.co.ua/dekorativnie-myagkie-paneli-dlya-cten-i-potolkov.html 1 1
+https://xn----7sbabm1ahc4b2aqff.su/%D0%BF%D0%B8%D0%BB%D0%BE%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0-%D0%BF%D0%BE%D0%BB%D0%B0/ 2 2
+http://euro-apteka1.ru 1 1
+http://womenis.ru/category/%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8/ 1 1
+https://ekb.dienai.ru 2 2
+http://www.stroim-2014.ru/category/remont/dlya-potolka/ 2 2
+http://4y5.ru/category/ko-lanta/ 1 1
+http://uber24.ru/partner-uber 1 1
+http://kinopooh.net/stuff/detektiv/7 1 1
+http://www.propr.me/category/crea-marketing/ 1 1
+https://secretzdorovya.ru/dieta/ 1 1
+http://auto-zapchasti.com.ua/category/oklejka-avto-plenkoj/ 1 1
+http://mifepriston.net/clauses/farmabort/ 1 1
+http://xn----ctbflm2aalaerw4h.xn--p1ai/%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8/dlya-mamyi 2 2
+http://instgra-tafero-em.ru 1 1
+http://freesmi.by/culture/280048 1 1
+https://frauplus.ru/strickjacken/index.html 1 1
+https://vipkosmetica.ru/41-dlya-nog 1 1
+http://www.loveispassion.info/goroskop 2 2
+http://lviv.sq.com.ua/ukr/news/osobistist/ 2 2
+https://woow.kiev.ua 1 1
+http://openings.orange-flower.nl/praktijk 1 1
+https://onlinedic.net/ozhegov/index.php 1 1
+http://urokremonta.ru/stroisov/instr-stroisov 1 1
+http://vacancies.orange-flower.nl/cadeaubon 1 1
+https://www.skidku.org.ua/coupons/akcionnye-predlozheniya-na-rozetke-ua 1 1
+http://www.chevrolet-portal.ru/obzor/ 1 1
+http://www.bettergames.ru/barbie.php 1 1
+https://alljus.ru/nalogovoe-pravo 1 1
+http://euroelectrica.ru/category/avto/ 1 1
+http://mifepriston.net/clauses/mizoprostol---instruktsiya-po-primeneniyu-tseny-ot/ 1 1
+http://weddman.ru/dekoratory/ 1 1
+http://codemagazine.ru/zashhita-ot-spama-s-pomoshhyu-plagina-google-invisible-recaptcha/ 1 1
+https://gruzchiki24.ru/ceny 1 1
+http://classical-news.ru/category/moda/ 1 1
+https://yahozyajka.ru/slozhnye-pyatna/kak-vyvesti-pyatno-s-zamshevoj-obuvi 1 1
+http://openings.orange-flower.nl/behandeling 1 1
+http://donntu.edu.ua/meht 1 1
+https://secretzdorovya.ru/narodnye-sredstva/ 1 1
+http://www.turist-planet.ru 2 2
+https://xn----7sbabm1ahc4b2aqff.su 4 4
+https://neomark.ru/catalog/ 2 2
+https://www.beresh.ru/product-category/krupy-bakaleya/masla-rastitelnye/ 1 1
+https://kabinet-rostelekom.ru 1 1
+https://timmy.by/catalog/kukly-lol 1 1
+https://www.xn----7sbkgnercp0argnfc6jpa.kiev.ua/organizatsiya-pokhoron.html 1 1
+http://ladies-paradise.ru/category/retsepty/ 1 1
+http://wwww.orange-flower.nl/css/style.css 0 21
+http://nd-partner.ru/stroitelstvo-kottedzhej/ 1 1
+http://apteka-pharm.ru/goldlayn.html 1 1
+http://entecavir.ru 1 1
+http://elar.tsatu.edu.ua 1 1
+http://baby.dn.ua/planirovanie-i-zachatie/esli-ne-poluchaetsya/shansy-zaberemenet-pri-besplodii-.html 1 1
+https://effect-radio.top 1 1
+https://alljus.ru/konstitucionnoe-pravo 1 1
+http://www.couponforyou.ru/tipy-kuponov/skidka-na-zakaz/ 1 1
+https://sushi-dragon.ru 1 1
+http://smaylikivk.ru/figury.html 1 1
+http://4y5.ru/category/provinciya-trang/ 1 1
+https://www.xn----7sbkgnercp0argnfc6jpa.kiev.ua/gruz-200.html 1 1
+https://vipkosmetica.ru/39-dlya-tela 1 1
+http://www.senao.org/category/novosti/proisshestviya/ 1 1
+https://trubyda.ru/kanalizacionnye 1 1
+http://openings.orange-flower.nl/arrangement 1 1
+http://kiev.sq.com.ua/rus/news/polezno_znat/ 2 2
+http://hundejo.com 1 1
+http://remkompov.ru/remont-noutbukov-solncevo.htm 1 1
+http://delta-change.ru/biz/sfera-uslug/yuridicheskie-uslugi 1 1
+http://sofovir-daclahep.ru 1 1
+http://www.stroim-2014.ru/category/dizajn/detskoj/ 1 1
+http://career.orange-flower.nl/behandeling 1 1
+http://www.propr.me/category/other-news/ 1 1
+http://www.propr.me/category/reporting/ 1 1
+http://www.domsadiogorod.ru/shop/bytovye-datchiki-utechki-gaza 1 1
+http://www.chevrolet-portal.ru/otzyvy/ 1 1
+http://www.tsatu.edu.ua/vmz/ 1 1
+http://richmond.australia-opening-times.com 1 1
+https://stroy-matrix.ru/remont_kvartir/remont_kvartiry_studii/ 1 1
+http://ukr.cleaningservices.kiev.ua/tseni-na-uborku-ofisov 2 2
+http://delta-change.ru/biz/motivacia/otdyx 2 2
+http://vacancies.orange-flower.nl/sitemap 1 1
+http://classical-news.ru/category/dom/zdorov/ 1 1
+http://spb-koles.ru/catalog/tires/nitto/ 1 1
+http://menudlyavas.ru/category/pasta 2 2
+http://samara-comfort.ru/news/prikurit-mashinu-v-samare 2 2
+https://ru-lk-rt.ru 1 1
+http://vegetableshome.ru/category/herbs/%d1%82%d0%b8%d0%bc%d1%8c%d1%8f%d0%bd/ 1 1
+https://lifeclinic.center/ru/nashi-otdeleniya/terapiya 1 1
+http://proremkv.ru/category/%d0%ba%d0%bb%d0%b8%d0%bc%d0%b0%d1%82%d0%ba%d0%be%d0%bd%d0%b4%d0%b8%d1%86%d0%b8%d0%be%d0%bd%d0%b5%d1%80%d1%8b%d0%b2%d0%b5%d0%bd%d1%82%d0%b8%d0%bb%d1%8f%d1%86%d0%b8%d1%8f/ 1 1
+http://donntu.edu.ua/en/donetsk-national-technical-university 2 2
+http://zot.moscow/branded_watch.php 1 1
+https://piros.com.ua/nashi-posluhy/oformlennia-dytiachykh-sviat 1 1
+http://apply.orange-flower.nl/cadeaubon 1 1
+https://lifeclinic.center/nashi-viddilennia/pediatriia 2 2
+http://womenis.ru/category/moda/ 1 1
+https://hseipaa.kz/raspisani/ekzameny 1 1
+http://zvezda-fc.ru/37382-krishtianu-ronaldu-peregnal-iz-madrida-v-turin-svoy-mercedes.html 1 1
+https://shina-moskva24.ru/catalog/tires/maxxis/ 1 1
+https://zaim-center.net/board/mikrozaim/top_luchshikh_zajmov_rossii/21 1 1
+https://technogenezis.ru/teplovizory/ 1 1
+http://orangeflower.eu/orange-flower-purify 0 20
+http://weddman-lipetsk.ru/dekoratory/ 1 1
+http://www.turist-planet.ru/category/otdyx-v-germanii/ 1 1
+http://mrokna.ru/stroit/stroimdom 2 2
+http://jobs.orange-flower.nl/sitemap 1 1
+http://kinopooh.net/stuff/mjuzikl/14 1 1
+http://www.salatiki.com/postnie-salati 1 1
+http://www.bettergames.ru/action.php 1 1
+http://vacancies.orange-flower.nl/producten 1 1
+https://sv777mini.ru 1 1
+http://menudlyavas.ru/category/blyuda-iz-ptitsyi 1 1
+http://kupidonchik.org/category/rodi/rodi-rodi/ 1 1
+http://stroybud.com/category/smesiteli/ 1 1
+http://interyerdizayn.ru/category/voprosy-i-otvety/ 1 1
+http://www.chevrolet-portal.ru/ceny/ 1 1
+http://taferoem.su 1 1
+http://domain.com 0 1
+http://www.url-opener.com 1 1
+https://shina-moskva24.ru/catalog/tires/bridgestone/ 1 1
+http://oblmed-pskov.ru/category/lechebnye-otdeleniya/endokrinologiya/ 1 1
+http://openings.orange-flower.nl/schoonheidsspecialist 1 1
+http://baby.dn.ua/planirovanie-i-zachatie/vse-o-zachatii/krasnov-av-vedushhij-speczialist-po-uzi-mbcz-qgenomq.html 2 2
+http://izyskannyy-vkus.ru/%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%86%d0%b8%d1%8f/%d0%b4%d0%b5%d0%ba%d0%be%d1%80%d0%b0%d1%82%d0%b8%d0%b2%d0%bd%d0%b0%d1%8f-%d1%88%d1%82%d1%83%d0%ba%d0%b0%d1%82%d1%83%d1%80%d0%ba%d0%b0/ 2 2
+http://tlt.vkonline.ru/events/all 1 1
+http://domkrat.org/category/plitka/ 1 1
+http://lviv.sq.com.ua/ukr/news/novini/ 1 1
+http://www.argo-visa.ru/mob/germany.html 1 1
+https://nalog-ru.com/inn/ 1 1
+http://career.orange-flower.nl/praktijk 1 1
+http://stroykadekor.ru/category/raznoe/stroimat/ 1 1
+http://uchinfo.com.ua/exclusive/excel/excel6.htm 2 2
+http://4y5.ru/category/krabi/ 1 1
+http://nanoluks.info/index.php/vliyanie-sveta-na-organizm 1 1
+http://www.turist-planet.ru/category/otdyx-v-rossii/ 1 1
+http://orenklev.ru/category/lodki 1 1
+http://market-812.ru 1 1
+http://orangeflower.eu/medicinaleinwrijving 0 20
+http://freesmi.by/obshhestvo/282044 2 2
+http://codemagazine.ru/besplatnye-temy-wordpress-dlya-portfolio/ 1 1
+http://poltava.sq.com.ua/rus/news/novosti/ 1 1
+http://urokremonta.ru/stroisov/nedv 1 1
+http://apply.orange-flower.nl/praktijk 1 1
+http://dontimes.news/eks-ministr-oboronyi-dnr-girkin-korotko-prokommentiroval-ubiystvo-zaharchenko/ 1 1
+https://www.my-floor.in.ua/product/laminat-dub-soul 1 1
+https://neomark.ru/catalog/promyshlennyy-printer/ 1 1
+http://orangeflower.eu/sitemap 0 21
+http://remkompov.ru/remont-kompyuterov-odincovo.htm 2 2
+https://oracle-patches.ru/en/blogs/97-mysql-and-mariadb/3301-basic-terms-and-definitions-for-the-web-developer-database,-web-sites,-user 1 1
+https://technogenezis.ru/lazernye-dalnomery/ 3 3
+http://ergood.com.ua/stoleshnitsa-iz-klena-na-zakaz/ 1 1
+http://thaimassage-slon.ru/protsedury/tajskij-massazh-nog-foot-massage.html 1 1
+http://vacancies.orange-flower.nl/behandeling 1 1
+https://www.skidku.org.ua/aliexpress 1 1
+https://frauplus.ru/roecke/index.html 2 2
+http://spb-koles.ru/catalog/tires/sailun/ 1 1
+https://www.svoimi-rukamy.com/kak_prorashivat_kartofel_kvartire.html 1 1
+https://rodnye.moscow 4 4
+http://black-rank.ru 1 1
+http://ovle.ru/zhelchnyi/ 2 2
+http://vegetableshome.ru/category/vegetables/%d1%85%d1%80%d0%b5%d0%bd/ 1 1
+https://spalnya-massiv.co.ua/enigma-ru.html 1 1
+http://znamenitosti.info/game-of-trones/ 1 1
+https://www.skidku.org.ua/coupons/eva-akcii-kosmetiki-i-parfumerii 1 1
+https://okno.ooo/gotovye-balkony 1 1
+https://vilkapro.ru/vilka-bk/ 1 1
+http://4y5.ru/category/poleznye-stati/ 1 1
+http://www.lrservice.by/chip-tyuning/ 1 1
+http://xn----ctbflm2aalaerw4h.xn--p1ai 1 1
+https://cooltrick.com.ua/shtoru-niti-spirali 1 1
+http://shina-belgorod.ru/catalog/tires/nokian/ 1 1
+https://tonerbox.kz/g3632104-aksessuary-dlya-planshetov 1 1
+http://oblmed-pskov.ru/category/lechebnye-otdeleniya/sosudistaya-hirurgia/ 1 1
+http://postroyka.org/category/rem/instr/ 1 1
+https://domelek.ru 1 1
+https://www.svoimi-rukamy.com/kak-sdelat-skvorechnik-svoimi-rukami-iz-podruchnux-materialov.html 1 1
+https://krevetok.net/goods/benibachi_nitrate_remover.html 1 1
+http://remavtoliga.ru/diagnostica/spectehnika/ 1 1
+http://womenis.ru/category/pohudenie/ 1 1
+http://jobs.orange-flower.nl/specials 1 1
+http://kinopooh.net/stuff/anonsy/27 1 1
+https://top-instagram.info/svetlana-bilyalova-iz-nevzrachnoy-devushki-v-modeli/1291/ 1 1
+http://www.propr.me/category/books-other/ 1 1
+http://freesmi.by 1 1
+https://www.beresh.ru 1 1
+https://maxigift.ru/catalog/man/gun-umbrella 1 1
+https://domelek.ru/catalog/1155/ 1 1
+http://ladies-paradise.ru/category/zhivaya-priroda/ 1 1
+http://vegetableshome.ru/category/vegetables/ 1 1
+http://hepcinatplus.su 1 1
+http://kabinet-pfr.ru 2 2
+https://nastol.net/oruzhie/ 1 1
+http://www.tsatu.edu.ua/mvz/ 1 1
+http://lk-gosuslugi.ru 1 1
+http://stroykadekor.ru/category/uteplenie/ 1 1
+http://znamenitosti.info/uchastniki-bitvi-ekstrasensov-vsex-sezonov/ 1 1
+https://www.rodec-light.com/products/elstead 1 1
+https://lifeclinic.center/ru/nashi-otdeleniya/khirurgiya 1 1
+http://www.chevrolet-portal.ru/help/zapchasti/ 1 1
+http://osborne-park.australia-opening-times.com 1 1
+http://kabinet-login-mts.ru 1 1
+http://rupolitshow.ru/vesti-nedeli 1 1
+https://www.rodec-light.com/products/podvesnie-svetilniki 1 1
+https://frauplus.ru/shirts/index.html 1 1
+https://kredit-kartu.org.ua/krediti-kiev.html 1 1
+https://kabinet-esia-gosuslugi.ru 2 2
+http://orangeflower.eu/orange-flower-antiage 0 20
+http://zvezda-fc.ru/35271-deti-krishtianu-ronaldu.html 1 1
+http://iab-link.ru 2 2
+http://proremkv.ru/category/%d1%81%d0%b0%d0%bd%d1%82%d0%b5%d1%85%d0%bd%d0%b8%d0%ba%d0%b0-%d0%ba%d0%b0%d0%bd%d0%b0%d0%bb%d0%b8%d0%b7%d0%b0%d1%86%d0%b8%d1%8f-%d0%be%d1%82%d0%be%d0%bf%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5/ 2 2
+https://magdek.com.ua/matrasi/bespruzhinnyye-ortopedicheskiye-matrasy/ 1 1
+http://netmeds.su 1 1
+http://classical-news.ru/category/sport/ 1 1
+https://www.compressor-mash.ru/kompressor_porshnevoj_remennoj/ 1 1
+http://www.tsatu.edu.ua/ikt/ 1 1
+http://career.orange-flower.nl/specials 1 1
+http://yakauto.ru/category/poznavatelno-ob-avto/ 1 1
+http://jobs.orange-flower.nl/arrangement 1 1
+https://www.loftshop.com.ua/otdykh-i-turizm/ryukzaki-i-sumki.html 1 1
+https://lasercomponents.ru 3 3
+https://nastol.net/filmy/ 1 1
+http://delta-change.ru/biz/motivacia/dengi 1 1
+http://mikrozaym2you.ru/kredit-na-kartu-sberbanka-onlajn/ 1 1
+https://magdek.com.ua/matrasi/matrasy-nagruzka-160-kg/ 1 1
+http://www.turist-planet.ru/category/turbiznes/ 1 1
+https://discounttaxi.kz/uslugi 1 1
+https://www.svoimi-rukamy.com/podelki-na-1-sentyabrya-v-sadike.html 1 1
+http://kabinet-platon.ru 2 2
+http://potsy.ru/meal 2 2
+http://www.tell-all.ru/category/uxod-za-domom/ 2 2
+https://kupisw.ru/catalog/detyam/ 2 2
+https://sensefly.aero/katalog/ 4 4
+http://dontimes.news/donbass/ 1 1
+http://classical-news.ru/category/dom/remont/ 1 1
+http://orangeflower.eu/voorwaarden 0 20
+https://ledx.by/catalog/nowodvorski-spoty 1 1
+http://tokshow.online/category/tok-show/segodnya-vecherom-poslednie-vypuski/ 1 1
+https://neomark.ru/catalog/komplekty-blokiratorov-i-sumki-loto/ 1 1
+http://domkrat.org/category/linol/ 1 1
+https://clothing-deal.club/collections/nails-tools/nail-polish-remover 1 1
+http://www.loveispassion.info/style 1 1
+https://cabinet-mts.ru 3 3
+http://postroyka.org/category/peregorodki/ 2 2
+http://dontimes.news/voennyiy-ekspert-surkov-predpolozhil-chto-v-sluchaje-shturma-donetska-i-luganska-goroda-budut-predvaritelno-vzyatyi-v-polukoltso/ 1 1
+http://oblmed-pskov.ru 1 1
+http://4y5.ru/category/sovtur/ 1 1
+http://orangeflower.eu/specials 0 20
+http://4y5.ru/category/bangkok/ 1 1
+http://www.stroim-2014.ru/category/dizajn/kuxnya/ 1 1
+http://specstroy36.ru/uslugi 1 1
+http://financeblog.co.ua/category/commodity-market 1 1
+http://www.refdag.nl/achtergrond/toerisme/de_trots_van_sevilla_1_377696 1 1
+https://metoo-toys.pro/kovriksvorsom 1 1
+http://eko-gazon.ru 1 1
+http://apply.orange-flower.nl/schoonheidsspecialist 1 1
+http://openings.orange-flower.nl/contact 1 1
+http://myogorod.ru/blagoustrojstvo-sada 1 1
+http://securos.org.ua/category/site/ 1 1
+http://vacancies.orange-flower.nl/contact 1 1
+http://kabinet-mosenergosbyt.ru 1 1
+http://tokshow.online/category/tok-show/sinyaya-ptica-poslednie-vypuski/ 3 3
+http://freesmi.by/featured/276346 1 1
+https://alljus.ru/trudovoe-pravo 1 1
+http://www.propr.me/category/crea-showbiz/ 1 1
+http://www.tell-all.ru/category/shou-biznes/ 1 1
+http://www.tsatu.edu.ua/ep/ 1 1
+http://9060406.ru/%D1%8D%D0%B2%D0%B0%D0%BA%D1%83%D0%B0%D1%82%D0%BE%D1%80-%D0%B2%D0%BE%D0%B9%D1%81%D0%BA%D0%BE%D0%B2%D0%B8%D1%86%D1%8B/ 1 1
+http://xn-----6kcoebchuoflesckiafcklx4ag2b4oua6g.xn--p1ai 1 1
+http://newsfoxs.com/sports/ 1 1
+http://archivis.ru/category/post/articles/dveri-i-peregorodki 1 1
+https://magdek.com.ua/matrasi/matrasy-160-190/ 1 1
+https://geocenter-rf.ru/service/mejevanie-uchastka/ 1 1
+https://razmeri-dvornikov.ru/nissan/sunny-van/ 1 1
+http://archivis.ru/category/post/articles/reklama 1 1
+https://kredit-kartu.org.ua/kredit-online-odessa-kartu.html 1 1
+http://dontimes.news/economy-ukraine/ 2 2
+http://intacept.ru 1 1
+http://posanat.su 1 1
+http://www.loveispassion.info/lichnoe 2 2
+https://neomark.ru/catalog/zamki-brady-masterlock-abus/ 1 1
+https://zaim-center.net/board/mikrozaim/zajm_cherez_zolotuju_koronu/12 1 1
+https://www.fermeru.pro/%d0%bfporoda-kur-faverol.html 2 2
+http://www.tsatu.edu.ua/mtf/ 1 1
+https://smt4.ru/truby-titanovye.html 1 1
+http://spb-koles.ru 1 1
+https://xn--80aejhvi0at.xn--90ais/zatirka-dlya-plitki/ 2 2
+http://openings.orange-flower.nl/producten 1 1
+http://poltava.sq.com.ua/rus/news/polezno_znat/ 1 1
+https://remont-kvartirspb.com/uslugi/proekty-domov-i-kvartir/ 1 1
+http://codemagazine.ru/10-besplatnyh-woocommerce-shablonov/ 1 1
+http://zvezda-fc.ru/28279-10-samyih-dorogih-rossiyskih-futbolistov.html 2 2
+https://herba-laif.ru/136-balanced-diet 1 1
+http://ladies-paradise.ru/category/video/ 1 1
+https://alljus.ru/administrativnoe-pravo 1 1
+http://tokshow.online/category/tok-show/ 1 1
+https://nalog-ru.com/mining-poleznye-sovety/ 1 1
+http://remkompov.ru/kompyuternaya-pomosch-novo-peredelkino.htm 1 1
+https://yutnoff.ru/biokaminy/toplivnye-bloki-bio-kassety 1 1
+https://summer-relax.ru/catalog/beach/inflatable-float-pizza 1 1
+http://orangeflower.eu/harsen-deelbehandelingen 0 20
+https://shina-moskva24.ru/catalog/tires/cordiant/ 1 1
+https://povodok-shop.ru/catalog/hondroprotektory 1 1
+http://credit-card-tinkoff.ru 1 1
+https://tsc-koleso.ru/catalog/tires/pirelli/ 1 1
+http://shagtomsk.ru 1 1
+http://evemakeup.ru/secrets/zdorovie 1 1
+http://domkrat.org/category/remont/svet/ 1 1
+http://potsy.ru 2 2
+http://www.senao.org/category/novosti/ 1 1
+http://top-shina.od.ua/shini/matrax/ 1 1
+http://instgra-tafero-em.su 1 1
+https://vipkosmetica.ru/38-dlya-lica 1 1
+http://prorecepty.com/zagotovki 1 1
+http://zvezda-fc.ru/33724-devushka-dnya-kristina-dzyuba.html 1 1
+https://ipitaka.ru/modeli-telefonov-i-chehly-k-nim 1 1
+http://resof-hepcfix.su 1 1
+http://wwww.orange-flower.nl/mobiel 2 601
+http://mifepriston.net/clauses/alternativa-khirurgicheskomu-abortu/ 1 1
+http://yakauto.ru/category/sovety-voditelyu/ 1 1
+http://evemakeup.ru/evening-hairstyles 1 1
+http://www.turist-planet.ru/category/egipet/ 1 1
+http://intacept.su 1 1
+http://orenklev.ru/category/lovlya-golavlya 2 2
+http://taferoem.ru 1 1
+https://kredit-kartu.org.ua/zaim-kartu.html 1 1
+http://interyerdizayn.ru/category/bolshie-kuxni/ 1 1
+https://kupisw.ru/catalog/zhenshchinam/odezhda_3/ 2 2
+http://glavspec.ru/otdelochniku/da4a 1 1
+http://tafnat.su 1 1
+https://neomark.ru/catalog/portativnye-printery-brady/ 1 1
+https://vipkosmetica.ru/40-dlya-ruk 1 1
+http://exemptia.su 1 1
+https://imx.kz/remont-stiralnyx-mashin-lg-v-almaty/ 1 1
+https://baikalinvestbank-24.ru/valjutno-obmennye-operacii-ot-bajkalinvestbank.html 1 1
+http://proremkv.ru/category/%d0%be%d0%ba%d0%bd%d0%b0%d0%b1%d0%b0%d0%bb%d0%ba%d0%be%d0%bd%d0%bb%d0%be%d0%b4%d0%b6%d0%b8%d1%8f/ 1 1
+http://archivis.ru/category/portfolio/logo 1 1
+http://kabinet-my-beeline.ru 1 1
+https://povodok-shop.ru/catalog/konservy-hills-koshki-day 1 1
+https://www.facebook.com 2 2
+http://apply.orange-flower.nl/sitemap 1 1
+http://ekoproekt-kr.ru/anod_cinkovyy 1 1
+http://iab-link.ru/category/%d0%b1%d0%b8%d0%b7%d0%bd%d0%b5%d1%81-%d1%81%d1%82%d0%b0%d1%82%d1%8c%d0%b8 1 1
+http://orangeflower.eu/orange-flower-mama 0 20
+https://52do.ru 1 1
+http://servicedom.in.ua/ru/howdowework 1 1
+http://orangeflower.eu/orange-flower-basic 0 20
+http://narodsredstva.ru 4 4
+https://lasercomponents.ru/catalog/uglerodistoe-volokno/ 1 1
+http://www.senao.org/category/novosti/ukraina/ 2 2
+http://euro-apteka1.ru/product-category/preparaty-ot-gepatita-s/sofovir-i-daklaxep/ 2 2
+http://aidarmebel.kz/catalog/obedennye_gruppy/ 1 1
+https://frauplus.ru 1 1
+https://criptoblog.ru/exchange/ 1 1
+http://uchinfo.com.ua 3 3
+http://apply.orange-flower.nl/arrangement 1 1
+http://ru-online-sberbank.ru 2 2
+http://orangeflower.eu/producten 0 20
+https://design-rodec.com/mobex_vivere_spalinia.html 1 1
+http://www.bettergames.ru/makeover.php 1 1
+http://mister-sushi.ru/menu/napitki/ 1 1
+https://www.skidku.org.ua/zdorove-i-krasota 1 1
+https://frauplus.ru/weste/index.html 1 1
+https://www.mikrozaim.site 5 5
+http://vegetableshome.ru/category/herbs/%d1%80%d0%be%d1%81%d1%8f%d0%bd%d0%ba%d0%b0/ 1 1
+http://euroelectrica.ru/category/istochniki/ 1 1
+http://erlonat.su 1 1
+http://rupolitshow.ru/chelovek-i-zakon 1 1
+http://rupolitshow.ru/ot-2-do-5-s-evgeniem-satanovskim 1 1
+http://australia-opening-times.com/cat/bank/hsbc-bank 1 1
+http://kredit-passport.ru 1 1
+https://razmeri-dvornikov.ru/carpenter/ 1 1
+http://idoctor29.ru 1 1
+https://sushi-dragon.ru/menu/sety/ 1 1
+http://glavspec.ru/otdelochniku/stroydom 1 1
+https://akloni.com/blog/post/kak-znakomitsya-s-roditelyami-devushki 1 1
+https://www.fermerstvo.org.ua/yak-peremohty-hvoroby-kartopli.html 1 1
+http://remkompov.ru/kompyuternaya-pomosch-solncevo.htm 1 1
+https://piros.com.ua/pirotehnika 2 2
+http://orangeflower.eu/orange-flower-divine 0 20
+http://mifepriston.net/clauses/8/ 2 2
+http://www.argo-visa.ru/mob/index.html 1 1
+http://zvezda-fc.ru/30983-10-luchshih-bombardirov-v-istorii-chempionatov-sssr.html 2 2
+https://www.xn----7sbkgnercp0argnfc6jpa.kiev.ua/balzamirovanie.html 1 1
+https://egodoctor.ru/vyvod-iz-zapoya-v-tyumeni.html 2 2
+http://www.chevrolet-portal.ru/help/shini/ 1 1
+https://geocenter-rf.ru/service/kadastrovii-uchet/ 1 1
+http://vegetableshome.ru/category/%d0%b3%d1%80%d0%b8%d0%b1%d1%8b-2/%d0%bf%d0%be%d0%b4%d0%be%d1%81%d0%b8%d0%bd%d0%be%d0%b2%d0%b8%d0%ba/ 1 1
+http://newsrosprom.ru/category/%d1%81%d1%82%d1%80%d0%be%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be 1 1
+http://feb.tsatu.edu.ua 1 1
+https://xxtube.life/get/docter-pregnan 1 1
+http://classical-news.ru/category/avtomir/ 1 1
+http://career.orange-flower.nl/schoonheidsspecialist 1 1
+https://indizz.ru/price/ 1 1
+http://lviv.sq.com.ua/ukr/news/spetsproekt/ 1 1
+http://evemakeup.ru/secrets 1 1
+https://www.fermeru.pro/fasol-kogda-sobiraturojay-kak-hranit.html 1 1
+http://prorecepty.com/zakuski 1 1
+https://www.loftshop.com.ua 1 1
+http://apply.orange-flower.nl/contact 1 1
+https://malina.org.ua 4 4
+http://www.puzdrik.ru/tvoy-malish.html 1 1
+http://orangeflower.eu/cadeaubon 0 21
+https://razmeri-dvornikov.ru/country-coach/lexa/ 1 1
+http://menudlyavas.ru/category/blyuda-iz-ryibyi 1 1
+http://stroykadekor.ru/category/raznoe/mebel/ 1 1
+http://kupidonchik.org 2 2
+https://design-rodec.com/catalog_mebeli_matrasi.html 1 1
+http://market-812.ru/catalog/shiny_v_magazine/ 1 1
+http://xn----ctbflm2aalaerw4h.xn--p1ai/%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8/detskiy-sad 2 2
+http://www.domsadiogorod.ru/shop/kartofelechistki 1 1
+https://klopservis.ru/%d0%be-%d0%bd%d0%b0%d1%81/ 1 1
+http://rupolitshow.ru/mesto-vstrechi 1 1
+http://career.orange-flower.nl/cadeaubon 1 1
+https://www.prjadko.kiev.ua/pamyatniki.html 3 3
+http://rupolitshow.ru/specialnyj-korrespondent 1 1
+http://career.orange-flower.nl/producten 1 1
+https://cooltrick.com.ua/shtoru-niti 1 1
+https://geocenter-rf.ru 1 1
+http://pharm-shop.netdo.ru 5 5
+http://xn----ctbflm2aalaerw4h.xn--p1ai/%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8/detskaya-psihologiya 1 1
+http://ergoavtomatika.com.ua 2 2
+http://www.senao.org/category/dom-i-semya/kak-poxudet/ 1 1
+https://maxigift.ru/catalog/baby/candy-grabber 2 2
+http://weddman-ufa.ru/videografy/ 1 1
+https://ptashkatextil.ua/1798-top-majka-glamur 1 1
+http://euroelectrica.ru/category/provodka/ 1 1
+http://interyerdizayn.ru/category/interer-kuxni/ 1 1
+https://sensefly.aero 3 3
+http://www.chevrolet-portal.ru/help/remont/ 1 1
+http://mifepriston.net/clauses/9/ 1 1
+https://effect-radio.top/stantsii/ 2 2
+http://mister-sushi.ru/menu/salaty/ 1 1
+https://xn--b1adcboci2ceieg.xn--p1ai/zaimy_do_100_000_tr 4 4
+http://promailer.ru 3 3
+http://urokremonta.ru/stroisov/inter 1 1
+http://delta-change.ru/biz/dizayn-i-arhitektura 1 1
+http://remont-mobilnih.com.ua 5 5
+http://jobs.orange-flower.nl/producten 1 1
+http://glavspec.ru 1 1
+http://forum.orangeflower.eu 1 1
+http://potsy.ru/science 1 1
+http://evemakeup.ru/manikur 1 1
+http://openings.orange-flower.nl/sitemap 1 1
+http://codemagazine.ru/hostlife/ 1 1
+http://donntu.edu.ua/gorn 1 1
+http://www.tell-all.ru/category/moda/ 1 1
+https://maxigift.ru/catalog/man/jewelry-box-evolution 1 1
+http://dontimes.news/bezsonov-dlya-podavleniya-ognevoy-pozitsii-vsu-siloviki-dnr-strelyali-iz-ptrk/ 1 1
+https://razmeri-dvornikov.ru/mack/ms300t-mid-liner/ 1 1
+http://dicru.info 1 1
+http://kabinet-alfaclick.ru 1 1
+https://klopservis.ru/%d0%b1%d0%bb%d0%be%d0%b3/ 2 2
+http://urokremonta.ru/stroisov/remont 1 1
+http://kenmore.australia-opening-times.com/supermarket/aldi-841-moggill-road 1 1
+http://evemakeup.ru/women-secrets/makeup 1 1
+https://zaim-center.net 1 1
+http://9060406.ru/%D1%8D%D0%B2%D0%B0%D0%BA%D1%83%D0%B0%D1%82%D0%BE%D1%80-%D0%B2%D0%B5%D1%80%D0%B5%D0%B2%D0%BE/ 1 1
+http://urokremonta.ru/stroisov/stroidom 1 1
+http://profmaks.ru 1 1
+https://prooriginal.ru/categories/pitaka-iphone-xs 1 1
+http://vacancies.orange-flower.nl/specials 1 1
+https://technogenezis.ru 3 3
+http://stroybud.com/category/dacha/ 1 1
+http://domkrat.org/category/tepliy-pol/ 1 1
+https://discounttaxi.kz/mezhdugorodneye-taksi 1 1
+https://alljus.ru/finansovoe-pravo 1 1
+http://tagrix.ru 1 1
+https://sv777mini.ru/malenkaya-prikhozhaya 1 1
+http://kupidonchik.org/category/dom/tehnika/ 1 1
+http://www.tell-all.ru/category/razvlecheniya/ 1 1
+https://okno.ooo/plastikovoe-osteklenie-lodzhij 1 1
+http://tokshow.online/category/tok-show/russkij-nindzya-poslednie-vypuski/ 1 1
+http://ladies-paradise.ru/category/zhenskie-sovety/ 1 1
+https://ipitaka.ru/vizitnica-iz-karbona 1 1
+http://www.stroim-2014.ru/category/remont/shtukaturka/ 1 1
+https://zaim-center.net/board/mikrozaim/zajm_cherez_contact/11 1 1
+https://tsc-koleso.ru/catalog/tires/tigar/ 1 1
+http://oblmed-pskov.ru/category/lechebnye-otdeleniya/urologiya/ 1 1
+https://ipitaka.ru 2 2
+http://postroyka.org/category/rem/electr/ 1 1
+https://gourmet-shop.ru/caviar/osetrovaya-ikra/ 1 1
+https://angar-selhoz.online/angary-dlya-texniki/ 1 1
+http://myogorod.ru/plodovye-kustarniki 1 1
+https://www.svoimi-rukamy.com/kak-oformit-zvetnik-vozle-doma-foto.html 1 1
+https://timmy.by/catalog/disney-princess 1 1
+http://bgblog.ru/category/oteli/bansko_hotels 1 1
+http://securos.org.ua/category/itsec/setevye-analizatory/ 1 1
+http://www.trucksdiag.com/product-category/construction/ 2 2
+https://alljus.ru/migraciya 1 1
+http://elite-fashion.ru 1 1
+http://career.orange-flower.nl/sitemap 1 1
+http://kupidonchik.org/category/rodi/ 1 1
+http://openings.orange-flower.nl/cadeaubon 1 1
+http://dontimes.news/donbass/voennyie-svodki/ 1 1
+http://delta-change.ru/biz/internet-proekti 1 1
+https://zaim-center.net/board/mikrozaim/zaim_na_qiwi/6 1 1
+http://www.loveispassion.info/dom 1 1
+http://burger-imperia.com 4 4
+http://www.puzdrik.ru/planirovanie-beremennosti.html 1 1
+http://domkrat.org/category/parket/ 1 1
+http://jerelia.org 1 1
+http://apteka-pharm.ru/paksil.html 1 1
+http://pizza-imperia.com 1 1
+http://womenis.ru/category/makiyazh/ 2 2
+http://postroyka.org/category/rem/doors/ 1 1
+https://traphouselatino.net 1 1
+http://spb-koles.ru/catalog/tires/michelin/ 1 1
+https://remont-kvartirspb.com/uslugi/ 1 1
+https://krevetok.net 1 1
+https://cooltrick.com.ua/magnitu-dlya-shtor 1 1
+http://online-vtb.ru 2 2
+http://filter-ot-zheleza.ru 1 1
+http://remont-mobilnih.com.ua 1 1
+http://www.bettergames.ru/princess.php 1 1
+http://orangeflower.eu/schoonheidsspecialist 0 20
+https://lukoilcard.ru/aktivirovat-kartu-lukoyl.html 1 1
+http://stroykadekor.ru/category/plintusa/ 1 1
+http://orangeflower.eu/praktijk 0 34
+http://xn--80aeb6argv.xn--p1ai 2 2
+http://orangeflower.eu/orange-flower-antistress 0 20
+http://orangeflower.eu/css/orange-flower.css 0 26
+https://vposteli.pro/index.php 1 1
+http://oblmed-pskov.ru/category/lechebnye-otdeleniya/stomatologia/ 1 1
+http://financeblog.co.ua/category/financial-analysis 1 1
+http://bgblog.ru/category/otdyx-v-bolgarii/gornolyzhnye-kurorty 1 1
+http://pikenergo.com 1 1
+http://znamenitosti.info/top-10-porno-aktris/ 1 1
+http://stroykadekor.ru 1 1
+http://domohag.ru 1 1
+http://kiev.sq.com.ua/rus/news/lichnost/ 2 2
+http://glavspec.ru/demontazh 1 1
+https://www.mebel-master.com.ua/product-details/puf-raskladushka-giacinto-gp-sofa 1 1
+http://mrokna.ru/osteklenie 1 1
+http://hepcinatplus.ru 1 1
+http://newsrosprom.ru/category/%d1%85%d0%b8%d0%bc%d0%b8%d1%8f 1 1
+http://myogorod.ru/udobreniya 1 1
+http://specstroy36.ru/uslugi/elektromontazhnye-raboty 1 1
+https://www.beresh.ru/product-category/khleb-konditerskie-izdeliya/pechenya-pryaniki/ 1 1
+https://maxigift.ru/catalog/woman 1 1
+https://maxigift.ru/catalog/baby/piggy-bank-cat-in-the-box 1 1
+https://eric-artem.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+dictionary+english 41
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+dictionary 41
+english 41
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 102 799772
+302 85 40014
+404 529 3214888
+301 617 328090
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 115
+/js/) 1 -
+/wp-admin/setup-config.php 1 -
+/chandan-rugscrub-massage 10 -
+/https://www.youtube.com/watch 1 -
+/pma/scripts/setup.php 23 -
+/schoonheidsbehandeling 3 -
+/wp-content/plugins/easyrotator-for-wordpress/indox.php 2 -
+/wp-admin/install.php 1 -
+/voetverzorging 1 -
+/navarakizhi 1 -
+/index.php 1 -
+/_phpmyadmin/scripts/setup.php 20 -
+/contraindicaties%20 2 -
+/wp-load.php 2 -
+/career 1 http://career.orange-flower.nl
+/sarg/ 2 -
+/installation/index.php 1 -
+/jobs 1 http://jobs.orange-flower.nl
+/arrangement2 8 -
+/license.php 3 -
+/modules/homepageadvertise/uploadimage.php 1 http://www.orange-flower.nl/modules/homepageadvertise/uploadimage.php
+/admin/images/cal_date_over.gif 1 -
+/ads.txt 2 -
+/google214ec26caac38b06.html 1 -
+/handverzorging 1 -
+/status 49 -
+/wp-login.php 17 -
+/combinatiebehandelingen-lichaam 7 -
+/statement.pdf 4 -
+/harsen-deelbehandelingen%20 4 -
+/readme.html 1 -
+/wp/wp-login.php 2 -
+/scripts/setup.php 23 -
+/blog/administrator/index.php 1 -
+/basiselementen 10 -
+/admin 2 -
+/js/).length,l.html5clone= 1 -
+/administrator 1 -
+/templates/system/css/system.css 1 -
+/workshop 38 -
+/administrator/index.php 5 -
+/forums/ 2 -
+/klassieke-massage 1 -
+/xmlrpz.php 2 -
+/forum/forum.php 1 -
+/community/forum/ 1 -
+/css/next@2x.png 2 http://wwww.orange-flower.nl/mobiel
+/xmlrpc.php 5 -
+/css/prev@2x.png 2 http://wwww.orange-flower.nl/mobiel
+/user/ 2 -
+/js/).html(c)}else{e( 1 -
+/apply 1 http://www.orange-flower.nl/jobs
+/css_.php 1 -
+/js/).length,l.htmlserialize=!!b.getelementsbytagname( 1 -
+/images/header-orange-flower.jpg 1 -
+/wordpress/ 2 -
+/ayurveda 8 -
+/blog/ 3 http://orange-flower.nl/
+/vacancies 1 http://vacancies.orange-flower.nl
+/wp-query.php 1 -
+/losse-behandelingen 10 -
+/.ds_store 1 -
+//license.php 6 -
+/console/css/dashboard-min.css 24 -
+/wordpress/wp-login.php 2 -
+/joomla/robots.txt 1 -
+/openings 1 http://www.orange-flower.nl/career
+/wp-config.php 2 -
+/combinatiebehandelingen-schoonheid 9 -
+/ambulant 5 -
+/community/ 1 -
+/admin/login.php 2 -
+/wp/ 2 -
+/chandan-lichaamsscrub-massage 6 -
+/css/close@2x.png 2 http://wwww.orange-flower.nl/mobiel
+/privacy+statement.pdf 5 -
+/admin/scripts/setup.php 17 -
+/lakshmi-netra 9 -
+/kapha 6 -
+/abhyanga-massage 9 -
+/blog/robots.txt 3 -
+/pma/index.php 2 https://google.com
+/cpanel 2 -
+/user/login 1 -
+/lakshmi-ojas 8 -
+/wp-content/themes/qualifire/style.css 1 http://www.orange-flower.nl/wp-content/themes/qualifire/style.css
+/downloader/ 1 -
+//blog/ 1 http://orangeflower.eu/
+/udvartana 1 -
+/util/login.aspx 1 -
+/js/).html( 1 -
+/user/register 1 -
+/bea_wls_deployment_internal 6 -
+/pitta 4 -
+/js/],_default:l.htmlserialize 1 -
+/wp-updats.php 4 -
+/modules/columnadverts/uploadimage.php 1 http://www.orange-flower.nl/modules/columnadverts/uploadimage.php
+/assets/fileupload/server/php/index.php 2 -
+/blog/wp-login.php 2 -
+/joomla/administrator/index.php 1 -
+/vata 9 -
+/assets/fileupload/server/php/files/index.php 2 -
+/forum/ 1 -
+/phpmyadmin/scripts/setup.php 30 -
+/index.php/admin 1 -
+/vb/ 1 -
+/js/,data:b}).done(function(a){e=arguments,g.html(d 1 -
+/.git/head 2 -
+/images/logo-orange-flower.jpg 2 -
+/mother.php 2 -
+/uw-huidtype 7 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/ghee-abhyanga 9 -
+/index.php/race-inforegistration/2011-roster 1 -
+/forum.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 393
+13.233.72.181 62 62 184329 20181007114552
+77.220.215.153 61 61 17568 20181031182911
+185.203.240.129 61 61 17568 20181031182911
+185.209.20.147 58 58 16704 20181031182911
+212.86.109.31 57 57 16416 20181031182912
+178.159.39.237 56 56 16128 20181031182913
+178.159.43.212 56 56 16128 20181031183711
+77.220.214.180 56 56 16128 20181031182911
+77.220.213.173 56 56 16128 20181031182911
+185.154.13.6 55 55 15840 20181031182911
+89.40.123.28 1 1 9478 20181031015403
+34.201.163.38 1 1 3692 20181017235709
+86.81.85.127 1 21 289915 20181009112624
+185.244.217.155 3 3 11079 20181017053912
+34.209.59.241 2 2 7330 20181016151039
+213.127.73.249 1 19 1690075 20181031121056
+178.62.87.202 2 2 596 20181004022244
+185.220.101.15 1 1 3637 20181026220014
+23.106.201.35 1 1 3693 20181003163021
+209.251.16.71 2 2 6830 20181002234700
+34.230.37.21 1 1 3693 20181030052907
+107.6.183.165 1 1 3637 20181022152942
+66.220.149.38 0 1 1656 
+54.245.145.16 2 2 7330 20181013115900
+178.85.42.203 1 19 1690075 20181013225456
+89.205.131.219 1 19 1690073 20181010105259
+66.249.81.247 0 5 99989 
+206.189.112.70 2 2 596 20181006055339
+139.59.32.87 1 1 3693 20181019041601
+213.233.239.56 0 1 203088 
+207.99.15.81 4 4 14716 20181030224131
+198.204.231.243 2 2 18902 20181009131821
+108.178.61.62 1 1 3637 20181022214331
+159.203.196.79 1 1 3656 20181019041602
+66.220.149.4 0 5 90226 
+185.24.218.172 1 1 3637 20181026220008
+18.237.101.77 1 1 3693 20181027170613
+199.34.90.99 3 3 7034 20181026205104
+213.127.246.66 13 39 518435 20181022133912
+138.197.111.175 1 2 37415 20181008220022
+165.227.120.74 12 32 366891 20181014004408
+34.221.206.233 2 2 7330 20181021163936
+62.45.235.136 10 68 1724226 20181023123118
+188.165.192.220 3 3 11079 20181009212848
+52.89.149.200 2 2 7330 20181007143724
+95.96.225.44 3 40 3390370 20181029210446
+66.249.81.53 1 8 312870 20181009133716
+52.34.118.226 2 2 7330 20181012142916
+54.212.114.53 2 2 7330 20181001131458
+5.188.210.39 1 1 7464 20181010033557
+213.127.11.233 1 19 1690075 20181031214819
+34.220.253.121 2 2 7330 20181015155223
+194.67.207.9 51 51 14688 20181031190608
+86.94.140.155 0 1 120972 
+46.129.33.62 2 38 3380146 20181009225229
+13.56.179.125 1 1 3637 20181028050622
+34.219.73.33 1 1 3693 20181028152924
+45.55.195.141 1 2 37415 20181022164423
+52.211.82.206 4 4 25940 20181031181126
+54.212.19.203 2 2 7330 20181017170105
+37.187.150.139 1 1 3656 20181031143921
+173.212.221.48 0 1 143080 
+54.189.37.12 2 2 7330 20181004164611
+193.124.190.64 36 36 10368 20181031190608
+69.84.207.246 0 9 1663966 
+37.187.129.166 1 1 3637 20181026215951
+62.140.132.60 1 19 1690075 20181009203116
+79.99.188.58 4 4 37916 20181019095117
+94.158.155.15 8 8 29248 20181001233801
+202.46.48.91 1 1 0 20181017024653
+62.45.12.141 1 22 164768 20181030085455
+194.67.207.94 54 54 15552 20181031190606
+66.249.81.58 1 15 1346119 20181019153010
+178.128.61.116 2 2 596 20181014202410
+89.99.230.65 1 19 1690033 20181005141149
+83.160.120.116 10 102 1325929 20181014125011
+185.125.219.134 38 38 10944 20181031190607
+185.130.184.238 6 6 54726 20181027104711
+173.252.95.23 0 6 46156 
+52.39.137.143 2 2 7330 20181001150443
+34.221.208.59 1 1 9423 20181024183948
+62.45.23.252 1 22 164851 20181016171818
+52.40.133.244 1 1 3693 20181026184643
+163.172.251.68 1 20 288166 20181005154207
+184.94.240.92 2 2 18884 20181015215633
+142.44.232.103 1 1 3637 20181013235623
+47.88.15.195 2 2 6903 20181007121124
+54.183.57.12 1 1 9442 20181030063304
+139.5.242.191 2 27 343765 20181031123852
+46.101.80.192 10 10 31968 20181009095508
+54.149.65.84 2 2 7330 20181019133331
+54.191.230.171 1 1 3693 20181025151500
+84.85.26.31 1 21 289914 20181029075510
+152.44.110.5 1 1 3637 20181025012831
+37.187.251.45 54 73 451435 20181031171008
+34.244.92.119 1 1 3656 20181005230700
+95.96.228.118 15 82 2691656 20181016164016
+167.99.156.253 1 1 3286 20181019041727
+37.115.213.50 9 9 84978 20181007004623
+139.81.74.74 1 1 3693 20181025074826
+34.244.94.82 1 1 2005 20181025151343
+54.190.39.22 1 1 3693 20181012234319
+138.197.71.220 1 2 37415 20181026052548
+54.213.208.247 5 14 186855 20181016230547
+66.249.81.54 1 20 2659461 20181028161601
+139.81.109.148 1 1 3693 20181019194356
+195.22.22.22 1 1 3637 20181004034328
+62.213.244.112 1 1 2648 20181017151104
+54.200.141.34 1 1 3693 20181023164155
+85.150.133.37 1 21 289915 20181030114725
+84.85.83.213 1 22 312480 20181010210748
+138.197.111.240 1 2 37415 20181029135942
+87.208.172.229 0 2 324060 
+84.241.158.70 1 21 289914 20181029132825
+54.186.149.62 2 2 7330 20181006021641
+54.149.90.132 2 2 7330 20181009184656
+85.214.97.119 1 1 9423 20181013115211
+142.93.66.165 1 2 37415 20181015231136
+185.130.184.241 2 2 18242 20181005235543
+66.33.193.115 1 1 9442 20181009111245
+54.92.155.227 1 1 3693 20181010045959
+94.198.159.216 2 2 6830 20181001172308
+86.90.248.31 1 22 312480 20181014135552
+62.238.141.166 0 1 127708 
+34.220.125.122 1 1 3693 20181024172250
+213.127.5.19 2 20 1696993 20181031075820
+145.133.109.111 1 19 1690075 20181019203113
+52.51.193.194 1 1 3656 20181031171943
+46.209.59.102 1 1 9442 20181014011007
+34.220.92.9 2 2 7330 20181017154849
+34.219.152.213 2 2 7330 20181006165639
+198.143.158.178 1 1 3637 20181002125257
+147.135.137.81 9 9 26476 20181021063512
+82.148.199.90 6 30 351676 20181023140002
+85.147.111.207 1 22 164769 20181016225206
+178.62.5.92 2 2 596 20181015174023
+85.222.122.174 2 2 6904 20181013005805
+163.172.4.153 7 7 25459 20181030013036
+80.101.198.91 1 19 1690028 20181004232111
+145.53.254.102 0 1 120972 
+207.254.42.13 1 20 288166 20181001022737
+139.81.43.30 1 1 3693 20181011091245
+194.67.210.77 50 50 14400 20181031190606
+5.188.210.11 6 6 56652 20181018014918
+221.13.12.133 1 1 6671 20181001103441
+77.174.126.233 1 21 289914 20181008153412
+54.188.186.159 1 1 3693 20181026153541
+62.141.37.236 1 1 3656 20181018133158
+139.81.93.195 1 1 3693 20181004084805
+66.220.149.2 1 7 17861 20181027110145
+34.209.217.20 2 2 7330 20181014150420
+54.201.31.152 2 2 7330 20181010173514
+142.93.187.214 12 32 366891 20181030141248
+194.150.14.140 14 14 38916 20181030183432
+219.94.249.28 2 2 18957 20181014154838
+34.209.27.180 2 2 7330 20181008134725
+38.95.108.20 1 1 9478 20181013061026
+95.96.218.180 1 19 1690075 20181010175208
+143.176.54.33 1 3 6848 20181022213353
+34.221.199.101 1 20 288166 20181023142254
+31.161.188.45 1 20 1893163 20181013165006
+145.131.122.195 0 4 198016 
+216.126.45.10 1 22 212233 20181001024143
+31.13.115.5 0 1 358 
+142.93.75.211 1 2 37415 20181012081809
+34.212.35.128 2 2 7330 20181011145217
+202.46.57.22 1 1 0 20181013223833
+202.46.52.145 1 1 0 20181015195355
+45.55.254.180 12 33 367534 20181026164647
+198.143.133.157 1 1 3637 20181028055907
+54.245.133.57 2 2 7330 20181006003242
+202.46.56.72 1 1 0 20181018054616
+89.205.133.53 1 19 1690075 20181012164329
+54.212.122.205 1 1 9442 20181011131350
+193.124.176.156 43 43 12384 20181031190609
+82.161.246.73 1 19 1690073 20181014110242
+66.249.92.213 1 1 351 20181022111156
+188.227.16.117 1 1 288 20181031195124
+62.251.127.199 1 19 1690075 20181031205156
+77.162.151.212 1 20 1893161 20181020080415
+81.207.132.28 1 20 1693378 20181025105324
+85.147.93.62 1 19 1690075 20181029004450
+52.88.144.214 1 1 3693 20181023032643
+145.133.113.114 1 19 1690075 20181030143519
+34.219.246.32 2 2 7330 20181004133921
+94.247.2.137 2 28 543776 20181029113355
+66.249.81.55 0 9 850513 
+216.145.14.142 2 2 7312 20181027022719
+104.192.74.40 25 25 73369 20181026181228
+143.191.120.93 1 1 3693 20181019230319
+178.171.19.177 1 1 3693 20181018090449
+34.222.9.251 1 1 3693 20181024144503
+77.170.134.144 0 4 198164 
+54.185.119.150 1 1 3693 20181030140927
+216.145.5.42 1 1 3656 20181027001725
+185.10.68.103 1 1 3637 20181031012831
+62.213.244.110 1 1 2522 20181017151249
+139.81.237.69 1 1 3693 20181004070955
+165.227.121.83 2 2 596 20181006045547
+34.211.225.193 2 2 7330 20181002142310
+24.132.177.95 6 46 622636 20181025222119
+38.100.21.66 9 11 82843 20181004215831
+40.101.124.125 0 1 49504 
+83.163.109.68 1 21 289914 20181022195545
+52.13.15.240 1 1 3693 20181030145209
+95.96.236.235 4 49 557474 20181029155126
+173.252.95.12 1 12 235623 20181025094522
+85.214.238.50 1 1 2969 20181001051301
+128.71.91.118 1 1 9442 20181009131644
+34.212.36.15 1 1 3693 20181001022711
+91.237.98.22 1 1 9442 20181012053357
+202.46.55.13 1 1 0 20181003070403
+185.104.184.117 2 2 18242 20181007070857
+195.22.22.23 1 1 3637 20181011034302
+207.99.46.206 9 9 89569 20181003221017
+138.197.11.151 12 13 73871 20181023140857
+87.106.4.183 1 1 9479 20181008074947
+18.212.42.101 1 1 3637 20181004154315
+54.149.10.75 1 1 3693 20181023142250
+52.206.137.6 5 5 17984 20181026085115
+81.205.18.251 1 21 289915 20181023115910
+95.96.174.160 1 19 1689861 20181002121421
+52.33.204.95 2 2 7330 20181020182304
+34.212.169.191 2 2 7330 20181010140524
+217.104.11.19 0 1 127708 
+167.99.107.147 2 2 596 20181012124458
+51.15.49.134 1 1 3637 20181013050452
+66.249.81.56 1 23 1067958 20181022190413
+18.212.25.197 1 1 3693 20181003114535
+66.249.81.249 1 6 430589 20181010175517
+34.219.180.22 1 1 3693 20181025171434
+138.197.111.190 1 2 37415 20181002022246
+34.222.55.133 2 2 5770 20181001023852
+77.161.74.190 1 19 1690073 20181029210215
+173.252.95.28 0 2 5208 
+207.254.42.12 1 22 212892 20181001024137
+95.97.75.130 1 21 289913 20181016133117
+35.167.176.207 2 2 7330 20181004003552
+34.213.124.36 2 2 7330 20181020142343
+89.99.189.244 2 24 217208 20181015090218
+92.240.138.39 1 1 9442 20181027040432
+185.159.124.165 1 21 289911 20181023153918
+82.247.171.67 0 1 127708 
+84.29.72.67 0 1 120972 
+18.237.83.95 1 20 288166 20181023164157
+24.132.88.231 30 212 11217243 20181010201112
+35.163.182.22 2 2 7330 20181022145940
+85.214.84.47 1 1 2685 20181001024804
+206.217.141.183 1 1 3656 20181002234658
+62.251.98.49 2 27 343843 20181002131231
+34.242.60.113 11 11 96985 20181003205609
+36.250.184.34 2 2 18902 20181002021845
+116.249.34.216 1 1 6671 20181001090036
+46.166.143.111 8 8 72968 20181028155754
+95.128.167.194 1 1 9442 20181013002750
+145.222.216.35 2 27 343629 20181015155605
+167.99.56.182 1 2 37415 20181019081656
+34.222.149.193 1 1 3693 20181031171805
+104.236.63.174 1 2 37415 20181005145352
+216.74.126.190 1 1 3693 20181018083257
+185.5.249.185 50 50 14400 20181031190606
+95.96.221.221 5 29 349191 20181010135110
+5.9.145.132 1 1 8696 20181030195556
+66.70.157.189 25 541 5420490 20181021022514
+54.85.93.157 1 1 3637 20181011153604
+34.221.205.71 2 2 7330 20181022131306
+188.162.43.23 1 1 325 20181002005507
+34.214.6.240 2 2 7330 20181014125723
+185.104.184.115 2 2 18242 20181019134810
+66.220.149.27 0 1 3460 
+54.72.233.96 13 14 164850 20181018193838
+84.86.154.116 0 2 99082 
+84.82.0.219 1 22 164768 20181012214855
+38.100.21.78 10 11 95688 20181013040207
+52.30.172.207 1 1 3656 20181028230035
+104.236.68.41 12 29 364962 20181018160736
+66.220.149.18 0 5 169940 
+18.184.51.187 1 1 3656 20181006142417
+54.212.15.90 1 1 3693 20181029142405
+34.244.143.209 2 2 11447 20181008095322
+142.54.169.34 2 2 18902 20181005103703
+167.99.39.246 1 1 3211 20181019041727
+84.85.102.111 14 41 646752 20181010183928
+34.219.32.210 2 2 7330 20181021143308
+81.169.141.180 1 1 2575 20181001024804
+13.56.159.138 1 1 3656 20181028224729
+34.221.116.179 2 2 7330 20181009164923
+142.44.232.102 1 1 3656 20181003164436
+34.212.88.96 2 2 7330 20181011123021
+85.248.227.164 1 1 3637 20181007144223
+62.213.244.251 1 1 2538 20181017151149
+176.126.252.11 1 1 3656 20181018111323
+54.245.139.88 1 1 3693 20181027150120
+185.220.101.29 1 1 3656 20181003173106
+34.215.248.137 1 1 3693 20181031140739
+77.165.241.185 4 30 513829 20181018073501
+185.3.179.54 1 21 289911 20181011164750
+167.99.12.115 1 1 3693 20181022144753
+40.84.141.81 11 11 34298 20181006095834
+62.163.38.95 0 1 203088 
+31.161.150.102 1 19 1690075 20181027061853
+152.44.108.19 3 3 7034 20181021021945
+84.87.7.187 2 45 426671 20181009153306
+31.184.238.34 3 3 28326 20181022183519
+145.133.113.119 1 19 1690075 20181024121527
+167.99.163.83 4 4 1192 20181015105701
+178.62.88.251 2 2 596 20181010041838
+62.213.245.179 1 1 3656 20181017151245
+77.160.107.170 1 19 1690075 20181008191313
+188.207.116.206 1 19 1690073 20181016104344
+213.127.121.195 0 1 203088 
+80.246.188.132 23 24 119013 20181001053347
+46.166.143.115 8 8 72968 20181031114808
+77.163.60.3 1 21 289914 20181005135416
+52.24.134.63 2 2 7330 20181015132700
+94.250.249.41 3 3 975 20181020040316
+77.163.12.71 3 28 346185 20181014153428
+84.105.159.84 0 6 297246 
+66.249.81.245 0 8 1159499 
+86.94.250.236 2 26 364092 20181013205251
+104.131.129.79 1 1 9442 20181002063638
+54.186.95.175 1 2 37416 20181029211731
+81.207.63.55 1 22 164769 20181031125036
+31.161.35.177 0 1 120972 
+34.209.123.157 2 2 7330 20181013152611
+217.121.144.214 0 1 42777 
+95.97.179.197 1 3 6848 20181030095352
+85.10.204.252 1 1 9423 20181013035720
+167.114.181.145 28 342 5575079 20181021021623
+78.189.110.132 0 1 127708 
+213.127.103.186 1 3 6848 20181006093252
+104.40.84.61 1 1 3637 20181010021001
+148.251.75.46 1 1 9479 20181030195556
+52.53.201.78 26 26 94562 20181031134019
+188.207.82.214 1 19 1690073 20181019205528
+52.5.220.220 1 1 3693 20181008213558
+31.7.7.222 30 30 262020 20181031185915
+185.56.146.72 2 2 18846 20181009024546
+52.89.30.63 2 2 7330 20181012124127
+52.43.217.254 2 2 7330 20181006185230
+194.151.85.2 1 21 288753 20181004090046
+204.48.25.42 2 2 596 20181009071153
+187.193.80.23 1 1 3693 20181001041458
+37.115.145.116 3 3 28326 20181007101628
+35.163.125.178 1 1 3693 20181029164423
+84.39.28.125 1 19 285769 20181026090535
+18.236.138.122 1 1 3693 20181003065441
+62.213.244.83 1 1 3038 20181017150928
+66.220.149.36 0 2 6771 
+198.143.158.180 1 1 3637 20181003031252
+86.86.24.73 4 29 348604 20181028091632
+185.100.87.207 2 2 7274 20181026220010
+159.89.182.71 12 31 366248 20181022175527
+193.169.252.19 1 1 20574 20181007091712
+185.125.219.13 48 48 13824 20181031190607
+145.133.111.121 5 30 351712 20181028075826
+18.237.35.129 2 2 7330 20181002152332
+213.10.116.250 5 30 352006 20181016214250
+84.80.79.17 1 7 107959 20181011224335
+185.147.237.8 1 1 3656 20181003173107
+66.249.81.57 0 12 1022104 
+84.85.197.170 1 19 1690073 20181021090330
+18.237.141.188 2 2 7330 20181019145530
+173.252.95.14 0 1 2927 
+159.65.226.162 2 2 596 20181004074130
+62.213.244.75 1 1 2516 20181017150934
+54.193.16.117 1 1 3656 20181005230719
+107.150.23.173 2 2 18242 20181029004828
+217.89.150.130 1 16 1653031 20181017122903
+62.163.67.54 17 44 656400 20181008231519
+34.243.222.73 1 1 3656 20181031172112
+34.221.76.60 2 2 7330 20181007162542
+64.246.161.42 1 1 3656 20181006182343
+34.219.193.71 2 2 7330 20181008121658
+159.89.111.196 1 1 9423 20181023095552
+193.124.179.180 27 27 7776 20181031190607
+95.37.241.60 6 6 56652 20181025185053
+80.113.21.67 0 1 127708 
+79.176.105.210 1 22 164769 20181006130049
+35.161.85.71 1 1 3693 20181028142450
+86.89.154.69 4 29 349395 20181003155803
+54.190.12.17 2 2 7330 20181016134710
+217.147.169.75 1 1 3637 20181025051850
+202.46.57.166 1 1 0 20181014073528
+139.81.119.212 1 1 3693 20181011101323
+83.87.135.14 6 66 1162174 20181017103315
+46.229.161.131 5 5 1440 20181011081831
+23.101.169.3 4 16 161696 20181021212049
+185.130.184.198 8 8 72968 20181022030812
+139.81.102.253 1 1 3693 20181025050419
+159.203.96.191 12 30 365558 20181005080332
+143.179.78.12 1 19 1690073 20181010150301
+35.195.50.54 26 34 168957 20181001183114
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20181001 156 254 1811297 72
+20181002 60 166 4536679 50
+20181003 68 103 2253975 56
+20181004 47 89 2362909 34
+20181005 53 135 3038837 40
+20181006 74 99 596498 58
+20181007 106 158 2498764 26
+20181008 79 146 2809894 54
+20181009 76 253 11752565 61
+20181010 63 237 11194290 40
+20181011 56 144 1798603 51
+20181012 52 110 3625628 49
+20181013 56 122 4672918 41
+20181014 39 216 4147125 13
+20181015 61 110 780410 54
+20181016 62 204 3596564 42
+20181017 26 63 1963618 23
+20181018 68 113 1317230 40
+20181019 54 153 6758237 40
+20181020 27 46 1923458 25
+20181021 104 965 13009262 36
+20181022 82 168 3022464 53
+20181023 60 180 1978650 44
+20181024 47 87 2357248 47
+20181025 60 125 2625512 47
+20181026 92 132 814300 54
+20181027 52 90 2076727 50
+20181028 76 158 2617322 65
+20181029 41 207 8284840 36
+20181030 44 145 4509038 29
+20181031 87 188 5837256 57
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+0s-30s 1348
+2mn-5mn 9
+15mn-30mn 4
+30s-2mn 15
+5mn-15mn 7
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 33
+/ 1334 2053519 1221 1178
+/mobiel 81 626292 50 53
+/contact 69 343786 22 14
+/behandeling 50 176664 3 5
+/specials 43 126402 1 4
+/schoonheidsspecialist 41 166610 6 7
+/links 40 295704 33 33
+/index 33 144676 6 8
+/producten 32 124260 2 5
+/arrangement 31 94728 3 4
+/google6d31d98a5d80c00b.html 1 351 1 1
+/?1=%40ini_set%28%22display_errors%22%2c%220%22%29%3b%40set_time_limit%280%29%3b%40set_magic_quotes_runtime%280%29%3becho%20%27-%3e%7c%27%3bfile_put_contents%28%24_server%5b%27document_root%27%5d.%27/webconfig.txt.php%27%2cbase64_decode%28%27pd9wahagzxzhbcgkx1bpu1rbmv0poz8%2b%27%29%29%3becho%20%27%7c%3c-%27%3b 2 18884 2 2
+/?a=<foo> 2 7274 2 2
+/orange-flower-mama 9 24076 0 0
+/index?bedankt=%27true%27 20 183090 0 17
+/sitemap 30 105980 3 9
+/index?bedankt='true' 1 3656 0 1
+/praktijk 30 104514 3 4
+/effectenmassage 13 38502 4 4
+/orange-flower-royal 11 29560 1 1
+/orange-flower-divine 15 45897 3 3
+/php/form-to-email.php 2 484 0 2
+/contraindicaties 13 37404 6 7
+/voorwaarden 9 21235 2 2
+/orange-flower-basic 15 36719 1 2
+/orange-flower-purify 12 27881 0 0
+/medicinaleinwrijving 9 25573 2 3
+/harsen-deelbehandelingen 7 17197 1 1
+/massage 13 36951 1 2
+/orange-flower-antiage 12 28901 0 3
+/cadeaubon 31 101211 2 5
+/sitemap.xml 5 10025 5 2
+/orange-flower-antistress 12 29669 1 3
+END_SIDER

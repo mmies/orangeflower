@@ -1,0 +1,504 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201605 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.www.orange-flower.nl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2000                
+POS_TIME 2681                
+POS_VISITOR 10097               
+POS_DAY 12527               
+POS_DOMAIN 3460                
+POS_LOGIN 3797                
+POS_ROBOT 3952                
+POS_WORMS 4646                
+POS_EMAILSENDER 4777                
+POS_EMAILRECEIVER 4920                
+POS_SESSION 12781               
+POS_SIDER 12970               
+POS_FILETYPES 5055                
+POS_DOWNLOADS 5265                
+POS_OS 5336                
+POS_BROWSER 5526                
+POS_SCREENSIZE 6443                
+POS_UNKNOWNREFERER 6517                
+POS_UNKNOWNREFERERBROWSER 6762                
+POS_ORIGIN 6915                
+POS_SEREFERRALS 7053                
+POS_PAGEREFS 7208                
+POS_SEARCHWORDS 8284                
+POS_KEYWORDS 8436                
+POS_MISC 2345                
+POS_ERRORS 8495                
+POS_CLUSTER 3653                
+POS_SIDER_404 8623                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160531061059 253 56503 9218428075511
+FirstTime 20160524162450
+LastTime 20160531031110
+LastUpdate 20160531064230 253 0 253 0 0
+TotalVisits 93                  
+TotalUnique 56                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 62                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 7 47680 13 21 137593
+1 21 21 93743 23 36 115562
+2 6 6 45564 28 38 165358
+3 20 20 87492 18 25 123453
+4 10 10 62204 21 29 105804
+5 0 0 0 22 30 121283
+6 3 3 14646 14 17 55139
+7 2 22 126469 15 19 83882
+8 19 37 1253045 35 45 201885
+9 12 96 1269243 12 24 125755
+10 19 19 157238 25 30 331163
+11 13 13 105450 11 15 52671
+12 14 36 189975 14 83 932546
+13 10 10 60115 12 17 92008
+14 9 11 56381 43 65 154865
+15 17 18 192440 26 28 171990
+16 15 41 1261421 21 91 943105
+17 4 5 56569 22 34 365719
+18 5 5 42490 20 28 109112
+19 11 11 80052 20 27 116194
+20 10 29 341091 23 36 128546
+21 7 47 744001 34 57 198143
+22 1 2 211253 19 25 103770
+23 16 73 864015 42 59 202884
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+unknown 168 296 3600318
+us 50 109 1248204
+nl 19 103 2052283
+cn 8 8 24592
+de 3 22 298233
+jp 2 2 8498
+sk 1 1 3074
+be 0 1 127375
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+checker 133 1121736 20160531061059 0
+phantom 120 1687422 20160528121206 0
+mj12bot 119 536769 20160531032154 50
+googlebot 104 355363 20160531052152 23
+bot[\s_+:,\.\;\/\\-] 91 263651 20160530184759 13
+mail\.ru 41 49279 20160526061946 23
+scanner 18 543007 20160529000433 8
+slurp 15 20273 20160530023115 7
+robot 8 29058 20160530203346 4
+unknown 6 368 20160530124357 6
+no_user_agent 4 17102 20160528150605 2
+spider 3 6211 20160529150535 1
+libwww 1 8498 20160529103457 0
+surveybot 4 6254 20160528043632 2
+yandex 4 2771 20160529093849 3
+crawl 2 11572 20160530074730 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 31 108809 0 0
+png 17 393805 0 0
+ico 9 12654 0 0
+html 147 984510 0 0
+js 28 281873 0 0
+jpg 197 5027717 0 0
+Unknown 104 552759 0 0
+gif 9 450 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 142 0 7956
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 14
+linuxandroid 41
+winlong 22
+winxp 62
+winnt 33
+win2000 10
+linuxubuntu 10
+linux 33
+winvista 68
+win7 82
+winme 9
+macosx 158
+win95 5
+winunknown 3
+Unknown 6
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 54
+firefox28.0 2
+safari7.0.3 2
+safari7.0 1
+msie6.0 43
+chrome40.0.2214.115 2
+chrome50.0.2661.89 40
+firefox44.0 6
+chrome48.0.2564.116 8
+chrome38.0.2125.111 3
+chrome12.0.742.112 10
+msie8.0 20
+iphone 26
+netscape4.76 2
+chrome42.0.2311.90 1
+firefox0.10.1 2
+firefox6.0.2 8
+chrome13.0.782.112 1
+netscape3.0 3
+netscape0.91 3
+msie7.0 3
+chrome37.0.2062.120 2
+chrome50.0.2661.102 105
+chrome10.0.648.204 1
+chrome27.0.1453 21
+safari8.0 46
+msie9.0 6
+chrome50.0.2661.86 1
+Unknown 3
+opera7.54 1
+chrome30.0.1599.101 5
+firefox11.0 1
+chrome39.0.2171.71 3
+safari9.0.3 2
+chrome33.0.1750.152 8
+safari9.0.1 1
+chrome34.0.1847.131 3
+firefox21.0 11
+opera9.01 2
+firefox29.0 1
+opera8.01 3
+firefox46.0 21
+msie5.5 9
+chrome49.0.2623.75 1
+safari6.0.5 2
+firefox33.0 6
+safari9.0 41
+mozilla 16
+chrome48.0.2564.109 1
+msie10.0 2
+chrome46.0.2486.0 1
+chrome41.0.2228.0 6
+firefox36.0 2
+safari 21
+safari9.0.2 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20160528084032
+RX_Bar 20160526041939
+Riddler_(http://riddler.io/about) 20160529202923
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+RX_Bar 20160526041939
+Riddler_(http://riddler.io/about) 20160529202923
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 84 91
+From1 4 4
+From2 6 9
+From3 90 132
+From4 67 306
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 6 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 34
+http://yoursitename.ru 6 6
+http://meds-online24.com 5 5
+http://sexsaoy.com 5 5
+http://investingclub.ru 5 5
+http://touropia.ru 3 3
+http://kinderok.com 3 3
+http://flooringinstallation-edmonton.com 3 3
+http://nimfa.pro 3 3
+http://kinobaks.com 3 3
+http://voloomoney.com 3 3
+http://www.ospreyinternational.nl 2 2
+http://pornoblood.com 2 2
+http://www.dklvelperweg.nl 2 2
+http://www.pornoklad.net 3 3
+http://coinsruss.com 2 2
+http://storinka.com.ua 2 2
+http://znaniyapolza.ru 2 2
+http://nimfa.pro 2 2
+http://hyipmanager.in 3 3
+http://fm-upgrade.ru 3 3
+http://burger-imperia.com 2 2
+http://creditmoney.com.ua 3 3
+http://lnkd.in 2 2
+http://ru-z.ru 2 2
+https://mrwhite.biz 3 3
+http://oils.afora.ru 3 3
+http://www.xpresscare.ru 2 2
+http://intervsem.ru 3 3
+http://wwww.orange-flower.nl/mobiel 0 41
+http://dear-diary.ru 1 1
+http://office-windows.ru 3 3
+http://wwww.orange-flower.nl/css/style.css 0 1
+http://azlex.uz 1 1
+http://lover.ru 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 15 3183
+206 41 264674
+404 81 190561
+301 68 20678
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 43
+/navarakizhi 1 -
+/antiage 1 -
+/udvartana 1 -
+/js/easing.js 3 http://wwww.orange-flower.nl/mobiel
+/ghee-abhyanga.html 1 -
+/pitta.html 1 -
+/uw-huidtype 2 -
+/ayurveda 1 -
+/schoonheidsbehandeling 6 http://www.orange-flower.nl/schoonheidsbehandelingen
+/mailto:info@orange-flower.nl 1 -
+/combinatiebehandelingen-lichaam 1 -
+/route 1 -
+/voorwie.html 1 -
+/route.html 1 -
+/chandan-lichaamsscrub-massage 1 -
+/wp-content/plugins/i-dump-iphone-to-wordpress-photo-uploader/uploader.php 1 -
+/license.php 1 http://www.orange-flower.nl/license.php
+/ghee-abhyanga 2 -
+/workshop 6 -
+/flash/header_v8_1_orangeflower.swf 1 -
+/pitta 1 -
+/images/header-orange-flower.jpg 1 -
+/pdf/lichaamsbehandelingen 1 -
+/combinatiebehandelingen-schoonheid 2 -
+/klassieke-massage.html 1 -
+/abhyanga-massage 2 -
+/lakshmi-netra 1 -
+/kapha 1 -
+/arrangement2 1 -
+/images/logo-orange-flower.jpg 1 -
+/basiselementen 1 -
+/handverzorging 1 -
+/pdf/lichaamsbehandelingen.pdf 1 -
+/js/jquery.js 23 http://www.orange-flower.nl/cadeaubon
+/administrator/ 1 -
+/voetverzorging 1 -
+/chandan-rugscrub-massage 1 -
+/lakshmi-ojas 1 -
+/probleemhuid 1 -
+/wp-login.php 1 -
+/voorwie 1 -
+/contraindicaties%20 1 -
+/workshop1 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 62
+46.118.121.215 26 26 220948 20160530214920
+178.137.167.51 24 24 203952 20160530201208
+178.137.87.136 23 23 195454 20160529153520
+54.241.239.195 21 21 154366 20160530000408
+111.180.42.82 18 18 62354 20160530041628
+45.55.181.223 14 14 39681 20160528013445
+82.157.189.230 12 52 704158 20160530142341
+188.165.234.31 10 14 17920 20160528121206
+188.165.208.29 10 10 96164 20160526081404
+46.185.68.84 9 9 76482 20160529102600
+94.29.56.134 3 3 25894 20160529105056
+197.231.221.211 1 1 3074 20160530063551
+202.46.56.17 1 1 3074 20160528202824
+89.30.144.141 2 2 16996 20160528192240
+92.222.103.234 1 1 3074 20160524201455
+202.46.55.12 1 1 3074 20160526111629
+176.111.208.5 1 1 8498 20160525214128
+62.140.137.45 1 7 70049 20160524165304
+217.79.191.108 1 1 8498 20160529041927
+202.46.54.72 1 1 3074 20160530124354
+46.129.105.57 1 20 281237 20160525204858
+77.164.151.159 1 21 123879 20160530123605
+64.74.215.113 1 1 0 20160527134049
+217.79.191.112 1 1 8498 20160529041912
+163.53.176.96 2 2 8498 20160526041939
+62.205.121.203 0 1 127375 
+91.79.24.136 3 3 25894 20160530105028
+84.86.29.210 1 20 122141 20160529233726
+213.124.211.82 2 2 8498 20160527141528
+176.126.252.11 1 1 3074 20160527081310
+31.151.162.18 8 46 682744 20160530234610
+92.109.30.151 1 21 123395 20160525073707
+110.177.143.114 1 1 8498 20160526221803
+85.248.227.164 1 1 3074 20160527081019
+91.77.30.160 3 3 25894 20160527115302
+178.132.211.94 7 28 216384 20160531031110
+77.163.17.58 1 1 3074 20160530101306
+62.69.162.109 2 2 6148 20160530061617
+104.156.231.254 1 1 8498 20160528152347
+202.46.53.13 1 1 3074 20160525132502
+110.177.72.47 1 1 8498 20160525201809
+208.43.225.85 3 3 6527 20160528084032
+84.174.175.136 1 20 281237 20160530212835
+202.46.52.165 1 1 3074 20160526123043
+74.91.28.19 2 2 6148 20160529211545
+46.4.94.226 1 1 3074 20160529202923
+37.74.96.158 1 19 1118712 20160524163927
+216.81.71.76 1 1 8498 20160525170440
+202.46.56.72 1 1 3074 20160525040240
+202.46.51.165 1 1 3074 20160530005837
+94.214.248.22 0 1 202755 
+90.145.223.18 0 1 127375 
+79.139.230.99 3 3 25894 20160528100038
+66.249.81.143 0 6 137712 
+2.85.186.46 4 28 290478 20160529093637
+145.53.121.183 0 1 22577 
+66.249.81.139 1 8 104995 20160524210039
+202.46.52.175 1 1 3074 20160529024952
+86.94.163.236 1 19 1118712 20160525085257
+45.32.131.61 1 1 8498 20160530062308
+66.249.81.147 0 8 105183 
+37.187.56.81 8 8 66747 20160528150657
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20160524 19 66 1698047 7
+20160525 23 81 1809831 14
+20160526 27 50 604938 10
+20160527 27 27 196222 12
+20160528 52 54 298423 15
+20160529 40 83 689537 16
+20160530 62 180 2057437 18
+20160531 1 1 8142 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+15mn-30mn 1
+30s-2mn 7
+2mn-5mn 2
+0s-30s 80
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/ 147 984510 78 66
+/contact 12 72734 0 3
+/links 10 69812 6 5
+/schoonheidsspecialist 7 33216 0 1
+/behandeling 7 26794 0 0
+/index 7 40140 0 2
+/producten 6 34919 0 0
+/ambulant 6 19837 0 0
+/praktijk 6 31233 0 1
+/webshop 5 16624 1 0
+/massage-ambulant 1 2366 1 1
+/orange-flower-royal 3 11048 0 0
+/cadeaubon 4 12745 1 2
+/mobiel 5 47383 3 4
+/arrangement 3 9136 1 2
+/orange-flower-divine 3 11611 0 0
+/medicinaleinwrijving 1 7107 0 0
+/contraindicaties 1 6835 0 0
+/index?bedankt=%27true%27 4 33992 0 4
+/sitemap 5 29689 1 0
+/orange-flower-mama 2 9084 0 0
+/massage 1 7044 0 0
+/effectenmassage 1 7180 0 0
+/orange-flower-basic 4 12230 1 2
+END_SIDER

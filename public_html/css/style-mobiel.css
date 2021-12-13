@@ -1,0 +1,336 @@
+html,
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 98%;
+	background: #fffbf4;
+}
+
+p {
+	margin-top: 2px;
+}
+
+h4 {
+	margin: 0;
+	text-align: center;
+	font-size: 1.9em;
+	color: #2583b3;
+	margin-top: 11px;
+	margin-bottom:4px;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 1.8em;
+	color: #2583b3;
+	margin-top: 11px;
+	margin-bottom:4px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol {
+	margin: 0;
+	margin-left: -26px;
+}
+
+
+.top-nav {
+	float: left;
+	width: 100%;
+	margin-top: -37px;
+}
+
+.top-nav ul {
+	padding: 0em;
+	list-style: none;
+}
+
+.logo {
+	display: inline-block;
+	margin-bottom: 7px;
+}
+
+.header-right {
+	float: right;
+}
+
+
+/*  Services     */
+
+.services {
+	max-width: 100%;
+	background: white;
+	margin-top: 1px;
+	margin-bottom: 5px;
+}
+
+.services-line {
+	padding: 0px;
+	border-top: 2px solid #B8B8B8;
+}
+
+.services-logo {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+
+/*  Services  Einde  */
+
+.behandelpics {
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+@media(max-width:566px) {
+	.first {
+		float: left;
+		width: 100%;
+		height: 100%;
+	}
+	.second {
+		display: none;
+		height: 0px;
+		overflow: hidden;
+	}
+}
+
+@media(min-width:567px) {
+	.first {
+		float: left;
+		width: 50%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.second {
+		overflow: hidden;
+		width: 50%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+.lakshmi-sun {
+	background: url(../images/mobiel/8e.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.lakshmi-model {
+	background: url(../images/mobiel/9a.jpg) no-repeat center;
+	background-size: cover;
+		border-bottom: 2px solid black;
+		border-top: 2px solid black;
+}
+
+.text-left {
+	text-align: left;
+}
+
+
+/*--dream end here--*/
+
+
+/*--light-box--*/
+
+.project-eff:hover span.rollover1 {
+	background: url(../images/box.png) center no-repeat rgba(248, 86, 93, 0.44);
+	cursor: pointer;
+	height: 253px;
+	width: 350px;
+	display: block;
+	position: absolute;
+	z-index: -9999px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.project-eff {
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	position: relative;
+}
+
+
+/*--testimonal start here--*/
+
+.testimo-main {
+	text-align: center;
+	padding: 6em 0em 0em 0em;
+
+}
+.footer {
+	color: white;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+}
+
+/*--testimo grid end here--*/
+
+
+/*--gallery start here--*/
+
+.gallery {
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+
+.gallery-grid {
+	margin: 0em 0em 2em 0em;
+}
+
+.contact {
+	margin-top:12px;
+}
+.praktijk {
+	margin-top:12px;
+}
+
+.contact-left input[type="text"] {
+	display: inline-block;
+	background: none;
+	border: 1px solid #A3A1A1;
+	width: 100%;
+	outline: none;
+	font-size: 0.95em;
+	color: #747577;
+	font-weight: 400;
+	padding: 13px 15px 13px 15px;
+	margin: 0em 0em 0.1em 0em;
+}
+
+.contact-left textarea {
+	background: none;
+	border: 1px solid #A3A1A1;
+	margin-bottom: 6px;
+	width: 100%;
+	display: block;
+	height: 150px;
+	outline: none;
+	font-size: 0.9em;
+	color: #747577;
+	font-weight: 400;
+	resize: none;
+	padding: 13px 15px 13px 15px;
+}
+
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 8px;
+	right: 0px;
+	overflow: hidden;
+	width: 48px;
+	height: 48px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/mobiel/top_mover.png) no-repeat 0px 0px;
+}
+
+.copyright {
+	background: #9cc6db;
+	background: #2583b3;
+}
+
+.copy-main {
+	text-align: center;
+}
+
+.copy-main p {
+	font-size: 1em;
+	color: #fff;
+}
+
+.copy-main p a {
+	color: #fff;
+}
+
+span.menu {
+	display: block;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	margin-left:10px;
+	cursor: pointer;
+	color: #E74C3C;
+	font-size: 16px;
+	font-weight: 700;
+	position: relative;
+}
+
+.top-nav ul.res {
+	display: none;
+	padding: 0px;
+}
+
+.top-nav ul.res {
+	padding: 0;
+	margin: 7px 0 0 0;
+	z-index: 9999;
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+
+.top-nav ul.res li {
+	display: block;
+	text-align: center;
+	background: #2583b3;
+	margin: 0;
+	width: 100%;
+	padding: 0em;
+}
+
+.top-nav ul.res li a {
+	font-size: 16px;
+	padding: 0.6em 0;
+	color: #fff;
+	display: block;
+	border: none;
+	text-align: center;
+	margin: 0em;
+}
+
+ul.res li a:hover,
+ul.res li a.active {
+	color: #000;
+}
+
+
+/* Styles voor swiper start  */
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fffbf4;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+	display: block;
+	max-width:85%;
+	background-size: cover;
+	object-fit: cover;
+}
+/* Styles voor swiper einde  */

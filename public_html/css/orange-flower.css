@@ -1,0 +1,385 @@
+*{
+	/* [disabled]margin:0px 0px 0px 0px; */
+	padding:0px 0px 0px 0px;
+}
+body, html{background:#f2eee4;font:normal 12px Tahoma;color:#374141;height:100%;}
+input, textarea, select{font:normal 12px Tahoma;vertical-align:middle;color:#374141;border:1px solid #A09B96;background:#FFF;}
+input.link_5{font:bold 12px Tahoma;color:#008AAE;background:#f2eee4;padding:0px 0px 0px 0px;border:none;text-decoration:underline;}
+input.link_5:hover{text-decoration:none;}
+table{
+	color:#374141;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+ul{list-style:none;}
+img{border:0px;}
+p.content-top{margin-right:15px;}
+p.content-bottom{margin-left:8px;margin-right:15px;}
+p.indent{margin-left:8px;}
+p.topleft-ambulant{margin-top:74px;}
+p.topleft-arrangement{margin-top:87px;}
+p.topleft-praktijk{margin-top:195px;}
+p.topleft-contact{margin-top:72px;}
+p.topleft-sitemap{margin-top:58px;}
+p.topleft-cadeaubon{margin-top:97px;}
+p.topleft-links{margin-top:169px;}
+p.topleft-producten{margin-top:184px;}
+p.topleft-behandelingen{margin-top:130px;}
+p.topleft-behandelingenpraktijk{margin-top:20px;}
+p.topleft-massagespraktijk{margin-top:31px;}
+p.topleft-voorwaarden{margin-top:156px;}
+p.topleft-specials{margin-top:20px;}
+p.topleft-voorwie{margin-top:198px;}
+p.topleft-massageeffecten{margin-top:198px;}
+p.topleft-error{margin-top:29px;}
+p.topleft-home{margin-top:14px;}
+p.topleft-voorstellen{margin-left:15px;margin-top:122px;}
+p.brown{color:#6C5655;}
+.pitta{color:#0099CC;}
+.vata{color:#006600;}
+.kapha{color:#FF0033;}
+h1{font:normal 18px Tahoma;color:#535353;}
+h2{font: normal 14px Tahoma;}
+h3{font:bold 12px Tahoma;color:#374141;height:100%;font-weight: bold;}
+h4{font-weight: bold;}
+.col1{width:279px;}
+.col1 .space{padding:0px 0px 0px 21px;}
+.col1 li{margin:12px 0px 0px 0px;background:url(../images/bullet3.gif) 0 0 no-repeat;}
+.col1 li a{background:url(../images/bullet1.gif) 0 0 no-repeat;font:bold 13px Tahoma;color:#494949;padding:0px 0px 0px 18px;}
+.sh1{background:url(../images/sh1.jpg) 0 0 repeat-y #FFF}
+.sh2{background:url(../images/sh2.jpg) bottom left no-repeat;height:36px}
+.title_bg{background:url(../images/title_bg.jpg) 0 0 no-repeat;height:55px}
+.w{color:#535353;}
+.c{background:url(../images/c.jpg) bottom right no-repeat;padding:0px 0px 14px 0px;}
+.vl{background:url(../images/l.jpg) top right repeat-y}
+.date{background:#2B2B2B;padding:2px 5px 3px 5px;line-height:18px;color:#FFF;font:bold 12px Tahoma}
+a{font:normal 12px Tahoma;color:#607880;}
+a:hover{text-decoration:none;}
+/* span{color:#6A6A6A} */
+b{font:bold 12px Tahoma;color:#545454;}
+.nn a{text-decoration:none;}
+.nn a:hover{text-decoration:underline;}
+.input input{width:179px;height:21px;padding:2px 0px 0px 0px;margin:0px 0px 0px 0px;}
+.ta{height:135px;width:229px;overflow:auto;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;}
+.ti{width:229px;}
+.eq_height{height:42px}
+.link_1{font:bold 12px Tahoma;color:#008AAE;background:url(../images/bullet2.gif) 0 0 no-repeat;padding:0px 0px 0px 7px;}
+.link_2{font:normal 12px Tahoma;color:#545454}
+.link_3 a{background:url(../images/bullet3.jpg) 0 0 no-repeat #DAD7CE;line-height:18px;padding:2px 12px 3px 15px;color:#494949;font:bold 12px Tahoma;height:18px}
+.link_4{color:#008AAE;font:normal 12px Tahoma}
+li{list-style:none;line-height:12px;margin:0px 0px 5px 0px;}
+li a{font:bold 12px Tahoma;color:#607880;padding:0px 0px 0px 10px;}
+.mleft{margin:10px 0 0 0;}
+.list_1 li{margin:0px 0px 3px 0px;}
+.list_1 li a{background:url(../images/bullet3.gif) 0 0 no-repeat;font:normal 12px Tahoma;color:#008AAE;padding:0px 0px 0px 12px;}
+#content{text-align:left;width:766px;height:990px;margin:0 auto;position:relative;clear:left;}
+#distance{width:1px;height:50%;margin-bottom:-433px;float:left;}
+#footer a{font:normal 12px Tahoma;color:#C6CCC6}
+.left-contact7{margin-left:7px;}
+.left-contact10{margin-left:10px;}
+.left{float:left;}
+.right{float:right;}
+.cadeaubontabel{width:200px;border:0;}
+.home{position:absolute;left:0px;top:0px;width:93px;height:60px;background:url('../images/btn_home_active.jpg') no-repeat;}
+.producten{position:absolute;left:93px;top:0px;width:124px;height:60px;background:url('../images/btn_producten_active.jpg') no-repeat;}
+.schoonheidsbehandelingen{position:absolute;left:217px;top:0px;width:235px;height:60px;background:url('../images/btn_schoonheidsbehandelingen_active.jpg') no-repeat;}
+.massages{position:absolute;left:452px;top:0px;width:116px;height:60px;background:url('../images/btn_massages_active.jpg') no-repeat;}
+.ambulant{position:absolute;left:568px;top:0px;width:99px;height:60px;background:url('../images/btn_ambulant_active.jpg') no-repeat;}
+.contact{position:absolute;left:667px;top:0px;width:99px;height:60px;background:url('../images/btn_contact_active.jpg') no-repeat;}
+.home a:link, .home a:visited{display:block;}
+.home a:hover img{visibility:hidden;}
+.producten a:link, .producten a:visited{display:block;}
+.producten a:hover img{visibility:hidden;}
+.schoonheidsbehandelingen a:link, .schoonheidsbehandelingen a:visited{display:block;}
+.schoonheidsbehandelingen a:hover img{visibility:hidden;}
+.massages a:link, .massages a:visited{display:block;}
+.massages:hover img{visibility:hidden;}
+.ambulant a:link, .ambulant a:visited{display:block;}
+.ambulant:hover img{visibility:hidden;}
+.contact a:link, .contact a:visited{display:block;}
+.contact a:hover img{visibility:hidden;}
+.contactformlabel {width:158px;}
+.contactformfield {width:400px;}
+.topleft{height:159px;}
+
+#logo {
+	position:absolute;
+	left:0px;
+	top:60px;
+	width:270px;
+	height:148px;
+	background-color:#0089AD;
+	border-left: 1px #2f2b28 solid;
+	border-right: 4px #0089AD solid;  /* Firefox hack */
+}
+
+#index-03_ {
+	position:absolute;
+	left:271px;
+	top:60px;
+	width:494px;
+	height:148px;
+	background:#0089AD;
+	border-right: 1px #2f2b28 solid;
+}
+
+#index-04_ {
+	position:absolute;
+	left:0px;
+	top:208px;
+	width:22px;
+	height:55px;
+	background:url('../images/index_04.jpg') no-repeat;
+}
+
+#index-05_ {
+	position:absolute;
+	left:22px;
+	top:208px;
+	width:249px;
+	height:55px;
+	background:url('../images/index_05.jpg');
+}
+
+#index-06_ {
+	position:absolute;
+	left:271px;
+	top:208px;
+	width:21px;
+	height:55px;
+	background:url('../images/index_06.jpg');
+}
+
+#index-07_ {
+	position:absolute;
+	left:292px;
+	top:208px;
+	width:474px;
+	height:24px;
+	background:url('../images/index_07.jpg') no-repeat;
+}
+
+#content-right-top {
+	position:absolute;
+	left:292px;
+	top:232px;
+	width:474px;
+	height:68px;
+	background:url('../images/index_08.jpg') no-repeat;
+}
+
+#index-09_ {
+	position:absolute;
+	left:0px;
+	top:263px;
+	width:22px;
+	height:643px;
+	background:url('../images/index_09.jpg');
+	background-repeat:repeat
+}
+
+#karin_ {
+	position:absolute;
+	left:22px;
+	top:263px;
+	width:249px;
+	height:332px;	
+}
+
+#karin2_ {
+	position:absolute;
+	left:22px;
+	top:263px;
+	width:249px;
+	height:450px;
+}
+
+#index-11_ {
+	position:absolute;
+	left:271px;
+	top:263px;
+	width:21px;
+	height:643px;
+	background:url('../images/index_11.jpg');
+	background-repeat:repeat
+}
+
+#index-12_ {
+	position:absolute;
+	left:292px;
+	top:300px;
+	width:474px;
+	height:33px;
+	background:url('../images/index_12.jpg') no-repeat;
+}
+
+#content-right-bottom {
+	position:absolute;
+	left:292px;
+	top:333px;
+	width:474px;
+	height:573px;
+	background:url('../images/index_11-13.jpg');
+	background-repeat:repeat;
+}
+
+#content-left-top {
+	position:absolute;
+	left:22px;
+	top:595px;
+	width:249px;
+	height:48px;
+	background:url('../images/index_14.jpg');
+}
+
+#content-left-bottom {
+	position:absolute;
+	left:22px;
+	top:643px;
+	width:249px;
+	height:263px;
+	background:url('../images/index_13.jpg');
+	background-repeat:repeat;
+}
+
+#index-16_ {
+	position:absolute;
+	left:0px;
+	top:906px;
+	width:766px;
+	height:24px;
+	background:url('../images/index_16.jpg') no-repeat;
+}
+
+#footer {
+	position:absolute;
+	left:0px;
+	top:930px;
+	width:766px;
+	height:60px;
+	background:#2f2b28;
+	background:#191b1c;
+}
+
+/*  tbv index2  */
+#liggend-model_ {
+	position:absolute;
+	left:22px;
+	top:263px;
+	width:249px;
+	height:76px;
+	background:url('../images/liggend_model.jpg') no-repeat;
+}
+
+#content-left-top2 {
+	position:absolute;
+	left:22px;
+	top:339px;
+	width:249px;
+	height:157px;
+	background:url('../images/index2_14.jpg') no-repeat;
+}
+
+#content-left-bottom2 {
+	position:absolute;
+	left:22px;
+	top:401px;
+	width:249px;
+	height:410px;
+	background:url('../images/index2_15.jpg');
+	background-repeat:repeat;	
+}
+
+#special {
+	height:10px;
+}
+.content-text {
+	margin:0px 10px 0px 5px;
+}
+
+.footer-text {
+	margin:10px 20px 0px 25px;
+	color: #A2A2A2;
+}
+
+.kopje {
+	font: bold 12px Tahoma;	
+}
+
+/* Styles voor swiper start  */
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #f2eee4;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-wrapper {
+	width:300px;
+	margin-right: 4px;
+}
+.swiper-wrapper .prod{
+	width:160px;
+	margin-right: 4px;
+}
+
+.swiper-slide img {
+	display: block;
+	max-width:85%;
+	background-size: cover;
+	object-fit: cover;
+}
+.prod img {
+	display: block;
+	max-width:160px;
+	background-size: cover;
+	object-fit: cover;
+}
+.swiper-button-prev, .swiper-button-next {
+    position: absolute;
+    top: 49%;
+    width: 20;
+    height: 20;
+    color: black;
+}
+/* Styles voor swiper einde  */
+
+table tr td.prod-antiage {
+	color: #C90;
+	font-style: normal;	
+	text-align:left;
+}
+table tr td.prod-pitta {
+	color: #03C;
+}
+table tr td.prod-netra {
+	color: #FC3;
+}
+table tr td.prod-vata {
+	color: #393;
+}
+.prod-ayuma {
+	color: #F00;
+}
+
+.product-wrapper {
+	display:inline-block;
+	margin-top: 10px;
+}
+#subtitel {
+	margin-top:-5px;
+}

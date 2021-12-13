@@ -1,0 +1,930 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201506 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.www.orange-flower.nl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2000                
+POS_TIME 2682                
+POS_VISITOR 20043               
+POS_DAY 27419               
+POS_DOMAIN 3524                
+POS_LOGIN 4002                
+POS_ROBOT 4185                
+POS_WORMS 5288                
+POS_EMAILSENDER 5419                
+POS_EMAILRECEIVER 5562                
+POS_SESSION 28241               
+POS_SIDER 28443               
+POS_FILETYPES 5697                
+POS_DOWNLOADS 5918                
+POS_OS 5990                
+POS_BROWSER 6248                
+POS_SCREENSIZE 7445                
+POS_UNKNOWNREFERER 7519                
+POS_UNKNOWNREFERERBROWSER 8348                
+POS_ORIGIN 8761                
+POS_SEREFERRALS 8905                
+POS_PAGEREFS 9082                
+POS_SEARCHWORDS 13109               
+POS_KEYWORDS 13330               
+POS_MISC 2346                
+POS_ERRORS 13437               
+POS_CLUSTER 3858                
+POS_SIDER_404 13581               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150630063331 144 29636 10244058641801
+FirstTime 20150601001255
+LastTime 20150630002735
+LastUpdate 20150630065106 144 0 144 0 0
+TotalVisits 468                 
+TotalUnique 175                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 189                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 44 81 668992 69 77 323829
+1 36 57 443653 58 74 345333
+2 29 29 196704 47 60 272395
+3 30 68 573390 48 61 286484
+4 43 81 679174 55 67 300083
+5 28 32 222458 57 76 304732
+6 24 62 526896 65 87 527681
+7 35 36 290025 69 87 469023
+8 44 87 804191 76 97 340374
+9 61 167 1424955 68 86 351354
+10 33 170 1433323 55 67 329676
+11 35 98 846220 70 93 361476
+12 67 275 2030734 67 99 498792
+13 29 86 751776 55 79 298909
+14 41 118 913409 65 95 476155
+15 64 165 1419807 64 90 334278
+16 39 119 1087553 134 176 827743
+17 58 136 1095557 67 84 332859
+18 32 109 1005896 85 97 474764
+19 43 105 1037777 114 133 663090
+20 36 136 1226883 55 61 268426
+21 44 188 1688198 64 84 302511
+22 71 287 2477210 191 247 777649
+23 20 39 307567 72 95 351378
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 18
+unknown 727 1472 12882386
+nl 142 842 6741861
+us 78 200 1605753
+au 7 7 39056
+fr 6 27 240284
+be 4 23 211587
+it 3 60 565029
+de 3 23 195125
+gb 3 3 23244
+ch 2 2 15496
+cn 1 1 2688
+my 1 20 188343
+ru 1 1 2688
+eu 2 2 5376
+ie 1 5 38562
+br 2 40 376686
+ca 2 2 15496
+se 1 1 2688
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+"" 2 2 15496 20150601022001
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 28
+checker 678 5237648 20150630063331 0
+googlebot 215 240092 20150629215114 97
+bot[\s_+:,\.\;\/\\-] 155 668331 20150629195019 50
+mj12bot 70 219378 20150628211624 40
+phantom 40 376686 20150622142942 0
+spider 38 64894 20150630043024 18
+unknown 24 1392 20150628012950 24
+java\/[0-9] 22 573499 20150625124621 0
+crawl 21 58691 20150629005405 3
+no_user_agent 12 62196 20150620111027 4
+powermarks 3 23244 20150604101142 0
+exabot 7 8316 20150612210105 4
+mojeekbot 2 2751 20150622095838 1
+libwww 2 15494 20150629082553 0
+vagabondo 5 31043 20150619193728 1
+mail\.ru 12 3271 20150606203823 11
+slurp 10 5798 20150624183204 8
+facebook 11 29568 20150623161125 0
+robot 6 10868 20150627090203 2
+python 2 106 20150625181408 2
+surveybot 4 5482 20150615031637 2
+titan 2 5376 20150627165408 0
+favicon 4 13248 20150619153326 0
+wget 1 7748 20150618145522 0
+yandex 7 13546 20150627045632 2
+msiecrawler 1 7748 20150623185306 0
+w3c_validator 1 2688 20150602221229 0
+nutch 12 16506 20150628114944 6
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 182 235401 0 0
+png 134 1673174 0 0
+ico 28 39368 0 0
+html 832 5384528 0 0
+js 188 3143454 0 0
+jpg 1134 12069059 0 0
+Unknown 154 603464 0 0
+gif 79 3900 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 275 0 15846
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 20
+linuxandroid 201
+blackberry 1
+winlong 69
+winxp 370
+win2000 79
+winvista 161
+win95 24
+winunknown 41
+win2003 51
+unix 6
+winnt 33
+win98 5
+linuxubuntu 3
+linux 50
+win7 1006
+win16 4
+bsdfreebsd 1
+macosx 532
+winme 14
+Unknown 80
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 76
+firefox28.0 6
+safari7.0.3 1
+msie6.0 293
+webcapture 8
+chrome20.0.1092.0 3
+chrome34.0.1847.137 7
+firefox4.0 5
+msie4.01 4
+msie11 2
+msie8.0 7
+opera7.60 6
+netscape3.0 3
+msie7.0 146
+chrome37.0.2062.120 7
+chrome43.0.2357.92 46
+opera7.11 8
+firefox29.0 9
+safari6.0 42
+opera9.01 9
+safari2.0.4 20
+firefox38.0 22
+chrome32.0.1700.107 80
+safari7.0.6 1
+netscape0.6 8
+safari6.0.5 70
+chrome36.0.1985.143 566
+mozilla 344
+netscape5.0 41
+firefox14.0.1 1
+firefox3.6.3 4
+chrome41.0.2228.0 1
+firefox4.2 1
+safari 8
+safari7.0 44
+chrome34.0.1847.76 42
+chrome37.0.2062.124 3
+firefox4.0.1 1
+android 65
+chrome43.0.2357.124 72
+chrome44.0.2403.30 37
+opera9.00 24
+firefox3.5.3 1
+safari8.0.6 21
+opera9.80 1
+firefox31.0 21
+netscape4.76 3
+chrome43.0.2357.81 64
+firefox6.0.2 1
+netscape0.91 3
+chrome38.0.2125.122 1
+chrome10.0.648.204 14
+msie2.0 8
+safari8.0 235
+firefox3.6.9 1
+msie5.0 8
+msie9.0 10
+Unknown 22
+chrome30.0.1599.101 1
+safari7.1.6 21
+firefox3.6.14 1
+blackberry 1
+netscape4.61 6
+opera8.00 2
+samsung 48
+chrome27.0.1453.110 1
+opera8.01 2
+msie5.5 47
+netscape4.79 4
+chrome43.0.2357.130 45
+safari4.0 1
+nokia 23
+msie10.0 23
+firefox6.0 1
+safari5.1 2
+msie 2
+chrome27.0.1453.116 19
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 14
+Ruby 20150605010602
+PHP/5.3.28 20150609144350
+Mozilla/5.0_(compatible;_DomainAppender_/1.0;__http://www.profound.net/domainappender) 20150623135138
+Mozilla/5.0_(compatible;_coccoc/1.0;__http://help.coccoc.com/) 20150625232414
+Nokia6230 20150629073154
+Xenu_Link_Sleuth/1.3.8 20150613091622
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20150628012950
+M 20150625082312
+Mozilla/5.0_(compatible 20150616072831
+SpamBayes/1.1a3__(Image) 20150627115107
+Ruby-RDF-Distiller/1.1.11 20150602221228
+Mozilla/5.0_(compatible;_Add_Catalog/2.1;) 20150623055811
+()_{_:;_};_echo_Content-type:text/plain;echo;echo;echo_M`expr_1330___7`H;/bin/uname_-a;echo_@ 20150628013423
+HubSpot_Marketing_Grader 20150622142934
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+Ruby 20150605010602
+PHP/5.3.28 20150609144350
+Xenu_Link_Sleuth/1.3.8 20150613091622
+M 20150625082312
+SpamBayes/1.1a3__(Image) 20150627115107
+Ruby-RDF-Distiller/1.1.11 20150602221228
+()_{_:;_};_echo_Content-type:text/plain;echo;echo;echo_M`expr_1330___7`H;/bin/uname_-a;echo_@ 20150628013423
+HubSpot_Marketing_Grader 20150622142934
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 239 389
+From1 5 5
+From2 30 31
+From3 613 869
+From4 99 1437
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 28 28
+search 2 2
+bing 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 132
+http://100dollars-seo.com/try.php 22 22
+http://dojki-hd.com 13 13
+http://laxdrills.com 12 12
+http://escort-russian.com 11 11
+http://freewhatsappload.com 11 11
+http://www.uasb.ru 10 10
+http://sledstvie-veli.net 10 10
+http://allknow.info 10 10
+http://pornhub-ru.com 9 9
+http://android-style.com 9 9
+http://msk.afora.ru 6 6
+http://aruplighting.com 6 6
+http://novosti-hi-tech.ru 6 6
+http://red-chair.net 5 5
+http://www.amt-k.ru 8 8
+http://www.moyakuhnia.ru 5 5
+http://mebelcomplekt.ru 3 3
+http://online-hit.info 6 6
+http://bestmobilityscooterstoday.com 6 6
+http://codysbbq.com 6 6
+http://www.rospromtest.ru 3 3
+http://taihouse.ru 3 3
+http://codysbbq.com 3 3
+http://www.artparquet.ru 3 3
+http://buttons-for-your-website.com 3 3
+http://32719631.videos-for-your-business.com 3 3
+http://zastroyka.org 6 6
+http://viktoria-center.ru 6 6
+http://xn----8sbhefaln6acifdaon5c6f4axh.xn--p1ai 3 3
+http://altermix.ua 3 3
+http://imperiafilm.ru 2 2
+http://www.lakshmi.nl/news-2/nederland.html 1 1
+http://brk-rti.ru 5 5
+http://photokitchendesign.com 6 6
+http://infobabki.ru 3 3
+http://steame.ru 2 2
+http://www.gkvector.ru 8 8
+http://bag77.ru 3 3
+http://www.qwesa.ru 5 5
+http://conciergegroup.org 3 3
+http://akv.kz/ru/ 3 3
+http://ww.orange-flower.nl/producten.html 0 21
+http://ktm.afora.ru 3 3
+http://euromasterclass.ru 5 5
+http://xn--80adaggc5bdhlfamsfdij4p7b.xn--p1ai 6 6
+http://www.osoznanie-narkotikam.net 7 7
+http://www.knigonosha.net 3 3
+http://cartechnic.ru 3 3
+http://m1media.net 3 3
+http://hvd-store.com 3 3
+http://producm.ru 3 3
+http://sibecoprom.ru 3 3
+http://anapa-inns.ru 5 5
+http://bristolhotel.com.ua 6 6
+https://www.facebook.com 1 1
+http://kazrent.com 3 3
+http://videos-for-your-business.com 1 1
+http://hundejo.com 1 1
+http://cubook.supernew.org 5 5
+http://djekxa.ru 3 3
+http://www.spravka130.ru 5 5
+http://fsalas.com 5 5
+http://best-seo-offer.com/try.php 3 3
+http://siteripz.net 6 6
+http://sibecoprom.ru 3 3
+http://www.arendakvartir.kz 3 3
+http://ecomp3.ru 3 3
+http://www.promoforum.ru 4 4
+http://ooo-olni.ru 2 2
+http://jjbabskoe.ru 2 2
+http://petrovka-online.com 8 8
+http://rapevideosmovies.com 3 3
+http://www.germes-trans.com// 9 9
+http://kinopolet.net 3 3
+http://www.schoonheidssalon.nl/zutphen/schoonheidssalon-orange-flower 1 1
+http://littleberry.ru 7 7
+http://bioca.org 2 2
+http://alpharma.net 3 3
+http://semaltmedia.com 2 2
+http://baladur.ru 2 2
+http://m.askalo.nl/zutphen/ID_100120753/Wie-kent-een-goed-adresje-in-Zutphen-om-mijn-wenkbrauwen-te-laten-epileren.html 1 1
+http://burger-imperia.com 1 1
+http://doska-vsem.ru 9 9
+http://imperiafilm.ru 5 5
+http://pochemychka.net 3 3
+http://rcb101.ru 8 8
+http://howopen.ru 3 3
+http://msk.yurgorod.ru 6 6
+http://psa48.ru 5 5
+http://handicapvantoday.com 6 6
+http://wwww.orange-flower.nl/mobiel 8 228
+http://dostavka-v-krym.com 2 2
+http://tattooha.com 7 7
+http://elmifarhangi.com 2 2
+http://www.portnoff.od.ua 3 3
+http://modabutik.ru 3 3
+http://zastroyka.org 1 1
+http://avkzarabotok.info 6 6
+http://youporn-ru.com 1 1
+http://viel.su 3 3
+http://www.ringporno.com 3 3
+https://www.qitt.ru 3 3
+http://bizru.info 6 6
+http://pizza-tycoon.com 2 2
+http://aviva-limoux.com 9 9
+http://bif-ru.info 6 6
+http://niki-mlt.ru 3 3
+http://allwomen.info 6 6
+http://mini.afora.ru 3 3
+http://video-woman.com 3 3
+http://wwww.orange-flower.nl/css/orange-flower.css 0 15
+http://vodaodessa.com 9 9
+http://prointer.net.ua 9 9
+http://forsex.info 3 3
+http://kino-fun.ru 2 2
+http://tomck.com 3 3
+http://sosdepotdebilan.com 3 3
+http://salutmontreal.com 6 6
+http://kino-key.info 9 9
+http://bluerobot.info/nw2/fruvorejimubo 2 2
+http://www.ispaniya-costa-blanca.ru 2 2
+http://buyantiviralwp.com 6 6
+http://arkkivoltti.net 2 2
+http://goodprotein.ru 7 7
+http://pornoforadult.com 3 3
+http://glavprofit.ru 3 3
+http://xjrul.com 6 6
+http://xn--90acenikpebbdd4f6d.xn--p1ai 6 6
+http://www.slkrm.ru 2 2
+http://orion-casino.com 3 3
+http://tedxrj.com 2 2
+http://minegam.com 7 7
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+schoonheidsspecialiste+zutphen 1
+holistisch+schoonheidsspecialiste 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+schoonheidsspecialiste 2
+holistisch 1
+zutphen 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 94 27166
+206 15 56720
+500 14 10458
+301 298 82203
+404 480 1936839
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 165
+/link/filezilla.xml 1 -
+/arriba/filezilla.xml 1 -
+/admin.php 2 -
+/antiage 1 http://www.orange-flower.nl/schoonheidsbehandelingen.html
+/contact 20 -
+/lightbox/filezilla.xml 1 -
+/nma2013/stephkent/filezilla.xml 1 -
+/allister/downloads/filezilla/filezilla.xml 1 -
+/documents/filezilla.xml 1 -
+/admin/rte/rte_popup_file_atch.asp 1 -
+/index.php/blog/current/19-first-blog-entry 1 -
+/hand-voetverzorging 1 -
+/links 34 -
+/deelmassage 1 http://www.orange-flower.nl/lichaamsbehandelingen
+/admin/wp-login.php 1 -
+/index.php/blog/current 1 -
+/pitta 2 -
+/index.php/results/2011-results 1 -
+/overmassage 3 http://www.orange-flower.nl/ambulant
+/shirodara 1 http://www.orange-flower.nl/lichaamsbehandelingen.html
+/k/filezilla.xml 1 -
+/combinatiebehandelingen-schoonheid 4 -
+/test/custom-error-page-test 1 http://orange-flower.nl/test/custom-error-page-test
+/abhyanga-massage 1 -
+/lakshmi-netra 2 -
+/cms/wp-login.php 1 -
+/checksite/custom-error-page-test 1 http://orange-flower.nl/checksite/custom-error-page-test
+/basiselementen 4 -
+/lymfedrainage 2 http://www.orange-flower.nl/schoonheidsbehandelingen
+/klassieke-massage 2 -
+/tts/filezilla.xml 1 -
+/filezilla.xml 1 -
+/kruidenstempelmassage 2 http://www.orange-flower.nl/lichaamsbehandelingen.html
+/combinatiebehandelingen-lichaam.html 1 -
+/js/===c 5 -
+/wp-login.php 6 -
+/images/banner/filezilla.xml 1 -
+/orange-flower-basic 3 -
+/tgda/filezilla.xml 1 -
+/behandelingen-deelmassage 3 -
+/behandeling 5 http://ww.orange-flower.nl/producten.html
+/filezilla-recupero-password/filezilla.xml 1 -
+/kruidenpakking 13 -
+/apple-touch-icon-114x114-precomposed.png 1 -
+/wp-login/ 1 -
+/flash/header_v8_orangeflower.swf 1 -
+/massage-effectenvanmassage 1 http://www.orange-flower.nl/lichaamsbehandelingen
+/stats/usage_201506.html 2 -
+/schoonheidsbehandeling 7 -
+/news 2 http://orange-flower.nl/news
+/route 1 -
+/combinatiebehandelingen-lichaam 3 -
+/applications/classifiedlistingsmanager/components/assetmanager/assetmanager.asp 1 -
+/backup/beunique/lata/desktop/filezilla.xml 1 -
+/chandan-lichaamsscrub-massage 1 -
+/dropbox/apps/softwarecookerbd/filezilla.xml 1 -
+/worship/filezilla.xml 1 -
+/section/wp-login.php 1 -
+/cms/rte_popup_file_atch.asp 1 -
+/eagle/filezilla.xml 1 -
+/administrator/index.php 3 -
+/images/logo-orange-flower.jpg 14 -
+/medicinaleinwrijving 2 -
+/js/,data:b}).done(function(a){e=arguments,g.html(d 5 -
+/pdf/contact%20maken%20-%20la%20ripe 9 -
+/handverzorging 4 -
+/puglia2/innova/assetmanager/assetmanager.asp 1 -
+/js/).length,k.html5clone= 5 -
+/admin/editor/rte_popup_file_atch.asp 1 -
+/kaiseki/filezillaportable/data/settings/filezilla.xml 1 -
+/config/filezilla.xml 1 -
+/js/!=typeof 5 -
+/lakshmi-ojas 1 -
+/voorwie 3 -
+/navarakizhi 3 -
+/sitemap.xml 9 http://orange-flower.nl/sitemap.xml
+/losse-behandelingen 2 -
+/orange-flower-royal.html 1 http://www.orange-flower.nl/schoonheidsbehandelingen.html
+/praktijk 3 http://ww.orange-flower.nl/massage
+/js/],_default:k.htmlserialize 5 -
+/myimpdata/filezilla.xml 1 -
+/contraindicaties 2 http://www.orange-flower.nl/schoonheidsbehandelingen.html
+/acg-nwl/assetmanager/assetmanager.asp 1 -
+/js/===c)&&(b.defaultvalue=a.defaultvalue)}}m.extend({clone:function(a,b,c){var 5 -
+/uw-huidtype 2 -
+/wordpress/wp-login.php 1 -
+/errors/images/flower.ico 1 -
+/producten 8 -
+/fckeditor/editor/filemanager/connectors/uploadtest.html 2 http://www.orangeflower.eu/fckeditor/editor/filemanager/connectors/uploadtest.html
+/browserconfig.xml 1 -
+/wp-admin/wp-login.php 1 -
+/index.php/blog/current/55-winter-white-stuff-on-board 1 -
+/ghee-abhyanga 2 -
+/workshop 30 http://laripeblanche.nl
+/filezilla/filezilla.xml 1 -
+/vata 2 -
+/images/header-orange-flower.jpg 12 -
+/~visionpl/typo/filezilla.xml 1 -
+/klassieke-massage.html 1 -
+/apple-touch-icon-114x114.png 1 -
+/hoofdhuidmassage 2 http://www.orange-flower.nl/schoonheidsbehandelingen
+/js/).length,k.htmlserialize=!!b.getelementsbytagname( 5 -
+/kapha 3 -
+/errors/images/liggend%20model.jpg 1 -
+/handverzorgingambulant 1 http://www.orange-flower.nl/ambulant
+/orange-flower-basic.html 1 http://www.orange-flower.nl/schoonheidsbehandelingen.html
+/harsbehandeling 3 -
+/typo/filezilla.xml 1 -
+/contact.html 2 http://www.orange-flower.nl/
+/https://plus.google.com/109385366698122845070 4 -
+/admin/fckeditor/editor/filemanager/connectors/uploadtest.html 2 -
+/voorwaarden 5 -
+/voetverzorging 4 -
+/blog/wp-login.php 1 -
+/chandan-rugscrub-massage 1 -
+/ambulant 3 -
+/probleemhuid 2 -
+/voetverzorgingambulant 3 -
+/workshop1 2 -
+/ayurveda.html 1 -
+/site/wp-login.php 1 -
+/web_97/ftp/filezilla.xml 1 -
+/index.php/blog/current/70-iti-2011 1 -
+/orange-flower-royal 3 -
+/rte_popup_file_atch.asp 1 -
+/apple-touch-icon.png 1 -
+/webalizer/usage_201506.html 1 -
+/massage-contraindicaties 1 http://www.orange-flower.nl/lichaamsbehandelingen
+/livesearchsiteauth.xml 3 -
+/udvartana 1 -
+/arrangement 4 -
+/bingsiteauth.xml 6 -
+/assetmanagerold/assetmanager.asp 1 -
+/ghee-abhyanga.html 1 -
+/index.php/race-inforegistration/race-registration 1 -
+/wp-admin/admin.php 1 -
+/klassiekemassage 1 http://www.orange-flower.nl/lichaamsbehandelingen.html
+/sitemap 2 http://www.orange-flower.nl/massage
+/ayurveda 2 -
+/blog/ 3 http://orange-flower.nl/blog/
+/schoonheidsspecialist 16 -
+/download/filezilla.xml 1 -
+/admin/membersareamanager/components/editor/assetmanager/assetmanager.asp 1 -
+/flash/header_v8_1_orangeflower.swf 3 -
+/wp/wp-login.php 1 -
+/effectenmassage 3 -
+/pdf/lichaamsbehandelingen 2 -
+/apple-touch-icon-precomposed.png 1 -
+/cadeaubon 5 -
+/arrangement2 1 -
+/orange-flower-divine 3 -
+/portablefilezilla/filezilla/filezilla.xml 1 -
+/orange-flower-divine.html 1 http://www.orange-flower.nl/schoonheidsbehandelingen.html
+/effectenmasssage 2 -
+/sitemap_index.xml 4 http://orange-flower.nl/sitemap_index.xml
+/chandan-lichaamsscrub-massage.html 1 -
+/producten.html 3 https://www.google.nl/
+/filezillaportable/data/settings/filezilla.xml 1 -
+/index.php/blog/current/49-arrowhead-records 1 -
+/biblioteca/marco/filezillaportable/data/settings/filezilla.xml 1 -
+/vik_baza/arhiv/filezilla.xml 1 -
+//templates/system/css/system.css 1 http://www.orange-flower.nl//templates/system/css/system.css
+/cmw/filezilla.xml 1 -
+/index.php/blog/current/64-2011-results 1 -
+/massage 22 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 189
+94.153.10.249 127 127 983996 20150622134942
+178.137.84.254 122 122 945256 20150622092445
+94.153.9.220 101 101 782548 20150621154637
+176.8.91.130 48 48 371904 20150629220010
+178.137.84.13 43 43 333164 20150629170704
+37.115.189.89 37 37 286676 20150629074256
+46.118.239.173 36 36 278928 20150623032543
+62.69.162.109 28 28 75264 20150629171518
+62.69.190.60 28 28 75264 20150629121249
+173.244.70.25 23 23 178158 20150629073154
+82.173.210.203 11 75 626621 20150624103647
+195.241.221.216 1 20 188343 20150608195835
+69.58.178.56 2 2 15496 20150618230316
+5.157.86.46 0 2 98422 
+46.118.228.151 9 9 69732 20150629001542
+171.25.193.77 1 1 2688 20150619090300
+77.160.107.253 7 27 205877 20150622121441
+212.187.29.22 0 1 49211 
+64.74.215.113 4 4 0 20150627000659
+80.240.43.41 1 1 2688 20150621152817
+54.162.0.65 1 1 7748 20150605090757
+60.49.48.178 1 20 188343 20150619033446
+194.7.35.200 4 23 211587 20150607063528
+86.94.163.202 1 21 189749 20150610125708
+31.137.42.5 0 21 202520 
+52.16.202.255 1 1 0 20150612023326
+203.133.168.202 1 1 2688 20150627142623
+93.170.186.121 18 18 139464 20150627053850
+62.238.0.102 1 21 189749 20150616093112
+80.82.65.82 2 2 15496 20150610160103
+95.96.229.163 8 28 208565 20150618162627
+145.132.118.142 1 1 7748 20150608161553
+178.84.42.6 8 26 318918 20150613120415
+54.184.37.5 1 1 7748 20150626103323
+89.2.198.132 1 20 188343 20150627133544
+157.55.43.25 0 1 49211 
+186.235.252.253 1 20 188343 20150615214209
+46.28.66.242 2 2 5376 20150604004516
+213.125.230.20 0 90 246055 
+52.24.178.209 2 2 5374 20150618082407
+200.101.82.138 1 20 188343 20150611213200
+202.46.53.164 1 1 2688 20150614192646
+94.23.221.108 2 2 5376 20150602214121
+187.71.81.73 1 17 183843 20150604151836
+107.153.166.250 1 1 7746 20150630002735
+45.55.134.20 1 3 36129 20150628154829
+188.138.57.97 1 1 7748 20150616072831
+86.46.141.27 1 5 38562 20150608214750
+180.193.113.12 1 20 188343 20150629115732
+94.215.32.104 0 1 49211 
+198.252.44.7 14 14 108472 20150629025314
+198.27.67.197 2 2 15496 20150614020935
+104.131.61.20 2 4 38817 20150619135754
+95.133.238.41 1 1 2688 20150611071640
+52.7.32.143 1 20 188341 20150602221228
+77.222.150.83 1 1 7748 20150626040220
+95.96.222.50 1 20 188341 20150624170054
+179.99.58.68 1 20 188343 20150620181411
+201.55.83.170 1 20 188343 20150619154143
+84.241.199.7 1 21 189747 20150611224030
+94.126.178.1 1 1 2688 20150603091332
+86.93.90.163 0 21 492110 
+195.241.134.143 1 21 189747 20150607225232
+121.54.58.241 1 19 188293 20150601005737
+54.174.62.212 7 9 21249 20150622142934
+95.96.238.101 4 42 382060 20150602213209
+187.101.197.52 1 20 188343 20150605221627
+54.198.190.34 1 1 7748 20150605084443
+107.23.56.124 1 1 2688 20150611190857
+191.29.89.193 1 20 188343 20150618044953
+37.248.255.122 1 20 188343 20150612161701
+62.194.248.28 4 24 197813 20150629121748
+54.174.54.58 1 5 38562 20150622142935
+89.99.103.26 1 5 38562 20150604185435
+181.215.119.34 1 1 2688 20150625025111
+104.152.214.35 1 1 0 20150613091622
+123.30.175.245 1 1 2688 20150605142731
+65.55.210.27 0 15 149781 
+189.15.207.211 1 20 188343 20150627014558
+167.114.209.28 6 6 46488 20150624134531
+212.129.56.188 1 1 7748 20150615155550
+203.133.169.205 1 1 2688 20150629125155
+131.253.38.67 3 3 23244 20150619124310
+112.198.103.198 1 20 188343 20150618212951
+94.229.57.28 1 20 188343 20150608203143
+142.4.218.236 2 2 15496 20150628012950
+178.85.43.28 4 42 382060 20150626081846
+177.82.160.200 1 20 188343 20150624183512
+52.17.254.206 1 1 7748 20150618151044
+46.166.188.234 1 21 189749 20150611223841
+80.56.192.48 4 43 233687 20150615124200
+89.145.76.117 1 1 7748 20150624034916
+208.90.57.196 1 1 7748 20150606233922
+177.67.235.82 1 20 188343 20150606163638
+213.201.224.254 0 6 98422 
+151.54.77.156 1 20 188343 20150624173230
+87.210.225.156 1 21 189749 20150623210749
+209.190.1.131 2 2 5376 20150625082312
+2.71.103.188 1 20 188343 20150611142850
+179.98.252.135 1 20 188343 20150617164630
+82.95.184.251 10 30 213941 20150610121758
+195.154.146.225 2 2 5376 20150603194954
+66.60.222.16 1 20 188343 20150626230354
+176.58.118.96 1 1 7748 20150609144350
+52.5.38.236 1 20 188343 20150602221227
+171.25.193.20 1 1 2688 20150604061750
+38.100.21.68 1 3 17180 20150616155839
+189.48.31.142 1 20 188343 20150605061610
+92.111.245.221 17 37 232757 20150619173816
+54.226.181.198 2 6 41250 20150625181408
+82.169.127.164 6 46 390248 20150609202522
+181.61.83.30 1 1 2688 20150602121540
+50.62.160.51 2 2 15496 20150617221433
+104.154.67.7 2 2 5376 20150605010603
+83.84.62.91 3 22 193713 20150610225608
+188.207.68.201 2 21 191031 20150605094914
+85.227.55.18 1 1 2688 20150621104129
+122.10.82.97 4 4 30992 20150628203003
+189.110.15.47 1 20 188343 20150617221835
+62.210.189.96 1 3 36129 20150628221246
+54.146.249.113 2 6 41250 20150605051604
+46.229.170.197 4 4 30992 20150619094557
+52.26.138.84 2 2 15496 20150623135138
+92.111.245.162 0 2 98422 
+109.147.195.53 1 20 188343 20150608130826
+195.64.78.36 1 21 189749 20150622192456
+84.27.49.160 1 21 189749 20150628102623
+5.157.86.28 0 3 147633 
+95.96.228.59 1 1 2688 20150610150251
+77.163.207.90 9 28 209847 20150617215649
+93.70.222.81 2 2 15496 20150601022001
+195.34.79.211 1 1 7748 20150629143226
+191.6.75.106 1 20 188343 20150603030603
+104.236.244.32 2 4 38817 20150623210246
+82.168.113.236 4 42 382060 20150625221154
+212.83.40.238 1 1 2688 20150617111626
+213.39.97.51 1 1 2688 20150603160607
+167.114.172.225 3 3 23244 20150619060243
+92.113.25.173 1 1 2688 20150617092759
+5.157.86.29 0 2 98422 
+62.69.191.245 14 14 37632 20150629121306
+83.113.214.144 1 20 188343 20150629223646
+46.229.167.149 1 1 7748 20150624090012
+151.32.235.155 1 20 188343 20150618105838
+5.157.86.48 0 1 49211 
+54.174.53.230 1 5 38562 20150622142934
+77.247.181.163 1 1 2688 20150620233820
+94.212.125.22 3 3 8064 20150623194151
+109.120.157.179 12 12 92976 20150623055811
+24.132.48.19 1 21 189749 20150627183747
+52.6.5.122 2 2 0 20150602221230
+174.122.245.18 2 2 15496 20150628013423
+151.75.105.229 1 20 188343 20150611102543
+82.168.147.97 2 22 192437 20150617093446
+23.23.61.135 1 1 7748 20150622160432
+113.210.11.215 1 5 38562 20150613102842
+189.34.50.217 1 20 188343 20150601001255
+182.248.150.15 1 1 2688 20150610150754
+41.205.36.60 1 20 188343 20150605091752
+54.205.16.129 1 1 7748 20150622160721
+52.6.7.218 2 2 2688 20150602221229
+37.115.185.94 7 7 54236 20150601151050
+92.108.167.187 1 1 2688 20150628051729
+83.128.210.119 1 1 2688 20150618170814
+84.241.212.217 8 48 395624 20150617123133
+83.82.113.22 1 1 7748 20150623112407
+149.202.98.160 1 1 2688 20150627075639
+186.232.255.49 1 20 188343 20150615191932
+191.102.114.91 1 20 188343 20150621175413
+183.38.242.111 3 3 23244 20150609065840
+89.99.104.40 1 21 189749 20150608091648
+89.99.244.193 0 1 127375 
+173.234.233.74 1 21 189749 20150622144604
+104.131.8.192 2 4 38817 20150604204033
+104.236.195.238 1 3 36129 20150626101406
+161.69.192.123 1 1 2688 20150614225059
+5.39.220.23 5 5 8064 20150610175430
+186.150.131.201 1 20 188343 20150627043851
+194.120.65.25 1 21 189749 20150625153354
+54.188.204.111 1 1 7748 20150624171456
+52.1.15.246 1 1 0 20150602221229
+38.100.21.61 2 4 24928 20150612015738
+167.114.172.224 6 6 46488 20150626081213
+213.125.49.189 3 23 195125 20150615101311
+84.241.214.216 2 40 376684 20150614202501
+192.99.9.164 1 1 2688 20150615043122
+213.236.112.126 1 21 189749 20150601121626
+54.174.56.116 1 5 38562 20150622142931
+123.30.175.246 2 2 5376 20150625232414
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20150601 23 80 701103 15
+20150602 46 145 1308254 18
+20150603 17 36 287009 12
+20150604 36 58 488916 17
+20150605 34 114 973456 18
+20150606 29 48 395165 13
+20150607 35 75 672865 11
+20150608 26 109 995137 16
+20150609 33 73 589322 14
+20150610 41 104 947465 18
+20150611 29 207 1312139 17
+20150612 35 56 435591 16
+20150613 27 47 380652 12
+20150614 32 70 588882 15
+20150615 20 121 919695 12
+20150616 22 44 351767 13
+20150617 50 168 1373986 17
+20150618 44 136 1148695 20
+20150619 51 111 852710 20
+20150620 30 58 638848 14
+20150621 26 47 356741 13
+20150622 46 120 916326 19
+20150623 52 119 991519 21
+20150624 32 112 1000689 17
+20150625 29 97 900786 17
+20150626 29 89 818765 15
+20150627 43 126 1319168 21
+20150628 26 59 518391 16
+20150629 42 101 960560 20
+20150630 1 1 7746 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+15mn-30mn 5
+2mn-5mn 6
+30s-2mn 10
+0s-30s 442
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 827 5345788 424 394
+/index 114 374584 2 38
+/mobiel 40 228880 37 31
+/?x=()?x=() 5 38740 5 5
+END_SIDER

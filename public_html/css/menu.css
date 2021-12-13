@@ -1,0 +1,54 @@
+/* CSSTerm.com Simple CSS menu */
+
+br { clear:left }
+ 
+.menu_simple {
+	  font: normal 12px Tahoma;
+	  background: #39b1cc;
+	  background: -moz-linear-gradient(top, #151617 0%, #2E3233 100%);
+	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #151617), color-stop(100%, #2E3233));
+	  background: -webkit-linear-gradient(top, #151617 0%, #2E3233 100%);
+	  background: -o-linear-gradient(top, #151617 0%, #2E3233 100%);
+	  background: -ms-linear-gradient(top, #151617 0%, #2E3233 100%);
+	  background: linear-gradient(to bottom, #151617 0%, #2E3233 100%);	
+	  height:60px;		
+	  width: auto;
+	  text-align:center;
+}
+ 
+.menu_simple ul {
+	margin-top: 17px; 
+	margin-left: 15px;
+	padding: 0;
+	float: left;
+}
+ 
+.menu_simple ul li {
+	display: inline;
+}
+ 
+.menu_simple ul li a {
+  	background:transparent; 
+  	padding: 18px 50px 21px 28px;
+  	border-right: 1px solid rgba(80, 80, 80, 0.12);
+  	text-decoration: none;
+  	font: normal 14px Tahoma;
+  	color: #ffffff;	
+}
+ 
+.menu_simple ul li a:visited {
+	color: white;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+	color: white;
+	background-color: #5FD367;
+}
+
+.menu_simple > ul > li:hover > a,
+.menu_simple > ul > li > a:hover,
+.menu_simple > ul > li.active > a {
+  color: #efc360 !important;
+  background: #32a9c3;
+  background: rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,1022 @@
+AWSTATS DATA FILE 6.6 (build 1.871)
+# If you remove this file, all statistics for date 201309 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2544                
+POS_VISITOR 17659               
+POS_DAY 30364               
+POS_DOMAIN 3417                
+POS_LOGIN 3882                
+POS_ROBOT 4037                
+POS_WORMS 4998                
+POS_EMAILSENDER 5129                
+POS_EMAILRECEIVER 5272                
+POS_SESSION 31233               
+POS_SIDER 31438               
+POS_FILETYPES 5407                
+POS_OS 5681                
+POS_BROWSER 5870                
+POS_SCREENSIZE 6451                
+POS_UNKNOWNREFERER 6525                
+POS_UNKNOWNREFERERBROWSER 9138                
+POS_ORIGIN 10200               
+POS_SEREFERRALS 10349               
+POS_PAGEREFS 10555               
+POS_SEARCHWORDS 14418               
+POS_KEYWORDS 15423               
+POS_MISC 2208                
+POS_ERRORS 16007               
+POS_CLUSTER 3738                
+POS_SIDER_404 16157               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131001001246 572 130597 38373552598
+FirstTime 20130901000130
+LastTime 20130930233354
+LastUpdate 20131001065404 572 0 571 0 0
+TotalVisits 1194                
+TotalUnique 283                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 333                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 59 207 1049570 47 62 225315
+1 52 189 1102262 57 67 238879
+2 47 66 412233 67 80 429613
+3 89 93 755005 65 74 203878
+4 63 65 549392 67 79 333869
+5 49 49 364302 94 105 601156
+6 46 123 665486 44 52 124871
+7 50 50 339057 63 76 411434
+8 119 369 2093356 71 82 211329
+9 86 558 2951964 56 81 234323
+10 122 595 3358367 64 79 363311
+11 65 191 1112975 69 120 358272
+12 95 771 4427443 123 140 485016
+13 119 653 3853333 79 136 496728
+14 151 770 4426792 152 186 739286
+15 172 810 4777286 94 114 370715
+16 127 660 3534969 83 105 677621
+17 113 608 2953408 151 178 906753
+18 64 388 1772259 71 76 493241
+19 83 474 3192785 69 80 265015
+20 111 586 3149963 65 73 291236
+21 102 473 2486374 79 86 332253
+22 128 704 3870842 70 80 201108
+23 109 361 1875281 77 101 283694
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 16
+unknown 1294 3395 20852286
+nl 499 5349 27815322
+us 140 573 3484404
+fr 109 117 790225
+de 67 67 326396
+it 46 84 584069
+ma 19 99 541278
+il 11 11 58152
+au 10 10 26290
+fi 9 9 74766
+si 1 1 8308
+ca 1 1 7683
+ru 1 1 8307
+be 3 85 405836
+gb 8 8 66460
+bg 3 3 24922
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 23
+googlebot 689 3402389 20130930204759 104
+\wbot[\/\-] 274 1071656 20130930232235 114
+robot 228 934594 20130930023246 7
+yandex 209 237695 20130930202627 29
+bspider 106 794582 20130929144256 2
+unknown 98 6263 20130930182627 98
+phantom 78 240872 20130918131327 0
+msnbot 58 493286 20130930214840 29
+crawl 50 205032 20130930235413 16
+seznambot 37 58171 20130929180313 14
+powermarks 3 24921 20130911091715 0
+mediapartners\-google 1 2629 20130930123251 0
+ia_archiver 1 53 20130904054809 1
+spider 8 5678 20130926084201 6
+findlinks 1 53 20130904195519 1
+feedfetcher\-google 2 23198 20130916091608 0
+digger 5 21910 20130926052936 2
+python 5 32658 20130927075148 1
+surveybot 8 10728 20130923235550 4
+turnitinbot 28 132836 20130918171510 1
+mj12bot 30 50348 20130923062350 9
+msiecrawler 6 49848 20130908033157 0
+nutch 2 2699 20130909111837 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 188 390528 0 0
+png 72 2678811 0 0
+ico 141 198246 0 0
+cgi 9 351212 0 0
+txt 1 53 0 0
+swf 431 10844424 0 0
+php 2 322 0 0
+html 1333 9774457 0 0
+xml 5 10055 0 0
+jpg 6559 24917537 0 0
+Unknown 871 5609065 0 0
+gif 201 299994 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+winxp 955
+winlong 577
+unix 43
+win2000 41
+symbian 2
+winnt 3926
+win98 13
+linuxubuntu 1
+linux 1111
+winme 12
+macosx 1821
+win95 6
+win2003 41
+Unknown 1264
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 40
+msie6.0 299
+firefox3.6 1
+firefox2.0.0.1 4
+firefox4.0 1
+lynx 3
+firefox24.0 51
+msie8.0 477
+netscape4.76 3
+firefox2.0.0.9 1
+netscape0.91 6
+msie7.0 118
+netscape4.5 1
+firefox23.0 806
+msie2.0 3
+msie5.0 5
+msie10.6 1
+msie9.0 448
+Unknown 968
+firefox3.6.25 45
+libwww 1
+firefox3.0 1
+opera 35
+lg\- 2
+msie5.5 18
+firefox12.0 67
+netscape0.6 3
+konqueror 1
+mozilla 432
+firefox25.0 1
+firefox22.0 2
+firefox14.0.1 22
+msie10.0 1277
+firefox3.6.18 4
+firefox6.0 4
+firefox3.6.12 1
+firefox3.6.3 90
+firefox4.2 1
+firefox10.0.2 30
+firefox15.0.1 1
+safari 4579
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 37
+Mozilla/5.0_(compatible;_special_archiver/3.1.1__http://www.archive.org/details/archive.org_bot) 20130928122512
+0.891307616779 20130901032254
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20130922152902
+Java/1.7.0_21 20130913092657
+rarely_used 20130908172509
+buzzfeed/2.0.4_CFNetwork/548.1.4_Darwin/11.0.0 20130901085526
+Elisabot_1.0_unforgettable 20130915222216
+Mozilla/4.0_(compatible;_Blog_Search;) 20130916123431
+MacInroy_Privacy_Auditors._See_orange-flower.nl's_privacy_violation_report:_http://orange-flower.nl.macinroy.com/orange-flower.nl 20130915094505
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20130930203814
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20130920101537
+Mozilla/5.0_(compatible;_pmoz.info_ODP_link_checker;__http://pmoz.info/doc/botinfo.htm) 20130919024112
+Mozilla/5.0_(compatible;_Ezooms/1.0;_ezooms.bot@gmail.com) 20130929011835
+Mozilla/5.0_(BlackBerry;_U;_BlackBerry_9320;_nl)_AppleWebKit/534.11__(KHTML,_like_Gecko)_Version/7.1.0.907_Mobile_Safari/534.11_ 20130901204848
+dish-sg-ipad/3.1.3 20130914072705
+Java/1.6.0_37 20130921151324
+Mozilla/5.0_(compatible;_Dataprovider_Site_Explorer;_http://www.dataprovider.com/) 20130923155236
+Mozilla/5.0_(compatible;_news_bot_/2.1) 20130918082626
+HyperImage/3.5.1_CFNetwork/596.5_Darwin/12.5.0_(x86_64)_(iMac10%2C1) 20130919192307
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20130901161550
+Mozilla/5.0_(compatible;_coccoc/1.0;__http://help.coccoc.com/) 20130930170836
+Mozilla/5.0_(compatible;_archive.org_bot__http://www.archive.org/details/archive.org_bot) 20130903022539
+contype 20130930152942
+FreeWebMonitoring_SiteChecker/0.2_(_http://www.freewebmonitoring.com/bot.html) 20130930233354
+Mozilla/0.91_Beta_(Windows) 20130913235452
+Mozilla/4.0_(compatible;__Vagabondo/4.0;_http://webagent.wise-guys.nl/;_http://www.wise-guys.nl/) 20130915122057
+LG-GS290/V100_Obigo/WAP2.0_Profile/MIDP-2.1_Configuration/CLDC-1.1 20130901073347
+- 20130925042425
+Mozilla/0.6_Beta_(Windows) 20130904094832
+Mozilla/5.0_(compatible;_ExaleadCloudView/5;) 20130930162525
+Mozilla/5.0_(compatible;_Add_Catalog/2.1;) 20130916144534
+Mozilla/3.0_(compatible;_Indy_Library) 20130929191945
+AdBot_1.0_(www.adnetik.com) 20130910171850
+contype_chromeframe/29.0.1547.66 20130908134554
+Mozila/5.0_(compatible;_StudioFACA_Search;__http://www.studiofaca.com/) 20130909074254
+libwww-perl/6.05 20130911094104
+BlackBerry8330/4.5.0.175_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20130913083407
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 17
+0.891307616779 20130901032254
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20130922152902
+contype 20130930152942
+Java/1.7.0_21 20130913092657
+FreeWebMonitoring_SiteChecker/0.2_(_http://www.freewebmonitoring.com/bot.html) 20130930233354
+rarely_used 20130908172509
+- 20130925042425
+buzzfeed/2.0.4_CFNetwork/548.1.4_Darwin/11.0.0 20130901085526
+Elisabot_1.0_unforgettable 20130915222216
+AdBot_1.0_(www.adnetik.com) 20130910171850
+MacInroy_Privacy_Auditors._See_orange-flower.nl's_privacy_violation_report:_http://orange-flower.nl.macinroy.com/orange-flower.nl 20130915094505
+contype_chromeframe/29.0.1547.66 20130908134554
+Mozila/5.0_(compatible;_StudioFACA_Search;__http://www.studiofaca.com/) 20130909074254
+BlackBerry8330/4.5.0.175_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20130913083407
+dish-sg-ipad/3.1.3 20130914072705
+Java/1.6.0_37 20130921151324
+HyperImage/3.5.1_CFNetwork/596.5_Darwin/12.5.0_(x86_64)_(iMac10%2C1) 20130919192307
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1185 1533
+From1 0 0
+From2 173 193
+From3 419 425
+From4 444 7662
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 164 183
+search 1 1
+google_image 0 1
+yandex 7 7
+ask 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 103
+http://moscow-clining.ru 18 18
+http://www.tvspirit.net 15 15
+http://www.echomsk.spb.ru 15 15
+http://komputernaya-pomosh-moscow.ru 12 12
+http://www.bravica.org/ru/ 12 12
+http://youtubeviewspromotion.com 12 12
+http://dtoil.ru 9 9
+http://laripeblanche.nl.greenhost.nl 9 9
+http://spirituelevakantiefrankrijk.nl 9 9
+http://www.bravica.mobi/ru/ 9 9
+http://ipost.su 3 3
+http://wmrzarabotok.ru 3 3
+http://gribnoybiz.ru 3 3
+http://icase-online.ru 6 6
+http://www.wood-expert.ru 3 3
+http://victory2011.ru 3 3
+http://soc24.ru 3 3
+http://tvoi54.ru 3 3
+http://finemaspro.net 2 2
+http://www.lazy-z.com 2 2
+http://moneyrelyn.biz 2 2
+http://lifeshen.biz 3 3
+http://www.bravica.co/ru/ 3 3
+http://www.wwalls.ru 6 6
+http://www.bravica.pro/ru/ 3 3
+http://valdaidom.ru 3 3
+http://zutphen.askalo.nl/ID_100120753/Wie-kent-een-goed-adresje-in-Zutphen-om-mijn-wenkbrauwen-te-laten-epileren.html 4 4
+http://1.2.3.50/jsi/index.php 0 6
+http://www.artparquet.ru 3 3
+http://dom-o-fon.ru 3 3
+http://www.getlead.co.il 3 3
+http://game-steam.com 3 3
+http://www.bravica.com/ru/ 3 3
+http://www.lakshmi.nl/lakshmi/index.php/ayurveda-lakshmi-natuurlijke-schoonheidssalons-beautysalons.html 3 3
+http://www.facebook.com/l.php 3 3
+http://xallyava.ru 3 3
+http://internetparketspb.ru 3 3
+http://rebalance4you.nl/links/ 1 1
+http://vrnelectro.ru 3 3
+http://regaleadrus.com 9 9
+http://krasotabest.ru 3 3
+http://timermet.ru 3 3
+http://namobilu.com 9 9
+http://webbieworld.com/category.asp 1 1
+http://meganfoxy.ru 2 2
+http://zebradudka.com 6 6
+http://irisdiamond.ru 3 3
+http://www.bravica.me/ru/ 6 6
+http://udobno67.ru 3 3
+http://koloid.ru 3 3
+http://kinostore.net 3 3
+http://vashkupe.ru 6 6
+http://south.mybb.ru 2 2
+http://www.linkrequest.net/system/ 1 1
+http://biologische.startpagina.nl 1 1
+http://www.profil-sites.co.il 9 9
+http://ziehbart.com.ua 4 4
+http://www.beautysalon-gids.nl/ayurvedische-schoonheidssalon-orange-flower-zutphen/2421064040411450 1 1
+http://www.wegmetdestress.nl/Beauty/Gelderland/Zutphen/Wellness-424_Schoonheidssalon-Orange-Flower-beauty.html 2 2
+http://dneprshop.com.ua 3 3
+http://appercot-ti.com 3 3
+http://xn------7cdbxfuat6afkbmmhefunjo4bs9u.xn--p1ai 3 3
+http://www.auto-plastik.ru 3 3
+http://dojki-porno.com 3 3
+http://arch-skin.spb.ru 6 6
+http://www.web-star.org.ua/sozdanie-sajtov.html 3 3
+http://www.bravica.net/ru/ 3 3
+http://znakomstva-moskva77.ru 3 3
+http://companyru.com 3 3
+http://rus-teh.narod.ru 3 3
+http://portugal24.mybb.ru 3 3
+http://getmortgage.co.il 3 3
+http://www.bravica.biz/ru/ 3 3
+http://muznachas-service.ru 3 3
+http://content-bis.com.ru 3 3
+http://remontavto.mybb.ru 2 2
+http://energiya-lyubvi.satom.ru 3 3
+http://evuln.com/tools/malware-scanner/www.orange-flower.nl/ 1 1
+http://telety.ru 3 3
+http://www.studiofaca.com 1 1
+http://www.bravica.ch/ru/ 3 3
+http://murbook.com 3 3
+http://www.bravica.jobs/ru/ 3 3
+http://orange-flo.macinroy.com/orange-flower.nl 5 5
+http://xn--64-vlcajwgikkbam.xn--p1ai 3 3
+http://www.allebedrijveninzutphen.nl/beauty-en-gezondheid/schoonheidsspecialisten-en-schoonheidssalons/zutphen/ayurvedische-schoonheidssalon-orange-flower/fotos 1 1
+http://newcitylife.ru 6 6
+http://japanesecuisine.mybb.ru 2 2
+http://www.conclav.ru 3 3
+http://golden-praga.ru 6 6
+http://ibankworld.ru 6 6
+http://korykovka.mybb.ru 3 3
+http://ra-da.su 1 1
+http://oformlenye.ru 3 3
+http://orangeflower.eu 1 1
+http://prosmibank.ru 2 2
+http://missigra.ru 3 3
+http://www.poebok.com 3 3
+http://salonatele.ru 6 6
+http://www.schoonheidssalon.nl/zutphen/schoonheidssalon-orange-flower 5 5
+http://www.allebedrijveninzutphen.nl/beauty-en-gezondheid/schoonheidsspecialisten-en-schoonheidssalons/zutphen/ayurvedische-schoonheidssalon-orange-flower 1 1
+http://xn--80apaieal0gc.xn--p1ai 3 3
+http://www.escort-in-israel.us 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 33
+massage+zutphen 13
+schoonheidssalon 7
+schoonheidssalon+zutphen 3
+massage+zutphgen 2
+wimpers+verven+zutphen 2
+kadobon+schoonheidssalon+zutphen 2
+www.orange-flower.nl 2
+voetmassage+zutphen 2
+rugscrub 2
+schoonheids+salon+zutphen 2
+ghee+en+lichaam 1
+massage+zutphen+karin 1
+zutphen+schoonheidssalon 1
+harsen+zutphen 1
+contact+maken+cursus+vakantie 1
+natuurlijk+schoonheidssalon 1
+producten+pitta 1
+www.oogbalsem 1
+ayurveda+schoonheidsspecialiste+opleiding 1
+schoonheidssalon+biologisch+zutphen 1
+avg 1
+wenkbrauwen+harsen+vandaag+zutphen 1
+lakshmi+producten 1
+schoonheidssalon+met+persoonlijk+contact 1
+inrichting+schoonheidssalon 1
+schoonheidsspecialiste+opleiding 1
+arrangementen+schoonheidssalon 1
+udvartana+massage 2
+schoonheidsspecialist+zutphen 1
+wenkbrauwen+epileren+zutphen 1
+beautysalon+zutphen 1
+evelien+massage+zutphen 1
+schoonheidsbehandeling 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 43
+zutphen 33
+massage 19
+schoonheidssalon 18
+voetmassage 2
+producten 2
+www.orange-flower.nl 2
+wenkbrauwen 2
+contact 2
+rugscrub 2
+verven 2
+met 1
+biologisch 1
+www.oogbalsem 1
+evelien 1
+epileren 1
+schoonheidsspecialist 1
+vakantie 1
+beautysalon 1
+en 1
+lakshmi 1
+ghee 1
+cursus 1
+pitta 1
+arrangementen 1
+harsen 2
+ayurveda 1
+salon 2
+karin 1
+lichaam 1
+inrichting 1
+wimpers 2
+vandaag 1
+avg 1
+schoonheids 2
+kadobon 2
+zutphgen 2
+persoonlijk 1
+schoonheidsspecialiste 2
+maken 1
+opleiding 2
+schoonheidsbehandeling 1
+udvartana 2
+natuurlijk 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 3 55
+416 1 384
+206 74 1180503
+500 87 64989
+404 54 180936
+301 166 49950
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 33
+/index.php/blog/archive 1 -
+/ipb/ 1 -
+/apple-touch-icon.png 9 -
+/board/ 1 -
+/pdf/contactmaken-laripe 1 -
+/index.php/race-inforegistration/2011-roster 1 -
+/forums/ 1 -
+/forum/ 1 -
+/wp-includes/js/tinymce/wp-mce-help.php 1 -
+/images/stories/results/2009resultsxlsx.xls 1 -
+/feed/ 1 -
+/wp-content/plugins/complete-gallery-manager/frames/upload-images.php 1 -
+//vbforum//includes/xml/bitfield_vbseo.xml 1 -
+/index.php/blog/current/52-surly-and-chain-reaction-cycles-back-for-2011 1 -
+/index.php/home/login 1 -
+/apple-touch-icon-precomposed.png 9 -
+/feed 1 -
+//vbulletin//includes/xml/bitfield_vbseo.xml 2 -
+/undefinedsf_main.jsp 2 http://www.orange-flower.nl/producten
+//index.php/includes/xml/bitfield_vbseo.xml 1 -
+//forum//includes/xml/bitfield_vbseo.xml 1 -
+//vb//includes/xml/bitfield_vbseo.xml 1 -
+/wellnessroyalarrangement 3 -
+/forum2/ 1 -
+/js/analytics.js 1 -
+/administrator/ 1 -
+/index.php/galleries/2010-galleries/34-2010-international-falls-daily-journal 1 -
+/index.php/galleries/2010-galleries 1 -
+/index.php 2 -
+//wp-content/plugins/complete-gallery-manager/readme.txt 1 -
+/wp-login.php 1 -
+//boards//includes/xml/bitfield_vbseo.xml 1 -
+//forums//includes/xml/bitfield_vbseo.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 333
+208.122.6.102 661 661 5491126 20130930233354
+91.207.9.226 63 63 523374 20130918031912
+194.150.14.140 56 62 361205 20130930162525
+178.137.92.229 45 45 373815 20130917182010
+178.137.88.120 45 45 373815 20130917144245
+80.246.188.131 45 45 446679 20130915222216
+94.236.103.109 39 41 238087 20130930084340
+91.207.4.206 39 39 323988 20130918030651
+80.152.182.125 37 37 283492 20130921151324
+46.118.126.194 36 36 299088 20130908055245
+37.139.52.23 2 2 16616 20130904220944
+198.24.180.252 1 1 8307 20130925075329
+84.86.154.116 0 3 147633 
+123.30.175.79 1 1 2629 20130925025322
+82.169.131.194 5 47 358720 20130903214231
+83.81.33.216 1 42 205299 20130927180001
+193.164.133.50 1 1 8307 20130925030524
+37.188.72.244 2 45 238854 20130927131948
+92.69.243.235 1 40 121842 20130903104149
+84.30.77.45 1 40 138811 20130909155851
+90.145.155.216 2 42 193606 20130916135316
+72.14.199.9 1 1 77 20130909230613
+54.225.47.19 2 2 4918 20130910171850
+82.215.27.178 2 40 123065 20130930221009
+207.241.237.107 0 1 1249 
+216.38.216.101 3 3 19245 20130907160056
+199.30.24.200 0 30 48504 
+195.35.241.195 9 53 384930 20130910123102
+37.188.69.152 4 47 279523 20130911111942
+123.30.175.80 4 4 10516 20130929204148
+84.86.106.189 7 49 270557 20130909123550
+62.195.77.197 2 44 225816 20130903220933
+86.93.43.191 1 40 121842 20130915162111
+208.43.225.85 1 1 2495 20130901161550
+24.132.68.145 1 42 222249 20130920215942
+89.99.174.194 6 49 284265 20130913160133
+80.113.175.146 0 1 1406 
+131.253.36.203 1 1 1946 20130905021307
+85.90.75.6 10 51 556511 20130917084117
+193.106.136.49 3 3 24921 20130916155406
+83.163.242.87 2 45 256354 20130919160653
+74.208.180.106 2 2 15990 20130915093449
+81.205.88.54 2 41 141203 20130906181450
+178.228.137.242 2 49 275500 20130904102426
+212.204.177.92 1 39 137390 20130929064943
+86.91.0.58 2 41 140721 20130907193045
+207.241.237.237 0 1 1406 
+84.86.192.231 3 44 258643 20130911084752
+81.28.87.105 1 1 8307 20130923173240
+31.151.0.35 3 44 258353 20130911222204
+86.85.72.190 9 52 289231 20130902143505
+77.165.95.88 0 2 40548 
+62.163.122.194 0 1 1406 
+62.207.244.161 1 39 137390 20130914141829
+145.48.178.121 0 1 1406 
+208.115.113.92 2 2 42546 20130909031627
+89.98.255.6 1 39 120436 20130917202127
+84.82.189.234 2 41 141085 20130918185553
+108.171.243.183 1 1 8308 20130908134955
+178.33.178.12 3 3 22973 20130922161531
+94.212.55.39 0 1 11599 
+176.9.139.227 1 41 203893 20130907011916
+62.195.229.49 2 2 5258 20130910140207
+76.164.234.13 1 12 72026 20130910081835
+82.192.74.233 33 33 254565 20130921101908
+82.170.24.3 0 2 98422 
+24.132.221.247 1 40 138811 20130918222130
+5.164.68.147 1 18 81959 20130921023142
+94.213.28.63 0 2 138974 
+86.85.175.56 0 1 11599 
+86.83.179.166 2 40 171491 20130907082008
+94.213.42.98 4 88 446782 20130930105612
+95.98.129.109 2 46 275034 20130902174832
+198.24.180.101 3 3 24921 20130927200457
+8.35.201.48 1 1 2629 20130922152901
+86.90.93.243 1 29 115354 20130927220452
+84.241.193.218 1 39 137390 20130910093412
+83.101.70.142 1 42 205299 20130911174528
+86.81.224.129 3 44 158095 20130926231211
+213.34.253.136 1 40 138811 20130928122334
+209.85.238.113 1 1 77 20130917022310
+69.58.178.59 10 10 79892 20130913094754
+85.25.134.59 4 4 10516 20130914034321
+92.109.155.208 2 40 139389 20130906234253
+65.55.213.57 1 4 87765 20130912135033
+80.57.17.148 2 47 207928 20130919210509
+131.253.38.67 3 3 255 20130923114341
+132.239.10.64 1 1 8308 20130901032254
+188.205.140.206 3 45 223066 20130902135803
+93.92.217.228 2 2 16615 20130913092657
+193.77.58.161 1 1 8308 20130909074254
+37.188.71.208 7 79 633333 20130923195350
+82.173.218.87 4 46 262529 20130913202216
+81.206.205.162 2 48 288009 20130915010825
+188.142.71.160 0 3 21867 
+193.200.241.28 3 3 24922 20130927160902
+82.157.211.87 1 44 205299 20130909205246
+159.46.196.29 14 57 337895 20130926101759
+62.195.120.215 4 47 279574 20130917125136
+213.247.123.26 0 2 17602 
+83.81.128.203 1 40 138405 20130925204727
+123.30.175.116 1 1 2629 20130926161340
+198.24.171.85 2 2 16614 20130929191945
+84.26.188.68 0 1 127375 
+77.169.194.238 3 54 361246 20130927133754
+92.249.127.111 28 28 232610 20130918082626
+62.131.230.127 4 45 150089 20130904163426
+84.106.187.119 1 40 187949 20130909192931
+109.70.2.222 10 10 79354 20130928043637
+86.86.24.105 5 48 245915 20130911140025
+85.223.104.195 29 69 249405 20130907164634
+82.94.254.51 1 1 8307 20130915122057
+62.194.98.79 2 45 275500 20130907141353
+87.215.200.154 3 45 228553 20130913155544
+145.102.140.108 0 1 127375 
+46.229.170.197 1 1 8307 20130930113406
+209.85.238.34 1 1 77 20130920101537
+83.83.20.39 1 42 205299 20130914152713
+207.241.237.236 1 1 8308 20130903022539
+83.163.140.227 3 45 228449 20130925171633
+86.80.68.141 4 55 363621 20130905094629
+76.164.234.11 1 14 116366 20130910082235
+212.67.172.220 2 53 358957 20130918142517
+87.209.29.208 1 42 222253 20130926125953
+86.85.78.109 1 40 138796 20130912094611
+82.95.201.129 4 47 226879 20130909184132
+94.153.64.66 9 9 74772 20130903213639
+82.95.228.146 1 39 120436 20130901102229
+65.55.213.43 1 4 87400 20130911190013
+86.88.103.5 3 47 404946 20130922124056
+62.163.150.137 2 47 224252 20130902122748
+77.172.42.73 2 41 140663 20130928143722
+141.136.120.166 4 45 278104 20130923100840
+123.30.175.81 1 1 2629 20130928061712
+83.81.183.10 2 44 226414 20130927144702
+109.39.111.177 5 49 295117 20130905185549
+190.112.225.28 2 40 139059 20130922174116
+208.115.113.82 15 15 112676 20130929011835
+95.97.176.194 0 2 21709 
+78.158.11.226 3 3 22463 20130930203814
+131.253.24.106 1 4 87765 20130911151440
+83.85.98.253 1 44 205299 20130901195942
+84.85.29.75 2 41 140303 20130913122413
+195.190.28.97 18 18 0 20130929092627
+78.46.139.35 1 39 153003 20130926153746
+84.83.114.242 7 143 757610 20130919153253
+46.229.167.149 1 1 8308 20130908191432
+77.249.62.194 1 40 125550 20130912152102
+212.225.198.87 31 31 234330 20130905145308
+82.74.84.159 2 43 224542 20130906224128
+145.53.30.115 4 44 194695 20130904171244
+141.135.161.138 2 44 226414 20130901233435
+194.171.66.126 0 3 59691 
+109.120.157.179 6 6 49846 20130916144534
+86.89.9.151 3 44 194143 20130917085423
+83.86.135.115 0 2 48092 
+77.72.147.169 30 30 78870 20130930083501
+84.107.0.112 0 1 8801 
+84.24.26.185 0 1 11599 
+190.98.81.85 0 1 8801 
+79.167.19.183 6 48 236624 20130916162315
+213.93.98.144 10 23 57625 20130923230949
+76.164.234.10 1 20 89030 20130910081739
+38.100.21.63 10 11 88287 20130921033623
+195.240.121.53 4 43 145928 20130904222631
+83.163.227.244 6 45 151734 20130908170720
+41.251.188.246 19 99 541278 20130918150048
+213.110.133.221 8 8 66460 20130916123431
+62.195.228.27 7 46 153654 20130903202106
+207.172.191.39 4 4 0 20130919024112
+146.120.166.6 1 1 8257 20130915141419
+80.56.61.103 1 41 264016 20130918181547
+81.82.231.137 0 1 1406 
+83.163.250.170 1 44 233031 20130930123358
+92.109.3.233 5 61 400096 20130927190428
+62.140.132.40 2 43 225008 20130930200052
+217.120.37.78 2 43 223191 20130915101856
+212.127.193.249 2 45 256354 20130902155617
+178.84.140.93 1 40 121842 20130930175137
+86.87.9.238 2 44 226414 20130908094812
+209.85.238.134 1 1 77 20130914020701
+62.140.137.82 4 48 327539 20130928081205
+193.106.136.46 6 6 49845 20130911044013
+84.105.27.157 1 40 138559 20130910124919
+62.194.57.121 5 57 378597 20130925160805
+74.204.189.6 1 1 2305 20130910132308
+64.74.215.113 4 4 0 20130927074927
+82.136.237.251 6 47 265029 20130922164943
+81.68.86.57 0 1 11599 
+84.82.70.49 3 44 227168 20130917134335
+84.30.29.97 3 42 175377 20130904145112
+95.211.168.82 2 2 2629 20130914134546
+84.104.1.29 1 39 135764 20130922205132
+188.143.235.81 4 4 18028 20130909064759
+88.159.4.64 2 45 255877 20130904091657
+94.153.64.88 3 3 24921 20130918095946
+213.148.245.19 0 1 39291 
+81.206.85.114 2 43 224641 20130918211711
+86.86.106.85 0 1 127375 
+123.30.175.117 1 1 2629 20130930170836
+82.171.236.33 6 48 234768 20130921225615
+77.169.142.131 2 47 224673 20130901000214
+86.87.131.63 3 43 142869 20130914163706
+92.254.75.42 13 58 317055 20130909131904
+46.129.25.101 1 40 121842 20130913201848
+81.206.50.230 2 43 224305 20130914151742
+188.91.5.204 0 1 127375 
+84.86.3.168 2 41 141551 20130914205151
+62.140.132.4 3 50 215343 20130929164941
+8.35.201.112 0 1 1406 
+183.16.122.172 11 11 88201 20130904004725
+85.25.137.24 1 1 2629 20130915094505
+77.251.33.135 3 44 145034 20130906230322
+81.242.239.222 2 41 190330 20130905001103
+123.30.175.82 2 2 5258 20130929005207
+77.251.33.101 3 54 392718 20130903201958
+62.163.229.81 10 51 240120 20130909142020
+62.140.137.97 2 41 138825 20130905095440
+77.249.162.65 6 57 331874 20130914093706
+77.164.49.173 3 42 176801 20130903214636
+193.106.136.43 3 3 24924 20130902234742
+89.99.243.97 1 40 136706 20130917183158
+176.31.14.30 4 4 30552 20130918154603
+82.74.196.227 13 56 367179 20130916175442
+83.82.29.45 0 1 11599 
+212.123.129.197 1 39 135300 20130912214712
+31.151.0.244 11 57 357866 20130905230709
+109.131.13.230 0 2 78582 
+86.81.6.67 0 1 8801 
+77.249.247.89 7 51 300685 20130918135335
+80.60.123.38 0 4 64358 
+207.172.209.16 15 15 32724 20130924121803
+82.174.120.134 3 46 277600 20130925113012
+213.197.36.212 11 54 261200 20130909133254
+94.229.57.153 1 40 138559 20130909101504
+144.76.101.171 2 2 16614 20130914085942
+188.203.26.14 1 40 171363 20130913192009
+81.206.51.37 5 58 366250 20130930152942
+77.165.120.133 3 46 277715 20130901150656
+144.76.113.22 1 1 2629 20130929174502
+188.90.210.102 2 42 136980 20130927162540
+199.19.249.196 12 12 123401 20130926101722
+87.233.173.214 4 4 33229 20130925042425
+38.100.21.64 10 11 88287 20130913173613
+85.150.156.32 4 93 430821 20130913143621
+82.157.189.36 7 58 369953 20130928193406
+94.23.202.64 6 6 15774 20130927142657
+145.53.7.67 0 1 39291 
+86.82.70.95 1 40 138456 20130930225022
+83.81.6.5 1 39 120436 20130927232008
+107.21.154.13 2 2 16614 20130916045401
+46.119.118.152 36 36 299088 20130908033649
+178.85.136.243 1 39 135300 20130917215544
+83.87.66.41 1 40 136767 20130918101637
+46.0.27.51 2 2 5258 20130912143600
+84.81.176.41 1 39 120436 20130901173104
+92.69.250.35 0 2 50890 
+84.105.194.204 0 3 71184 
+65.55.213.39 1 2 4383 20130927001955
+86.93.45.38 2 78 256200 20130927110251
+178.118.226.222 6 49 284194 20130920195304
+188.202.64.153 9 60 322156 20130910012536
+83.81.226.9 1 40 121842 20130922175433
+69.58.178.57 10 10 79892 20130921235548
+86.86.211.90 4 49 262274 20130930092156
+62.212.77.200 28 28 219065 20130923155236
+109.37.205.74 1 42 205318 20130910121720
+109.235.34.10 1 40 121842 20130903083529
+77.167.197.116 12 53 313239 20130906140038
+188.207.87.241 2 40 171491 20130914100001
+77.250.180.132 1 40 121842 20130906183209
+80.61.194.184 1 44 220627 20130922121840
+80.56.8.92 15 58 306959 20130929154719
+212.187.22.139 0 1 39291 
+178.84.153.104 1 40 121842 20130921143633
+37.187.56.98 1 1 2629 20130915100336
+82.161.97.171 0 1 39291 
+70.72.128.61 1 1 7683 20130930005056
+193.106.136.48 3 3 24924 20130908105330
+77.127.241.221 1 1 8308 20130902215041
+83.128.43.43 0 1 11599 
+77.168.227.67 0 1 0 
+31.161.33.10 6 68 513626 20130903160809
+80.56.171.156 2 43 191514 20130913145646
+81.204.89.204 2 41 135574 20130904171254
+31.161.58.118 2 52 309531 20130916102638
+83.80.244.215 0 1 11599 
+78.23.192.102 0 1 39291 
+5.199.171.84 1 1 2629 20130926235726
+84.85.216.103 10 52 244742 20130905231346
+84.27.156.161 0 2 166666 
+188.88.111.64 1 40 121842 20130927224726
+62.58.32.201 3 27 468922 20130901204844
+192.187.96.94 1 1 8307 20130929202041
+80.60.4.7 4 46 229576 20130930214953
+46.44.172.112 0 14 196844 
+95.97.86.113 2 44 220437 20130927144020
+86.80.181.168 1 40 138405 20130924102521
+81.205.15.28 2 44 226280 20130924134533
+199.30.25.81 0 33 117336 
+131.253.24.77 1 4 87821 20130913192929
+199.30.24.166 0 28 27561 
+83.161.146.14 3 3 7507 20130919213259
+141.105.7.249 2 43 256354 20130909223324
+198.24.179.6 1 1 8307 20130923000636
+46.129.0.135 1 42 205299 20130912123722
+37.115.112.43 7 7 58156 20130908030720
+62.163.55.70 3 53 345121 20130926102558
+87.212.139.197 0 2 50890 
+194.8.62.126 0 1 8801 
+131.253.24.159 0 1 1869 
+62.163.196.112 8 49 304593 20130910152515
+84.95.88.100 11 11 58152 20130916233052
+71.62.109.144 1 1 8307 20130911094104
+86.82.175.162 1 40 125550 20130930123156
+195.242.218.133 9 9 74766 20130914224505
+193.106.136.60 3 3 24924 20130901060810
+62.140.137.56 3 42 206998 20130910060123
+94.12.65.255 1 42 222249 20130909153917
+87.211.58.8 1 40 138530 20130903202204
+92.53.248.11 0 1 39291 
+212.123.144.135 1 1 321053 20130923141552
+80.60.234.168 5 51 345507 20130930120405
+66.249.81.177 4 44 322884 20130920141427
+62.195.7.181 25 65 201315 20130916212149
+91.200.14.59 6 6 47179 20130918145744
+213.125.225.10 2 41 142355 20130902165057
+217.122.206.130 0 2 20400 
+88.191.177.128 1 1 2629 20130911001721
+193.106.136.59 3 3 24921 20130913230636
+144.76.42.76 4 4 10516 20130925012444
+94.153.64.9 6 6 49845 20130911054946
+178.137.5.76 12 12 99684 20130917044715
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20130901 65 338 2042124 42
+20130902 71 371 2015726 42
+20130903 70 463 2545508 42
+20130904 99 390 1985920 48
+20130905 120 383 2264652 46
+20130906 68 309 1439835 37
+20130907 95 337 2010409 41
+20130908 73 259 1644172 45
+20130909 106 564 2902308 46
+20130910 93 429 2491543 47
+20130911 62 280 1778008 42
+20130912 62 272 1665158 40
+20130913 89 418 2187105 47
+20130914 86 414 2103885 45
+20130915 103 230 1505661 42
+20130916 95 312 1734459 41
+20130917 53 295 1501979 26
+20130918 71 447 2495744 27
+20130919 43 218 1144490 37
+20130920 38 126 764166 34
+20130921 125 224 1355784 34
+20130922 50 332 1674789 40
+20130923 115 249 2391583 41
+20130924 33 152 771222 28
+20130925 44 221 1392969 36
+20130926 64 314 1676846 37
+20130927 55 515 2629717 45
+20130928 51 226 1292849 31
+20130929 59 190 930358 41
+20130930 63 535 2735735 44
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 12
+2mn-5mn 19
+30s-2mn 41
+15mn-30mn 6
+0s-30s 1107
+30mn-1h 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 60
+/ 1316 9716786 993 934
+/massage 89 290841 40 22
+/schoonheidsbehandeling 81 325244 10 15
+/contact 60 239428 5 27
+/producten 54 213242 8 12
+/workshop 51 130877 21 26
+/schoonheidsspecialist 42 180408 9 10
+/pdf/lichaamsbehandelingen 29 988929 1 15
+/arrangement 29 133635 8 6
+/losse-behandelingen 23 81480 11 6
+/navarakizhi 18 58152 4 3
+/sitemap.xml 2 9800 0 0
+//robots.txt 1 53 1 0
+/bedankt.html 2 3844 1 2
+/orange-flower-royal 19 79224 1 2
+/navarakizhi.html 1 1959 1 1
+/udvartana 21 56514 2 5
+/bingsiteauth.xml 3 255 3 3
+/phpmyadmin/setup/index.php 2 322 1 1
+/ghee-abhyanga.html 1 1949 1 1
+/uw-huidtype 16 74905 2 3
+/ayurveda 14 71134 4 4
+/sitemap 15 141438 2 6
+/webstats/awstats.cgi?framename=mainright 3 325865 0 3
+/pdf/schoonheidsbehandelingen 19 669750 3 4
+/webstats/awstats.cgi 3 2418 3 0
+/hand-voetverzorging 1 7296 1 1
+/combinatiebehandelingen-lichaam 11 45806 1 1
+/links 12 56845 2 3
+/route 11 42137 2 5
+/chandan-lichaamsscrub-massage 15 55145 2 4
+/ghee-abhyanga 14 50541 1 1
+/vata 12 54385 2 3
+/pitta 16 76967 4 7
+/phpmyadmin/ 2 17706 2 2
+/udvartana.html 1 2023 1 1
+/klassieke-massage.html 1 1999 1 1
+/combinatiebehandelingen-schoonheid 10 44362 2 1
+/abhyanga-massage 16 59644 2 3
+/google6d31d98a5d80c00b.html 4 308 4 4
+/lakshmi-netra 13 43570 2 2
+/cadeaubon 17 92242 4 3
+/arrangement2 11 57379 1 4
+/kapha 15 71286 5 5
+/orange-flower-divine 12 54653 1 3
+/basiselementen 9 53553 0 0
+/pdf/contact%20maken%20-%20la%20ripe 2 642106 2 1
+/handverzorging 6 31104 0 1
+/contact.html 1 8257 1 1
+/producten.html 1 2495 0 1
+/chandan-lichaamsscrub-massage.html 1 6925 1 1
+/klassieke-massage 18 55130 1 5
+/voorwaarden 6 57218 1 1
+/voetverzorging 14 63714 3 3
+/chandan-rugscrub-massage 16 44159 4 5
+/lakshmi-ojas 13 41944 2 4
+/webstats/awstats.cgi?framename=mainleft 3 22929 0 0
+/chandan-rugscrub-massage.html 1 1898 1 1
+/orange-flower-basic 21 72678 2 4
+/??app=core&module=global&section=login 1 8308 1 1
+END_SIDER
