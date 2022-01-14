@@ -255,83 +255,41 @@
     <div align="center"><img src="images/mobiel/flower.png" alt="Bloem" class="img-responsive" width="46" /><br/></div>
     <div align="center"><img src="images/mobiel/karin.png" alt="Karin Claessens" class="img-responsive" width="230" /> <br/></div>
 
- 
-	<!--copyright start here-->
-	<div class="copyright">
-    	<div class="copy-main">
-        	<div class="footer">
-                 <span class="footer-column">
-                 	<a href="tel://06-26796350">
-                        <span class="image"><img height="20" src="images/mobiel/phone-white.png" width="20" /></span>
-                        <span class="desc">Telefoon</span>
-                    </a>
-                  </span>
-                       <span class="footer-column">
-                            <a href="mailto:info@orange-flower.nl">
-                                <span class="image"><img height="20" src="images/mobiel/email-white.png" width="20" /></span>
-                                <span class="desc">E-mail</span>
-                            </a>
-                       </span>            
-                        
-                       <span class="footer-column">
-                            <a href="https://api.whatsapp.com/send?phone=+31626796350">
-                                <span class="image"><img height="20" src="images/mobiel/whatsapp-white.png" width="20" /></span>
-                                <span class="desc">Whatsapp</span>
-                            </a>
-                       </span>     
-                       <span class="footer-column">
-                            <a href="https://www.google.com/maps/search/?api=1&amp;query=Het%20Burkink%201,%20Warnsveld,%20Nederland">
-                                <span class="image"><img height="20" src="images/mobiel/maps-white.png" width="20" /></span>
-                                <span class="desc">Route</span>
-                            </a>
-                       </span>    
-                       <span class="footer-column">
-                            <a href="http://www.facebook.com/salonorangeflower">
-                                <span class="image"><img height="20" src="images/mobiel/facebook-white.png" width="20" /></span>
-                                <span class="desc">Facebook</span>
-                            </a>
-                       </span>                      
-			</div>
-		</div>
+	<!-- footer-->
+	<div class="footer">
+    	<span class="footer-column">
+        	<a href="tel://06-26796350">
+            <span class="image"><img height="20" src="images/mobiel/phone-white.png" width="20" /></span>
+            <span class="desc">Telefoon</span>
+            </a>
+         </span>
+         <span class="footer-column">
+         	<a href="mailto:info@orange-flower.nl">
+            <span class="image"><img height="20" src="images/mobiel/email-white.png" width="20" /></span>
+            <span class="desc">E-mail</span>
+            </a>
+         </span>                                    
+         <span class="footer-column">
+         	<a href="https://api.whatsapp.com/send?phone=+31626796350">
+            <span class="image"><img height="20" src="images/mobiel/whatsapp-white.png" width="20" /></span>
+            <span class="desc">Whatsapp</span>
+			</a>
+         </span>     
+         <span class="footer-column">
+         	<a href="https://www.google.com/maps/search/?api=1&amp;query=Het%20Burkink%201,%20Warnsveld,%20Nederland">
+            <span class="image"><img height="20" src="images/mobiel/maps-white.png" width="20" /></span>
+			<span class="desc">Route</span>
+			</a>
+		 </span>    
+         <span class="footer-column">
+			<a href="http://www.facebook.com/salonorangeflower">
+             <span class="image"><img height="20" src="images/mobiel/facebook-white.png" width="20" /></span>
+             <span class="desc">Facebook</span>
+            </a>
+            </span>                      
 	</div>
- 
-
- 
-
- 
-  <script type="text/javascript">
-		  $(document).ready(function() {
-										
-			 $().UItoTop({ easingType: 'easeOutQuart' });
-
-              var name = 'bedankt';
-              var decoded = '';
-              if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
-              decoded = decodeURIComponent(name[1]);
-
-              if (decoded.length > 0) {
-                 alert('Bedankt voor het versturen van uw bericht. U krijgt zo snel mogelijk een reaktie.'); 
-        
-                 var newUrl = refineUrl();
-                 history.pushState({}, '', newUrl);
-              }	
-										
-          });
-           
-            function refineUrl()
-            {
-                //get full url
-                var url = window.location.href;
-                //get url after/  
-                var value = url.substring(url.lastIndexOf('/') + 1);
-                //get the part after before ?
-                value  = value.split("?")[0];   
-                return value;     
-            }           
-        </script>
- 
       
-          <!-- Initialize Swiper -->
+    <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
         effect: "coverflow",
@@ -366,5 +324,6 @@
 				s.parentNode.insertBefore(ga, s);
 			})();
 	</script>  
+
 </body>
 </html>

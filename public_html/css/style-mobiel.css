@@ -174,18 +174,6 @@ ol {
 
 }
 
-@media screen and (max-width: 1024px) {
-	.footer {
-		position: relative;
-	}
-
-}
-
-.footer {
-	color: white;
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size:14px;
-}
 
 /*--testimo grid end here--*/
 
@@ -236,39 +224,15 @@ ol {
 	padding: 13px 15px 13px 15px;
 }
 
-#toTop {
-	display: none;
-	text-decoration: none;
-	position: fixed;
-	bottom: 8px;
-	right: 0px;
-	overflow: hidden;
-	width: 48px; 
-	height: 48px;
-	border: none;
-	text-indent: 100%;
-	/*--background: url(../images/mobiel/top_mover.png) no-repeat 0px 0px;  --*/
-}
-
 .copyright {
 	background: #9cc6db;
 	background: #2583b3;
 	height:65px;
-}
-
-.copy-main {
-	text-align: center;
+	
+		text-align: center;
 	padding-top: 12px;
 	padding-bottom: 5px;
-}
 
-.copy-main p {
-	font-size: 1em;
-	color: #fff;
-}
-
-.copy-main p a {
-	color: #fff;
 }
 
 span.menu {
@@ -355,6 +319,14 @@ div.footer {
 	display:table;
 	width:100%;
 	table-layout::fixed;
+	
+	background: #9cc6db;
+	background: #2583b3;
+	height:65px;
+	
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 5px;
 }
 
 div.footer span.footer-column {
