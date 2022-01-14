@@ -173,6 +173,14 @@ ol {
 	padding: 6em 0em 0em 0em;
 
 }
+
+@media screen and (max-width: 1024px) {
+	.footer {
+		position: relative;
+	}
+
+}
+
 .footer {
 	color: white;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -235,21 +243,22 @@ ol {
 	bottom: 8px;
 	right: 0px;
 	overflow: hidden;
-	width: 48px;
+	width: 48px; 
 	height: 48px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/mobiel/top_mover.png) no-repeat 0px 0px;
+	/*--background: url(../images/mobiel/top_mover.png) no-repeat 0px 0px;  --*/
 }
 
 .copyright {
 	background: #9cc6db;
 	background: #2583b3;
+	height:65px;
 }
 
 .copy-main {
 	text-align: center;
-	padding-top: 7px;
+	padding-top: 12px;
 	padding-bottom: 5px;
 }
 
@@ -342,6 +351,7 @@ ul.res li a.active {
 
 /* Styles voor swiper einde  */
 div.footer {
+	position:absolute;
 	display:table;
 	width:100%;
 	table-layout::fixed;
@@ -354,6 +364,7 @@ div.footer span.footer-column {
 
 span.image {
 	display:block;
+	margin-bottom:3px;
 }
 
 span.desc {
@@ -361,6 +372,11 @@ span.desc {
 	font-size: 0.8em;	
 }
 
-.scroll:active {
+.scroll:active .scroll:hover{
 	color:#fff;
+	background: #2583b3;
+}
+.footer-wrapper {
+	position:relative;
+	padding-bottom:100px;
 }
