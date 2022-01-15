@@ -251,43 +251,47 @@
 		</div>
 	</div>  <!-- id=contact -->
 
+
     
     <div align="center"><img src="images/mobiel/flower.png" alt="Bloem" class="img-responsive" width="46" /><br/></div>
-    <div align="center"><img src="images/mobiel/karin.png" alt="Karin Claessens" class="img-responsive" width="230" /> <br/></div>
+    <div align="center"><img src="images/mobiel/karin.png" alt="Karin Claessens" class="img-responsive" width="230" /> <br/><br/><br/><br/></div>
 
+ 
 	<!-- footer-->
-	<div class="footer">
-    	<span class="footer-column">
-        	<a href="tel://06-26796350">
-            <span class="image"><img height="20" src="images/mobiel/phone-white.png" width="20" /></span>
-            <span class="desc">Telefoon</span>
-            </a>
-         </span>
-         <span class="footer-column">
-         	<a href="mailto:info@orange-flower.nl">
-            <span class="image"><img height="20" src="images/mobiel/email-white.png" width="20" /></span>
-            <span class="desc">E-mail</span>
-            </a>
-         </span>                                    
-         <span class="footer-column">
-         	<a href="https://api.whatsapp.com/send?phone=+31626796350">
-            <span class="image"><img height="20" src="images/mobiel/whatsapp-white.png" width="20" /></span>
-            <span class="desc">Whatsapp</span>
-			</a>
-         </span>     
-         <span class="footer-column">
-         	<a href="https://www.google.com/maps/search/?api=1&amp;query=Het%20Burkink%201,%20Warnsveld,%20Nederland">
-            <span class="image"><img height="20" src="images/mobiel/maps-white.png" width="20" /></span>
-			<span class="desc">Route</span>
-			</a>
-		 </span>    
-         <span class="footer-column">
-			<a href="http://www.facebook.com/salonorangeflower">
-             <span class="image"><img height="20" src="images/mobiel/facebook-white.png" width="20" /></span>
-             <span class="desc">Facebook</span>
-            </a>
-            </span>                      
-	</div>
+	<div class="footer-wrapper"> 
+		<div class="footer">
+            <span class="footer-column">
+                <a href="tel://06-26796350">
+                <span class="image"><img height="18" src="images/mobiel/phone-white.png" width="18" /></span>
+                <span class="desc">Telefoon</span>
+                </a>
+             </span>
+             <span class="footer-column">
+                <a href="mailto:info@orange-flower.nl">
+                <span class="image"><img height="18" src="images/mobiel/email-white.png" width="18" /></span>
+                <span class="desc">E-mail</span>
+                </a>
+             </span>                                    
+             <span class="footer-column">
+                <a href="https://api.whatsapp.com/send?phone=+31626796350">
+                <span class="image"><img height="18" src="images/mobiel/whatsapp-white.png" width="18" /></span>
+                <span class="desc">Whatsapp</span>
+                </a>
+             </span>     
+             <span class="footer-column">
+                <a href="https://www.google.com/maps/search/?api=1&amp;query=Het%20Burkink%201,%20Warnsveld,%20Nederland">
+                <span class="image"><img height="18" src="images/mobiel/maps-white.png" width="18" /></span>
+                <span class="desc">Route</span>
+                </a>
+             </span>    
+             <span class="footer-column">
+                <a href="http://www.facebook.com/salonorangeflower">
+                 <span class="image"><img height="18" src="images/mobiel/facebook-white.png" width="18" /></span>
+                 <span class="desc">Facebook</span>
+                </a>
+                </span>                      
+      	 </div>
+  </div>     
       
     <!-- Initialize Swiper -->
     <script>
@@ -324,6 +328,36 @@
 				s.parentNode.insertBefore(ga, s);
 			})();
 	</script>  
+    
+        <!-- script type="text/javascript">
 
+			var prevScrollpos = window.pageYOffset;
+			window.onscroll = function() {
+			var currentScrollPos = window.pageYOffset;
+			  if (prevScrollpos < currentScrollPos) {
+				document.getElementById("footer-wrapper").style.bottom = "0";
+			  } else {
+				document.getElementById("footer-wrapper").style.bottom = "-65px";
+			  }
+			  prevScrollpos = currentScrollPos;
+			}
+
+	</script -->
+        <script type="text/javascript">
+			var prevScrollpos = window.pageYOffset;
+			$(window).scroll(function(event) {
+				function footer()
+				{
+					var currentScrollPos = window.pageYOffset;
+					if (prevScrollpos < currentScrollPos) {
+						$(".footer-wrapper").fadeIn(2000);
+			  		} else {
+						$(".footer-wrapper").fadeOut(600);
+			 		}
+					 prevScrollpos = currentScrollPos;	
+				}
+			footer();
+			});
+	</script>
 </body>
 </html>
