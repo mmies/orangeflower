@@ -59,12 +59,13 @@
                  <span class="menu">
                      <img src="images/mobiel/icon-blue.png" alt="Menu icon" width="22" height="19"/>
                  </span>
-                 <ul class="cushycms res" id="menu">
-                     <li><a class="scroll" href="#about" onclick="$('.res').slideToggle(500, function(){});">Welkom</a></li>
-                     <li><a class="scroll" href="#praktijk" onclick="$('.res').slideToggle(500, function(){});">Behandelingen</a></li>
-                     <li><a class="scroll" href="#gallery" onclick="$('.res').slideToggle(500, function(){});">Galerij</a></li>
-                     <li><a class="scroll" href="#contact" onclick="$('.res').slideToggle(500, function(){});">Contact</a></li>
-                 </ul>
+                 <ul class="cushycms res" id="menu"><ul>
+	<li><a class="scroll" href="#about" onclick="$('.res').slideToggle(500, function(){});">Welkom</a></li>
+	<li><a class="scroll" href="#praktijk" onclick="$('.res').slideToggle(500, function(){});">Behandelingen</a></li>
+	<li><a class="scroll" href="#gallery" onclick="$('.res').slideToggle(500, function(){});">Galerij</a></li>
+	<li><a class="scroll" href="#contact" onclick="$('.res').slideToggle(500, function(){});">Contact</a></li>
+</ul>
+</ul>
                  <script>
                      $("span.menu").click(function(){
                         $("ul.res").slideToggle(500, function(){
@@ -87,29 +88,20 @@
     <div id="about">
         <div class="container">
             <div id="welkom" class="cushycms"><h1>Schoonheidssalon Warnsveld</h1>
-                Mijn naam is Karin Claessens. Ik ben vanaf 1987 werkzaam geweest in de reguliere gezondheidszorg en werk nu al jaren met veel plezier in mijn eigen 
-                schoonheidssalon. 
-      
-                <div class="behandelpics">
-                    <div class="first"><img align="middle" src="images/mobiel/karin-nieuw-klein1.jpg" width="100%" height="100%" /></div>
-                    <div class="second"><img align="middle" src="images/mobiel/karin-nieuw-klein.jpg" width="100%" height="100%" /></div>
-                </div>
-        
-                Door de jarenlange ervaring en holistische manier van werken heb ik geleerd mijn behandelingen persoonlijk te maken en goed af te stemmen. Ik ben tevreden als 
-                iemand zich weer goed verzorgd en prettig voelt.
-        
-                <h4>Aanbod</h4>
-                Je kunt bij mij terecht voor massages en schoonheidsbehandelingen gericht op ontspanning of klachtvermindering. Nieuw zijn de Orange Flower specials die ik 
-                zelf ontwikkeld heb, meer gericht op specifieke behoeftes van de klant. Dit zijn de <em>Orange Flower Anti-age</em>, de <em>Orange Flower Anti-stress</em>, de 
-                <em>Orange Flower Purify</em> en een speciale behandeling voor de aanstaande moeder, de <em>Orange Flower Mama</em>. Ik heb ervaring in verschillende soorten 
-                massagetechnieken zoals lymfedrainage, gewrichtsontspanning en bindweefselmassage maar ook gewoon klassieke massage.
-        
-                <h4>Product</h4>
-                Ik werk uitsluitend met biologische en natuurlijke producten, omdat hier de meeste voedingsstoffen in zitten, en het beste door de huid worden opgenomen. De 
-                productlijn waarmee ik werk is het Italiaanse merk Lakshmi (bio- eco gecertificeerd). Natuurlijk kun je mij ook altijd vragen om een huidadvies. Ook werk ik 
-                met kruidenolie&euml;n -en pakkingen die klachtgericht kunnen worden ingezet zoals bij gewrichtspijn, eczeem en spierpijn. Ik bied behandelingen die gericht 
-                zijn op innerlijk welzijn, huidverbetering en klachtvermindering.&nbsp;
-            </div>   
+Mijn naam is Karin Claessens. Ik ben vanaf 1987 werkzaam geweest in de reguliere gezondheidszorg en werk nu al jaren met veel plezier in mijn eigen schoonheidssalon.
+
+<div class="behandelpics">
+<div class="first"><img align="middle" height="100%" src="images/mobiel/karin-nieuw-klein1.jpg" width="100%" /></div>
+
+<div class="second"><img align="middle" height="100%" src="images/mobiel/karin-nieuw-klein.jpg" width="100%" /></div>
+</div>
+Door de jarenlange ervaring en holistische manier van werken heb ik geleerd mijn behandelingen persoonlijk te maken en goed af te stemmen. Ik ben tevreden als iemand zich weer goed verzorgd en prettig voelt.
+
+<h4>Aanbod</h4>
+Je kunt bij mij terecht voor massages en schoonheidsbehandelingen gericht op ontspanning of klachtvermindering. Nieuw zijn de Orange Flower specials die ik zelf ontwikkeld heb, meer gericht op specifieke behoeftes van de klant. Dit zijn de <em>Orange Flower Anti-age</em>, de <em>Orange Flower Anti-stress</em>, de <em>Orange Flower Purify</em> en een speciale behandeling voor de aanstaande moeder, de <em>Orange Flower Mama</em>. Ik heb ervaring in verschillende soorten massagetechnieken zoals lymfedrainage, gewrichtsontspanning en bindweefselmassage maar ook gewoon klassieke massage.
+
+<h4>Product</h4>
+Ik werk uitsluitend met biologische en natuurlijke producten, omdat hier de meeste voedingsstoffen in zitten, en het beste door de huid worden opgenomen. De productlijn waarmee ik werk is het Italiaanse merk Lakshmi (bio- eco gecertificeerd). Natuurlijk kun je mij ook altijd vragen om een huidadvies. Ook werk ik met kruidenolie&euml;n -en pakkingen die klachtgericht kunnen worden ingezet zoals bij gewrichtspijn, eczeem en spierpijn. Ik bied behandelingen die gericht zijn op innerlijk welzijn, huidverbetering en klachtvermindering.&nbsp;</div>   
         </div> <!-- div class=container -->
     </div> <!-- div id=about -->
             	
@@ -124,82 +116,56 @@
     
     <div class="praktijk" id="praktijk">
         <div class="container">
-            <div class="cushycms" id="behandelingen-praktijk">
-                <h4>Behandelingen</h4>
-                <u>Schoonheidsbehandelingen:</u>
-                
-                <ul>
-                    <li><strong>Orange Flower Basic</strong> (45 min, &euro;45)<em>: Een vitaliserende basisbehandeling</em>. Een korte huidanalyse gevolgd door een 
-                    gezichtsreiniging, verwijderen van onzuiverheden of bijwerken van de wenkbrauwen, een gezichtsmassage met Ayurvedische kruidenolie of een masker, 
-                    verzorgende gezichtscompressen en afsluitend een dagverzorging.</li>
-                    <li><strong>Orange Flower Royal</strong> (75 min, &euro;72,50): <em>Een uitgebreide gezichtsbehandeling die de huid oppept en de huid zijde zacht maakt</em
-                    >. Een korte huidanalyse gevolgd door een mineralen voetenbad met Ayurvedische voetmassage, geurreisje (Kapha, Vata, Pitta), modelleren van de wenkbrauwen 
-                    (epileren of harsen), gezicht wordt behandeld met Papaya peeling, eventuele onzuiverheden worden verwijderd, gezichtsmassage nek/schouders/decollet&eacute 
-                    met Ayurvedische kruidenolie&euml;n, een hydraterend masker, oogcompressen met kalmerende en verfrissende bloemenwaters voor totale ontspanning en 
-                    afsluitend wordt uw huid verzorgd met een serum en dagcr&egrave;me passend bij uw Dosha (Kapha, Vata of Pitta).</li>
-                    <li><strong>Orange Flower Divine</strong> (90 min, &euro;85) <em>Deze Vip behandeling brengt je weer perfect in balans</em>. De behandeling wordt 
-                    ondersteund door aromatherapie, hotstone en kruidenolie afgestemd op jouw huidtype en Dosha (Vata, Pitta of Kapha).
-                    Alle heerlijkheden van Orange Flower Royal vindt u ook in deze behandeling, maar deze wordt verder uitgebreid met een deelmassage. Dit kan zijn benen, rug,
-                    buik of armen. Natuurlijk naar eigen behoefte. De behandeling wordt ondersteund door aromatherapie, hotstone en kruidenolie afgestemd op uw huidtype en 
-                    Dosha.<br/><br/>
-                    Deze Divine behandeling heeft een therapeutische waarde. Het is dan ook aan te raden om na deze behandeling even rust te nemen en niet direct weer aan de 
-                    slag te gaan.
-                	<br/><br/>Gun jezelf de tijd om even in deze sfeer te blijven! 
-                    </li>
-                </ul>
-                
-                <br />
-                <u>Massages:</u>
-                
-                <ul>
-                    <li>Massage (45 min, &euro;45). Benen/&nbsp;rug of hoofd/nek/schouders decollet&eacute;.&nbsp;</li>
-                    <li>Kruidenpakking (45, min &euro;49) Benen of rug. Klachtgericht of ter ondersteuning bij afvallen, hormonale disbalans, huidproblemen, droog eczeem, 
-                    	droge huid of luchtwegen.</li>
-                    <li>Hoofd/nek schouder&nbsp;massage voor ontspanning (30 min, &euro;30). Deze kunt u combineren met een deelbehandeling.</li>
-                    <li>Hoofd/nek schouder/arm massage met warme kruidenolie (45 min, &euro;45) afgestemd op jouw constitutie (Vata/Pitta of Kapha). Klachtgericht/ontspanning.
-                    </li>
-                    <li>Ayurvedische voetmassage&nbsp;(30 min, &euro;30). Deze kun je combineren met een deelbehandeling.</li>
-                    <li>Ayurvedische voetmassage, uitgebreid met een magnesium kruidenbadje (45 min, &euro;45) ontgift en geeft energie!</li>
-                </ul>
-                <br />
-                <u>Deelbehandelingen (&euro;1 per minuut):</u>
-                <ul>
-                    <li>Harsen bovenlip of kin circa 15 min&nbsp;</li>
-                    <li>Epileren/harsen wenkbrauwen circa 15 min</li>
-                    <li>Verven wenkbrauwen circa 15 min&nbsp;</li>
-                    <li>Verven wimpers circa 15 min</li>
-                </ul>
-                <br />
-                <u>Orange Flower Specials:</u>
-                
-                <ul>
-                    <li><strong>Orange Flower Anti-age</strong> (90 min, &euro;90), een behandeling die de ouderdomstekenen op een natuurlijke manier laat vervagen. De 
-                    behandeling bestaat uit een Bio Kruidenpeeling op basis van algen en pure essenti&euml;le oli&euml;n (vervaagd rimpels, hyper- pigmentatie en is 
-                    celvernieuwend). Vervolgens krijg je een bindweefsel- of afvoerende massage en een hydraterend masker. De behandeling wordt afgesloten met een 
-                    drukpuntmassage van de voeten en onderbenen voor extra ontspanning met warme kruidenolie.</li>
-                    <li><strong>Orange Flower Mama</strong> (90 min, &euro;90), een behandeling speciaal voor de zwangere vrouw in een oase van rust. Deze behandeling is erop 
-                    gericht jou en de baby&nbsp;in goede balans te brengen. Een heerlijke gezichtsbehandeling met zachte geuren van roos en lavendel gevolgd door een 
-                    bijenwaspakking voor de buik met een lichte massage, werkt diep omhullend en voedend. Naar behoefte en tijd worden benen, armen en hoofdhuid licht 
-                    gemasseerd met een voedende olie.</li>
-                    <li><strong>Orange Flower Anti-stress</strong> (90 min, &euro;90), alles is erop gericht je stress level naar beneden te halen. De geuren en oli&euml;n van
-                    pure producten geven een gevoel van rust en geborgenheid. Aroma&#39;s van oranje bloesem, mandarijn en een vleugje vanille brengen harmonie en balans. Je 
-                    krijgt een versterkend mineralen voetenbad met tijm, een gezichtsreiniging met de chi happinezz (bio), een aardende been/voetmassage met warme kruidenolie 
-                    of kruidenpakking, dieptemassage of hotstonemassage van de rug voor het opheffen van blokkades, afgestemd op jouw constitutie. We sluiten af met een licht 
-                    hoofd/nekmassage.</li>
-                    <li><strong>Orange Flower Purify</strong> (90 min, &euro;90), een behandeling die erop gericht is de huid te ontdoen van onzuiverheden. De behandeling 
-                    bestaat uit een dieptereiniging, een kruidenpeeling, een ontspannende voetmassage, het verwijderen van onzuiverheden en een kalmerend/hydraterend masker. 
-                    Aanvullend een huid/ voedingsadvies.</li>
-                </ul>
-                <br/><u>Arrangement:</u>
-                    <ul>
-                        <li><strong>Orange Flower herfstarrangement</strong> (60 min, &euro;62,50), een verwarmend arrangement met geuren van dennen, roos en aardende Vetiver 
-                        De behandeling bestaat uit een verwarmende kruiden voetenbad met magnesium, gevolgd door een oppervlaktereiniging van het gezicht. Daarna krijg je een 
-                        voetmassage met warme kruidenolie en een massage van gezicht, decollet&eacute; en nek. Een uur genieten van alle heerlijkheden die de natuur je te 
-                        bieden heeft!</li>
-                    </ul>
-                 <br/>
-                 Je bent van harte welkom in mijn Salon! <br /><br/>
-			</div>
+            <div class="cushycms" id="behandelingen-praktijk"><h4>Behandelingen</h4>
+<u>Schoonheidsbehandelingen:</u>
+
+<ul>
+	<li><strong>Orange Flower Basic</strong> (45 min, &euro;45)<em>: Een vitaliserende basisbehandeling</em>. Een korte huidanalyse gevolgd door een gezichtsreiniging, verwijderen van onzuiverheden of bijwerken van de wenkbrauwen, een gezichtsmassage met Ayurvedische kruidenolie of een masker, verzorgende gezichtscompressen en afsluitend een dagverzorging.</li>
+	<li><strong>Orange Flower Royal</strong> (75 min, &euro;72,50): <em>Een uitgebreide gezichtsbehandeling die de huid oppept en de huid zijde zacht maakt</em>. Een korte huidanalyse gevolgd door een mineralen voetenbad met Ayurvedische voetmassage, geurreisje (Kapha, Vata, Pitta), modelleren van de wenkbrauwen (epileren of harsen), gezicht wordt behandeld met Papaya peeling, eventuele onzuiverheden worden verwijderd, gezichtsmassage nek/schouders/decollet&eacute; met Ayurvedische kruidenolie&euml;n, een hydraterend masker, oogcompressen met kalmerende en verfrissende bloemenwaters voor totale ontspanning en afsluitend wordt uw huid verzorgd met een serum en dagcr&egrave;me passend bij uw Dosha (Kapha, Vata of Pitta).</li>
+	<li><strong>Orange Flower Divine</strong> (90 min, &euro;85) <em>Deze Vip behandeling brengt je weer perfect in balans</em>. De behandeling wordt ondersteund door aromatherapie, hotstone en kruidenolie afgestemd op jouw huidtype en Dosha (Vata, Pitta of Kapha). Alle heerlijkheden van Orange Flower Royal vindt u ook in deze behandeling, maar deze wordt verder uitgebreid met een deelmassage. Dit kan zijn benen, rug, buik of armen. Natuurlijk naar eigen behoefte. De behandeling wordt ondersteund door aromatherapie, hotstone en kruidenolie afgestemd op uw huidtype en Dosha.<br />
+	<br />
+	Deze Divine behandeling heeft een therapeutische waarde. Het is dan ook aan te raden om na deze behandeling even rust te nemen en niet direct weer aan de slag te gaan.<br />
+	<br />
+	Gun jezelf de tijd om even in deze sfeer te blijven!</li>
+</ul>
+<br />
+<u>Massages:</u>
+
+<ul>
+	<li>Massage (45 min, &euro;45). Benen/&nbsp;rug of hoofd/nek/schouders decollet&eacute;.&nbsp;</li>
+	<li>Kruidenpakking (45, min &euro;49) Benen of rug. Klachtgericht of ter ondersteuning bij afvallen, hormonale disbalans, huidproblemen, droog eczeem, droge huid of luchtwegen.</li>
+	<li>Hoofd/nek schouder&nbsp;massage voor ontspanning (30 min, &euro;30). Deze kunt u combineren met een deelbehandeling.</li>
+	<li>Hoofd/nek schouder/arm massage met warme kruidenolie (45 min, &euro;45) afgestemd op jouw constitutie (Vata/Pitta of Kapha). Klachtgericht/ontspanning.</li>
+	<li>Ayurvedische voetmassage&nbsp;(30 min, &euro;30). Deze kun je combineren met een deelbehandeling.</li>
+	<li>Ayurvedische voetmassage, uitgebreid met een magnesium kruidenbadje (45 min, &euro;45) ontgift en geeft energie!</li>
+</ul>
+<br />
+<u>Deelbehandelingen (&euro;1 per minuut):</u>
+
+<ul>
+	<li>Harsen bovenlip of kin circa 15 min&nbsp;</li>
+	<li>Epileren/harsen wenkbrauwen circa 15 min</li>
+	<li>Verven wenkbrauwen circa 15 min&nbsp;</li>
+	<li>Verven wimpers circa 15 min</li>
+</ul>
+<br />
+<u>Orange Flower Specials:</u>
+
+<ul>
+	<li><strong>Orange Flower Anti-age</strong> (90 min, &euro;90), een behandeling die de ouderdomstekenen op een natuurlijke manier laat vervagen. De behandeling bestaat uit een Bio Kruidenpeeling op basis van algen en pure essenti&euml;le oli&euml;n (vervaagd rimpels, hyper- pigmentatie en is celvernieuwend). Vervolgens krijg je een bindweefsel- of afvoerende massage en een hydraterend masker. De behandeling wordt afgesloten met een drukpuntmassage van de voeten en onderbenen voor extra ontspanning met warme kruidenolie.</li>
+	<li><strong>Orange Flower Mama</strong> (90 min, &euro;90), een behandeling speciaal voor de zwangere vrouw in een oase van rust. Deze behandeling is erop gericht jou en de baby&nbsp;in goede balans te brengen. Een heerlijke gezichtsbehandeling met zachte geuren van roos en lavendel gevolgd door een bijenwaspakking voor de buik met een lichte massage, werkt diep omhullend en voedend. Naar behoefte en tijd worden benen, armen en hoofdhuid licht gemasseerd met een voedende olie.</li>
+	<li><strong>Orange Flower Anti-stress</strong> (90 min, &euro;90), alles is erop gericht je stress level naar beneden te halen. De geuren en oli&euml;n van pure producten geven een gevoel van rust en geborgenheid. Aroma&#39;s van oranje bloesem, mandarijn en een vleugje vanille brengen harmonie en balans. Je krijgt een versterkend mineralen voetenbad met tijm, een gezichtsreiniging met de chi happinezz (bio), een aardende been/voetmassage met warme kruidenolie of kruidenpakking, dieptemassage of hotstonemassage van de rug voor het opheffen van blokkades, afgestemd op jouw constitutie. We sluiten af met een licht hoofd/nekmassage.</li>
+	<li><strong>Orange Flower Purify</strong> (90 min, &euro;90), een behandeling die erop gericht is de huid te ontdoen van onzuiverheden. De behandeling bestaat uit een dieptereiniging, een kruidenpeeling, een ontspannende voetmassage, het verwijderen van onzuiverheden en een kalmerend/hydraterend masker. Aanvullend een huid/ voedingsadvies.</li>
+</ul>
+<br />
+<u>Arrangement:</u>
+
+<ul>
+	<li><strong>Orange Flower Winterarrangement</strong> (60 min, &euro;62,50), een verwarmend arrangement met geuren van dennen, roos en aardende Vetiver De behandeling bestaat uit een verwarmende kruiden voetenbad met magnesium, gevolgd door een oppervlaktereiniging van het gezicht. Daarna krijg je een voetmassage met warme kruidenolie en een massage van gezicht, decollet&eacute; en nek. Een uur genieten van alle heerlijkheden die de natuur je te bieden heeft!</li>
+</ul>
+<br />
+Je bent van harte welkom in mijn Salon!<br />
+&nbsp;</div>
 		</div>
 	</div>   <!-- div id=praktijk -->
     
@@ -236,19 +202,15 @@
 
 	<div class="contact" id="contact">
 		<div class="container">
-        	<div class="cushycms" id="contact-content">
-            	<h4>Contact</h4>
-				Ben je ge&iuml;nteresseerd en wil je graag een afspraak maken? Dan kun je mij <a href="tel://06-26796350">bellen</a>, <a href=
-                "https://api.whatsapp.com/send?phone=+31626796350">whatsappen</a> of <a href="mailto:info@orange-flower.nl" title="Mail Orange Flower">mailen</a> voor een 
-                behandeling. Als je mij niet direct aan de lijn krijgt, kunt je rustig een boodschap inspreken. Ik zal je zo spoedig mogelijk terug bellen.<br />
-				<br />
-				<b>Openingstijden</b><br />
-				Maandag, dinsdag, donderdag en vrijdag van 11 tot 17 uur op afspraak. Dit geldt ook voor het afhalen van producten.<br />
-				&nbsp;<br />
-				<b>Adres</b><br />
-				Het Burkink 1<br />
-				7231 NM&nbsp;Warnsveld<br />
-			</div>
+        	<div class="cushycms" id="contact-content"><h4>Contact</h4>
+Ben je ge&iuml;nteresseerd en wil je graag een afspraak maken? Dan kun je mij <a href="tel://06-26796350">bellen</a>, <a href="https://api.whatsapp.com/send?phone=+31626796350">whatsappen</a> of <a href="mailto:info@orange-flower.nl" title="Mail Orange Flower">mailen</a> voor een behandeling. Als je mij niet direct aan de lijn krijgt, kunt je rustig een boodschap inspreken. Ik zal je zo spoedig mogelijk terug bellen.<br />
+<br />
+<b>Openingstijden</b><br />
+Maandag, dinsdag, donderdag en vrijdag van 11 tot 17 uur op afspraak. Dit geldt ook voor het afhalen van producten.<br />
+&nbsp;<br />
+<b>Adres</b><br />
+Het Burkink 1<br />
+7231 NM&nbsp;Warnsveld</div>
 		</div>
 	</div>  <!-- id=contact -->
 
@@ -337,7 +299,7 @@
 				{
 					var currentScrollPos = window.pageYOffset;
 					if (prevScrollpos < currentScrollPos) {
-						$(".footer-wrapper").fadeIn(2000);
+						$(".footer-wrapper").fadeIn(3000);
 			  		} else {
 						$(".footer-wrapper").fadeOut(600);
 			 		}

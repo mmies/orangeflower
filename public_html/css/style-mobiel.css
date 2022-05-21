@@ -216,6 +216,9 @@ span.menu {
 	left: 0;
 }
 
+
+
+
 .top-nav ul.res li {
 	display: block;
 	text-align: center;
@@ -225,6 +228,11 @@ span.menu {
 	width: 100%;
 	padding: 0em;
 }
+
+.top-nav ul.res li:last-child {
+	
+}
+
 
 .top-nav ul.res li a {
 	font-size: 16px;
@@ -236,9 +244,11 @@ span.menu {
 	margin: 0em;
 }
 
+ul.res li a:link,
+ul.res li a:visited,
 ul.res li a:hover,
-ul.res li a.active {
-	color: #000;
+{
+	background: #2583b3;	
 }
 
 
